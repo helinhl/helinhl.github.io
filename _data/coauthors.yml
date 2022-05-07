@@ -1,18 +1,28 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Liu":
+  - firstname: ["Ying", "Y."]
+    url: https://www.insc.tsinghua.edu.cn/info/1181/1415.htm
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Sun":
+  - firstname: ["Chen", "C."]
+    url: https://chensun-me.github.io/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Wang": 
+  - firstname: ["Zhiliang", "Z."]
+    url: https://www.insc.tsinghua.edu.cn/info/1181/1235.htm
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Xu":
+  - firstname: ["Mingwei", "M."]
+    url: http://routing.netlab.edu.cn/tiki-index.php?page=Mingwei+Xu
+    
+  - firstname: ["Ke", "K."]
+    url: http://www.thucsnet.org/xuke.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Yang":
+  - firstname: ["Jiahai", "J."]
+    url: http://nmgroup.tsinghua.edu.cn/dryang
+
+"Zhang":
+  - firstname: ["Shenglin", "S."]
+    url: http://nkcs.iops.ai/shenglinzhang/
+
+

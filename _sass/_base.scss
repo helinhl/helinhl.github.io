@@ -457,11 +457,12 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          /*border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
-          }
+          }*/
         }
         > em {
           border-bottom: 1px solid;
@@ -474,8 +475,8 @@ footer.sticky-bottom {
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-top: 0rem;
+          padding-bottom: 0rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
