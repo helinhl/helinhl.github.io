@@ -7,7 +7,7 @@ subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/
 
 profile:
   align: right
-  image: prof_pics.jpg
+  image: helin.jpg
   address: >
     <!-- <p>555 your office number</p>
     <p>123 your address street</p>
