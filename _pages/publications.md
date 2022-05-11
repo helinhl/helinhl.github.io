@@ -8,6 +8,7 @@ jrnl-years: [2022, 2021, 2018, 2015]
 pat-years: [2021, 2020, 2016, 2015]
 nav: true
 ---
+Copy Right Notice: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.
 
 [[Conference papers](#conference-papers)] | [[Journal papers](#journal-papers)] | [[Patents](#patents)]
 
