@@ -52,11 +52,11 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>Research</b></h4>
 - Network Architecture & Protocol Design
-  * Accountability & Privacy [[PAVI, INFOCOM'19](https://helinhl.github.io/files/2019-INFOCOM-PAVI.pdf), [ToN'21](https://helinhl.github.io/files/2021-ToN-PAVI.pdf)]
-  * Secure duplicate address detection [[P4DAD, CN'21](https://helinhl.github.io/files/2021-CN-P4DAD.pdf)]
-  * Source address validation [[pSAV, IWQoS'21](https://helinhl.github.io/files/2021-IWQoS-pSAV.pdf)]
-  * Address generation and management [[GAGMS, SCIS'18](https://helinhl.github.io/files/2018-SCIS-GAGMS.pdf)]
+  * Accountability & Privacy [[PAVI, INFOCOM'19](https://helinhl.github.io/assets/pdf/2019-INFOCOM-PAVI.pdf), [ToN'21](https://helinhl.github.io/assets/pdf/2021-ToN-PAVI.pdf)]
+  * Secure duplicate address detection [[P4DAD, CN'21](https://helinhl.github.io/assets/pdf/2021-CN-P4DAD.pdf)]
+  * Source address validation [[pSAV, IWQoS'21](https://helinhl.github.io/assets/pdf/2021-IWQoS-pSAV.pdf)]
+  * Address generation and management [[GAGMS, SCIS'18](https://helinhl.github.io/assets/pdf/2018-SCIS-GAGMS.pdf)]
   
 - Network Measurement
-  * IPv6 target generation [[DET, IWQoS'20](https://helinhl.github.io/files/2020-IWQoS-DET.pdf), [ToN'22](https://ieeexplore.ieee.org/document/9698406)]
+  * IPv6 target generation [[DET, IWQoS'20](https://helinhl.github.io/assets/pdf/2020-IWQoS-DET.pdf), [ToN'22](https://ieeexplore.ieee.org/document/9698406)]
   * Active IPv6 address discovery system [AddrMiner, USENIX ATC'22]
