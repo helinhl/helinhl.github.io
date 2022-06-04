@@ -30,7 +30,7 @@ My current research topics include network architecture and protocol design, net
 - [04/2022] Our paper entitled "Firebolt: Finding Bugs in Programmable Data Plane Generators" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Jiamin!
 - [01/2022] Our paper entitled "DET: Enabling Efficient Probing of IPv6 Active Addresses" will appear in IEEE/ACM ToN'22. Congrats to Guanglei!
 - [12/2021] Our paper entitled "TurboNet: Faithfully Emulating Networks with Programmable Switches" will appear in IEEE/ACM ToN'22. Congrats to Jiamin!
-- [12/2021] Our paper entitled "Enabling Application-aware Traffic Engineering in IPv6 Networks" will appear in IEEE Network 2022.
+- [12/2021] Our paper entitled "Enabling Application-aware Traffic Engineering in IPv6 Networks" will appear in [IEEE Network 2022](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9785736).
 - [12/2021] Our paper entitled "CoFilter: High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers" will appear in [TPDS'22](https://www.computer.org/csdl/journal/td/2022/09). Congrats to Jiamin!
 
 
