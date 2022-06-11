@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn<br><a href='https://scholar.google.com/citations?user=4O062nwAAAAJ'>Google scholar</a> | <a href='https://github.com/helinhl'>Github</a> | <a href='https://dblp.uni-trier.de/pid/73/2845-4.html'>DBLP</a>
+subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn
 
 
 profile:
@@ -26,12 +26,13 @@ My current research topics include network architecture and protocol design, net
 
 
 <h4><b>News</b></h4>
+- [06/2022] Our paper entitled "AutoIoT: Automatically Updated IoT Device Identification with Semi-supervised Learning" will appear in IEEE Transactions on Mobile Computing (TMC). Congrats to Linna!
 - [04/2022] Our paper entitled "AddrMiner: A Comprehensive Global Active IPv6 Address Discovery System" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Guanglei!
 - [04/2022] Our paper entitled "Firebolt: Finding Bugs in Programmable Data Plane Generators" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Jiamin!
-- [01/2022] Our paper entitled "DET: Enabling Efficient Probing of IPv6 Active Addresses" will appear in IEEE/ACM ToN'22. Congrats to Guanglei!
-- [12/2021] Our paper entitled "TurboNet: Faithfully Emulating Networks with Programmable Switches" will appear in IEEE/ACM ToN'22. Congrats to Jiamin!
-- [12/2021] Our paper entitled "Enabling Application-aware Traffic Engineering in IPv6 Networks" will appear in [IEEE Network 2022](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9785736).
-- [12/2021] Our paper entitled "CoFilter: High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers" will appear in [TPDS'22](https://www.computer.org/csdl/journal/td/2022/09). Congrats to Jiamin!
+- [01/2022] Our paper entitled "DET: Enabling Efficient Probing of IPv6 Active Addresses" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Guanglei!
+- [12/2021] Our paper entitled "TurboNet: Faithfully Emulating Networks with Programmable Switches" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Jiamin!
+- [12/2021] Our paper entitled "Enabling Application-aware Traffic Engineering in IPv6 Networks" will appear in [IEEE Network](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9785736).
+- [12/2021] Our paper entitled "CoFilter: High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers" will appear in [IEEE Transactions on Parallel and Distributed Systems (TPDS)](https://www.computer.org/csdl/journal/td/2022/09). Congrats to Jiamin!
 
 
 <details>
@@ -39,11 +40,11 @@ My current research topics include network architecture and protocol design, net
   
 <ul>
   <li>[09/2021] Our paper entitled "TAP: A Traffic-Aware Probabilistic Packet Marking for Collaborative DDoS Mitigation" has been accepted by <a href="https://ieee-msn.org/2021/">MSN'21</a>. Congrats to Mingxing!</li>
-  <li>[07/2021] Our paper entitled "CloudPin: A Generic Root Cause Localization Framework of Shared Bandwidth Package Traffic Anomalies in Public Cloud Network" has been acceped by <a href="https://2021.issre.net/">ISSRE'21</a>. Congrats to Shize!</li>
-  <li>[07/2021] Our paper entitled "Towards Securing Duplicate Address Detection Using P4" will appear in <a href="https://www.sciencedirect.com/journal/computer-networks/vol/198/suppl/C">Elsevier Computer Networks 2021</a>.</li>
-  <li>[04/2021] Our paper entitled "Towards Chain-Aware Scaling Detection in NFV with Reinforcement Learning" has been accpeted by <a href="https://iwqos2021.ieee-iwqos.org/">IWQoS'21</a>.</li>
-  <li>[04/2021] Our paper entitled "pSAV: A Practical and Decentralized Inter-AS Source Address Validation Service Framework" has been accpeted by <a href="https://iwqos2021.ieee-iwqos.org/">IWQoS'21</a>. Congrats to Jiamin!</li>
-  <li>[12/2020] Our paper entitled "PAVI: Bootstrapping Accountability and Privacy to IPv6 Internet" will appear in <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9405508">IEEE/ACM ToN'21</a>.</li>
+  <li>[07/2021] Our paper entitled "CloudPin: A Generic Root Cause Localization Framework of Shared Bandwidth Package Traffic Anomalies in Public Cloud Network" has been accepted by <a href="https://2021.issre.net/">ISSRE'21</a>. Congrats to Shize!</li>
+  <li>[07/2021] Our paper entitled "Towards Securing Duplicate Address Detection Using P4" will appear in <a href="https://www.sciencedirect.com/journal/computer-networks/vol/198/suppl/C">Elsevier Computer Networks</a>.</li>
+  <li>[04/2021] Our paper entitled "Towards Chain-Aware Scaling Detection in NFV with Reinforcement Learning" has been accepted by <a href="https://iwqos2021.ieee-iwqos.org/">IWQoS'21</a>.</li>
+  <li>[04/2021] Our paper entitled "pSAV: A Practical and Decentralized Inter-AS Source Address Validation Service Framework" has been accepted by <a href="https://iwqos2021.ieee-iwqos.org/">IWQoS'21</a>. Congrats to Jiamin!</li>
+  <li>[12/2020] Our paper entitled "PAVI: Bootstrapping Accountability and Privacy to IPv6 Internet" will appear in <a href="https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9405508">IEEE/ACM Transactions on Networking (ToN)</a>.</li>
   <li>[04/2020] Our paper entitled "Towards the Construction of Global IPv6 Hitlist and Efficient Probing of IPv6 Address Space" has been accepted by <a href="https://iwqos2020.ieee-iwqos.org/">IWQoS'20</a>.</li>
   <li>[02/2019] Our paper entitled "Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision" has been accepted by <a href="https://naacl2019.org/">NAACL'19</a>.</li>
   <li>[11/2018] Our paper entitled "Bootstrapping Accountability and Privacy to IPv6 Internet without Starting from Scratch" has been accepted by <a href="https://infocom2019.ieee-infocom.org/">INFOCOM'19</a>.</li>

@@ -11,6 +11,7 @@ nav: true
   + IEEE/ACM Transactions on Networking
   + IEEE Access
 - **External Reviewer**
+  + IEEE Transactions on Parallel and Distributed Systems
   + Science China Information Sciences
   + NetSoft 2020
   + Chinese Journal of Computers
