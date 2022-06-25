@@ -61,10 +61,18 @@
                     <em><b>{{author.first}} {{author.last}}</b></em>,&nbsp;
                   {%- endif -%}
                 {%- else -%}
-                  {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                  {%- if entry.cocorr_first == author.first and entry.cocorr_last == author.last -%}
+                    {% if coauthor_url -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><sup>#</sup>,&nbsp;
+                    {%- else -%}
+                      {{author.first}} {{author.last}}<sup>#</sup>,&nbsp;
+                    {%- endif -%}
                   {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
+                    {% if coauthor_url -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    {%- else -%}
+                      {{author.first}} {{author.last}},&nbsp;
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
@@ -75,10 +83,18 @@
                       and <em><b>{{author.first}} {{author.last}}</b></em>
                     {%- endif -%}
                 {% else -%}
-                  {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-                  {% else -%}
-                    and {{author.first}} {{author.last}}
+                  {%- if entry.cocorr_first == author.first and entry.cocorr_last == author.last -%}
+                    {% if coauthor_url -%}
+                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><sup>#</sup>
+                    {%- else -%}
+                      and {{author.first}} {{author.last}}<sup>#</sup>
+                    {%- endif -%}
+                  {%- else -%}
+                    {% if coauthor_url -%}
+                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    {%- else -%}
+                      and {{author.first}} {{author.last}}
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
