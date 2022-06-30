@@ -19,22 +19,40 @@
   selected={true}
 }
 
-@article{he2022enabling,
-  title={Enabling Application-aware Traffic Engineering in IPv6 Networks},
-  author={He, Lin and Wang, Shicheng and Xu, Yichi and Kuang, Peng and Cao, Jiamin and Liu, Ying and Li, Xing and Peng, Shuping},
-  journal={IEEE Network},
+@inproceedings{song2022addeminer,
+  title={AddrMiner: A Comprehensive Global Active IPv6 Address Discovery System},
+  author={Song, Guanglei and Yang, Jiahai and He, Lin and Wang, Zhiliang and Li, Guo and Duan, Chenxin and Liu, Yaozhong and Sun, Zhongxiang},
+  booktitle={Proceedings of the 2022 USENIX Annual Technical Conference (USENIX ATC)},
   year={2022},
-  volume={36},
-  number={2},
-  pages={42-49},
-  publisher={IEEE},
-  doi={10.1109/MNET.005.2100440},
-  abstract={The Internet hosts numerous applications with different requirements for network delay, bandwidth, jitter, packet loss, and so on. However, in the TCP/IP network architecture, the network and application layers are decoupled, which means that the network does not have a fine-grained understanding of the application requirements. Therefore, it is not easy to provide truly fine-grained traffic operations for applications and guarantee their corresponding service level agreement requirements. In this article, we propose ATE6, which is an application-aware traffic engineering (TE) framework. For the control plane, we define a request language that can be used by applications to express their requirements, which allows networks to associate IPv6 addresses with the communication requirements of applications. We also devise an efficient path selection algorithm that allows the network operator to deploy an optimal TE path for an application. For the data plane, ATE6 uses segment routing over the IPv6 data plane to enforce and control network paths based on network policies. We implemented a prototype, and evaluation results show that ATE6 is a flexible, privacy-preserving, lightweight, and cost-efficient application-aware TE framework.},
+  address = {Carlsbad, CA},
+  url = {https://www.usenix.org/conference/atc22/presentation/song},
+  publisher = {USENIX Association},
+  month = jul,
 
-  abbr={IEEE Netw.},
   bibtex_show={true},
-  html={https://ieeexplore.ieee.org/abstract/document/9785738},
-  selected={true}
+  corr={true},
+  abbr={USENIX ATC},
+  selected={true},
+  cocorr_first={Jiahai},
+  cocorr_last={Yang},
+  html={https://www.usenix.org/conference/atc22/presentation/song},
+  code={https://github.com/AddrMiner/AddrMiner},
+}
+
+@inproceedings{cao2022firebolt,
+  title={Firebolt: Finding Bugs in Programmable Data Plane Generators},
+  author={Cao, Jiamin and Zhou, Yu and Sun, Chen and He, Lin and Xi, Zhaowei and Liu, Ying},
+  booktitle={Proceedings of the 2022 USENIX Annual Technical Conference (USENIX ATC)},
+  year={2022},
+  address = {Carlsbad, CA},
+  url = {https://www.usenix.org/conference/atc22/presentation/cao},
+  publisher = {USENIX Association},
+  month = jul,
+
+  bibtex_show={true},
+  abbr={USENIX ATC},
+  selected={true},
+  html={https://www.usenix.org/conference/atc22/presentation/cao}
 }
 
 @article{song2022det,
@@ -75,6 +93,24 @@
   code={https://github.com/jammycc/turbonet}
 }
 
+@article{he2021pavi,
+  title={PAVI: Bootstrapping Accountability and Privacy to IPv6 Internet}, 
+  author={He, Lin and Ren, Gang and Liu, Ying and Yang, Jiahai},
+  journal={IEEE/ACM Transactions on Networking}, 
+  year={2021},
+  volume={29},
+  number={2},
+  pages={695-708},
+  doi={10.1109/TNET.2020.3047667},
+  abstract={Accountability and privacy are considered valuable but conflicting properties in the Internet, which at present does not provide native support for either. Past efforts to balance accountability and privacy in the Internet have unsatisfactory deployability due to the introduction of new communication identifiers, and because of large-scale modifications to fully deployed infrastructures and protocols. The IPv6 is being deployed around the world and this trend will accelerate. In this paper, we propose a private and accountable proposal based on IPv6 called PAVI that seeks to bootstrap accountability and privacy to the IPv6 Internet without introducing new communication identifiers and large-scale modifications to the deployed base. A dedicated quantitative analysis shows that the proposed PAVI achieves satisfactory levels of accountability and privacy. The results of the evaluation of a PAVI prototype show that it incurs little performance overhead, and is widely deployable.},
+
+  pdf={2021-ToN-PAVI.pdf},
+  abbr={ToN},
+  html={https://ieeexplore.ieee.org/document/9325068},
+  bibtex_show={true},
+  selected={true}
+}
+
 @article{cao2021cofilter,
   title={CoFilter: High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers},
   author={Cao, Jiamin and Liu, Ying and Zhou, Yu and He, Lin and Sun, Chen and Wang, Yangyang and Xu, Mingwei},
@@ -93,22 +129,40 @@
   selected={true}
 }
 
+@inproceedings{he2019bootstrapping,
+  title={Bootstrapping Accountability and Privacy to IPv6 Internet without Starting from Scratch},
+  author={He, Lin and Ren, Gang and Liu, Ying},
+  booktitle={Proceedings of the 38th IEEE Conference on Computer Communications (INFOCOM)}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1486-1494},
+  doi={10.1109/INFOCOM.2019.8737453},
+  abstract={Accountability and privacy are considered valuable but conflicting properties in the Internet, which at present does not provide native support for either. Past efforts to balance accountability and privacy in the Internet have unsatisfactory deployability due to the introduction of new communication identifiers, and because of large-scale modifications to fully deployed infrastructures and protocols. The IPv6 is being deployed around the world and this trend will accelerate. In this paper, we propose a private and accountable proposal based on IPv6 called PAVI that seeks to bootstrap accountability and privacy to the IPv6 Internet without introducing new communication identifiers and large-scale modifications to the deployed base. A dedicated quantitative analysis shows that the proposed PAVI achieves satisfactory levels of accountability and privacy. The results of evaluation of a PAVI prototype show that it incurs little performance overhead, and is widely deployable.},
 
-@article{he2021pavi,
-  title={PAVI: Bootstrapping Accountability and Privacy to IPv6 Internet}, 
-  author={He, Lin and Ren, Gang and Liu, Ying and Yang, Jiahai},
-  journal={IEEE/ACM Transactions on Networking}, 
-  year={2021},
-  volume={29},
-  number={2},
-  pages={695-708},
-  doi={10.1109/TNET.2020.3047667},
-  abstract={Accountability and privacy are considered valuable but conflicting properties in the Internet, which at present does not provide native support for either. Past efforts to balance accountability and privacy in the Internet have unsatisfactory deployability due to the introduction of new communication identifiers, and because of large-scale modifications to fully deployed infrastructures and protocols. The IPv6 is being deployed around the world and this trend will accelerate. In this paper, we propose a private and accountable proposal based on IPv6 called PAVI that seeks to bootstrap accountability and privacy to the IPv6 Internet without introducing new communication identifiers and large-scale modifications to the deployed base. A dedicated quantitative analysis shows that the proposed PAVI achieves satisfactory levels of accountability and privacy. The results of the evaluation of a PAVI prototype show that it incurs little performance overhead, and is widely deployable.},
-
-  pdf={2021-ToN-PAVI.pdf},
-  abbr={ToN},
-  html={https://ieeexplore.ieee.org/document/9325068},
+  abbr={INFOCOM},
   bibtex_show={true},
+  selected={true},
+  html={https://ieeexplore.ieee.org/document/8737453},
+  pdf={2019-INFOCOM-PAVI.pdf},
+  slides={slides-pavi-infocom19.pdf},
+}
+
+@article{he2022enabling,
+  title={Enabling Application-aware Traffic Engineering in IPv6 Networks},
+  author={He, Lin and Wang, Shicheng and Xu, Yichi and Kuang, Peng and Cao, Jiamin and Liu, Ying and Li, Xing and Peng, Shuping},
+  journal={IEEE Network},
+  year={2022},
+  volume={36},
+  number={2},
+  pages={42-49},
+  publisher={IEEE},
+  doi={10.1109/MNET.005.2100440},
+  abstract={The Internet hosts numerous applications with different requirements for network delay, bandwidth, jitter, packet loss, and so on. However, in the TCP/IP network architecture, the network and application layers are decoupled, which means that the network does not have a fine-grained understanding of the application requirements. Therefore, it is not easy to provide truly fine-grained traffic operations for applications and guarantee their corresponding service level agreement requirements. In this article, we propose ATE6, which is an application-aware traffic engineering (TE) framework. For the control plane, we define a request language that can be used by applications to express their requirements, which allows networks to associate IPv6 addresses with the communication requirements of applications. We also devise an efficient path selection algorithm that allows the network operator to deploy an optimal TE path for an application. For the data plane, ATE6 uses segment routing over the IPv6 data plane to enforce and control network paths based on network policies. We implemented a prototype, and evaluation results show that ATE6 is a flexible, privacy-preserving, lightweight, and cost-efficient application-aware TE framework.},
+
+  abbr={IEEE Netw.},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9785738},
   selected={true}
 }
 
@@ -130,73 +184,4 @@ To solve the above problems, we propose P4DAD, which is a secure DAD mechanism b
   html={https://www.sciencedirect.com/science/article/abs/pii/S138912862100325X},
   abbr={CN},
   selected={true}
-}
-
-
-@article{he2018network,
-  title={Network-Layer Accountability Protocols: A Survey},
-  author={He, Lin and Liu, Ying and Ren, Gang},
-  journal={IEEE Access},  
-  year={2018},
-  volume={6},
-  number={},
-  pages={66886-66902},
-  doi={10.1109/ACCESS.2018.2879489},
-  abstract={Today’s Internet is vulnerable to numerous attacks, including source spoofing, distributed denial of service, prefix hijacking, and route forgery. Network-layer accountability is considered as an effective deterrence tool which can be used to address these attacks. Much research has been devoted to improving network-layer accountability of today’s Internet. In this paper, we first investigate the state-of-the-art network-layer accountability research and summarize a general definition of network-layer accountability. Next, we propose a network-layer accountability framework and present a taxonomy of network-layer accountability protocols according to accountability granularity. Furthermore, we compare these protocols and discuss their pros and cons mainly from accountability function, deployability, and security. Finally, some open research questions are emphasized for directing future designs.},
-
-  pdf={2018-IEEE Access-Survey.pdf},
-  html={https://ieeexplore.ieee.org/document/8528341},
-  bibtex_show={true},
-  abbr={IEEE Access}
-}
-
-@article{jia2018risp,
-  author={Jia, Yihao and Liu, Ying and Ren, Gang and He, Lin},
-  journal={Tsinghua Science and Technology}, 
-  title={RISP: An RPKI-based inter-AS Source Protection Mechanism}, 
-  year={2018},
-  volume={23},
-  number={1},
-  pages={1-12},
-  doi={10.26599/TST.2018.9010025},
-  abstract={IP source address spoofing is regarded as one of the most prevalent components when launching an anonymous invasion, especially a Distributed Denial-of-Service (DDoS) attack. Although Source Address Validations (SAVs) at the access network level are standardized by the Internet Engineering Task Force (IETF), SAV at the inter-Autonomous System (AS) level still remains an important issue. To prevent routing hijacking, the IETF is constructing a Resource Public Key Infrastructure (RPKI) as a united trust anchor to secure interdomain routing. In this study, we creatively use the RPKI to support inter-AS SAV and propose an RPKI-based Inter-AS Source Protection (RISP) mechanism. According to the trust basis provided by the RPKI, RISP offers ASes a more credible source-oriented protection for the IP addresses they own and remains independent of the RPKI. Based on the experiments with real Internet topology, RISP not only provides better incentives, but also improves efficacy and economizes bandwidth with a modest resource consumption.},
-
-  bibtex_show={true},
-  html={https://ieeexplore.ieee.org/document/8293068},
-  pdf={2018-Tsinghua-RISP.pdf},
-}
-
-@article{liu2018gagms,
-  author={Liu, Ying and He, Lin and Ren, Gang},
-  title={GAGMS: A Requirement-driven General Address Generation and Management System},
-  journal={Science China Information Sciences},
-  volume={61},
-  number={9},
-  pages={092109:1--092109:15},
-  year={2018},
-  url={https://doi.org/10.1007/s11432-017-9298-3},
-  abstract={IPv6 address generation is closely related to the manageability, security, privacy protection, and traceability of the Internet. There are many kinds of IPv6 address generation and configuration methods in the area of Internet standards and research that may cause certain problems, including the mixed operation problem of multiple IPv6 address generation schemes, the synchronization problem of the change in IPv6 address, the efficiency problem of processing large-scale concurrent IPv6 address requests, and the general model problem for mapping IPv6 addresses to other requirement spaces as identifiers. In this paper, we consider generating and managing IPv6 addresses according to network requirements. After conducting a requirement analysis of most proposed address generation schemes, we propose a general address generation model and a general address management system, which are the cores of the general address generation and management system (GAGMS). This system solves the above problems under the premise of maintaining the diversity and flexibility of the existing IPv6 address generation and configuration methods and allows networks to utilize different address generation schemes according to different requirements in different scenarios. Finally, we design a prototype system and evaluate our GAGMS to demonstrate its effectiveness, manageability, and scalability, and we have conducted trial deployment in campus networks and are trying to standardize this work in IETF.},
-
-  html={https://link.springer.com/article/10.1007/s11432-017-9298-3},
-  pdf={2018-SCIS-GAGMS.pdf},
-  bibtex_show={true},
-  abbr={Sci. China}
-}
-
-@article{liu2015building,
-  author={Liu, Ying and Ren, Gang and Wu, Jianping and Zhang, Shenglin and He, Lin and Jia, Yihao},
-  title={Building an IPv6 Address Generation and Traceback System with NIDTGA in Address Driven Network},
-  journal={Science China Information Sciences},
-  volume={58},
-  number={12},
-  pages={1--14},
-  year={2015},
-  url={https://doi.org/10.1007/s11432-015-5461-0},
-  doi={10.1007/s11432-015-5461-0},
-  abstract={In the design and construction process of Next Generation Internet, it is important to identify the source of each IP packet forwarding accurately, especially for the support of precise fine-grained management, control, traceability and improving the trustworthiness of the Internet. This paper designed a scalable Network Identity (NID) scheme for the Internet users, proposed NIDTGA (Network Identity and Time Generated Address), an IPv6 address generation algorithm embedded NID and time information, then designed and implemented an IPv6 address generation and traceback system based on NIDTGA. The design of NIDTGA, which reflects the length, time and owner attributes of the IP address, can be a good support to ADN (Address Driven Network). At the same time, by embedding the key elements of user identity and time in the IPv6 address, and by taking into account both the traceability and privacy, NIDTGA can provide a technical basis for the establishment of the network trust mechanism, and achieve the traceability of security event.},
-
-  html={https://link.springer.com/article/10.1007/s11432-015-5461-0},
-  pdf={2015-SCIS-NIDTGA.pdf},
-  bibtex_show={true},
-  abbr={Sci. China}
 }
