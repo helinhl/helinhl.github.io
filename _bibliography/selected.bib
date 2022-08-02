@@ -1,3 +1,16 @@
+@inproceedings{pan2023addeminer,
+  title={Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels},
+  author={Pan, Long and Yang, Jiahai and He, Lin and Wang, Zhiliang and Nie, Leyao and Song, Guanglei and Liu, Yaozhong},
+  booktitle={Proceedings of the 30th Annual Network and Distributed System Security Symposium (NDSS)},
+  year={2023},
+  publisher = {The Internet Society},
+  abstract={Active Internet measurements face challenges when some measurements require many remote vantage points. In this paper, we propose a novel technique for measuring remote IPv6 networks via side channels in ICMP rate limiting, a required function for IPv6 nodes to limit the rate at which ICMP error messages are generated. This technique, iVantage, can to some extent use 1.1M remote routers distributed in 9.5k autonomous systems and 182 countries as our “vantage points”.We apply iVantage to two different, but both challenging measurement tasks: 1) measuring the deployment of inbound source address validation (ISAV) and 2) measuring reachability between arbitrary Internet nodes. We accomplish these two tasks from only one local vantage point without controlling the targets or relying on other services within the target networks. Our large-scale ISAV measurements cover ~50% of all IPv6 autonomous systems and find ~79% of them are vulnerable to spoofing, which is the most large-scale measurement study of IPv6 ISAV to date. Our method for reachability measurements achieves over 80% precision and recall in our evaluation. Finally, we perform an Internet-wide measurement of the ICMP rate limiting implementations, present a detailed discussion on ICMP rate limiting, particularly the potential security and privacy risks in the mechanism of ICMP rate limiting, and provide possible mitigation measures. We make our code available to the community.},
+
+  bibtex_show={true},
+  abbr={NDSS},
+  selected={true},
+}
+
 @article{fan2022autoiot,
   title={AutoIoT: Automatically Updated IoT Device Identification with Semi-supervised Learning},
   author={Fan, Linna and He, Lin and Wu, Yichao and Zhang, Shize and Wang, Zhiliang and Li, Jia and Yang, Jiahai and Xiang, Chaocan and Ma, Xiaoqian},
@@ -24,10 +37,15 @@
   author={Song, Guanglei and Yang, Jiahai and He, Lin and Wang, Zhiliang and Li, Guo and Duan, Chenxin and Liu, Yaozhong and Sun, Zhongxiang},
   booktitle={Proceedings of the 2022 USENIX Annual Technical Conference (USENIX ATC)},
   year={2022},
+  isbn = {978-1-939133-29-19},
   address = {Carlsbad, CA},
+  pages = {309--326},
   url = {https://www.usenix.org/conference/atc22/presentation/song},
   publisher = {USENIX Association},
   month = jul,
+  abstract={Fast Internet-wide scanning is essential for network situational awareness and asset evaluation. However, the vast IPv6 address space makes brute-force scanning infeasible. Although state-of-the-art techniques have made effective attempts, these methods do not work in seedless regions, while the detection efficiency is low in regions with seeds. Moreover, the constructed hitlists with low coverage cannot truly represent the active IPv6 address landscape of the Internet.
+
+This paper introduces AddrMiner, a global active IPv6 address probing system, making IPv6 active address probing systematic, comprehensive, and economical. We divide the IPv6 address space regions into three kinds according to the number of seed addresses and propose a probing algorithm for each of them. For the regions with no seeds, we propose AddrMiner-N, leveraging an organization association strategy to mine active addresses. It finds active addresses covering 86.4K BGP prefixes, accounting for 81.6\% of the probed BGP prefixes. For the regions with few seeds, we propose AddrMiner-F, utilizing a similarity matching strategy to probe active addresses further. The hit rate of active address probing is improved by 70\%-150\% compared to existing algorithms. For the regions with sufficient seeds, we propose AddrMiner-S to generate target addresses based on reinforcement learning dynamically. It nearly doubles the hit rate compared to the state-of-the-art algorithms. Finally, we deploy AddrMiner and discover 2.1 billion active IPv6 addresses, including 1.7 billion de-aliased active addresses and 0.4 billion aliased addresses, through continuous probing for 13 months. We would like to further open the door of IPv6 measurement studies by publicly releasing AddrMiner and sharing our data.},
 
   bibtex_show={true},
   corr={true},
@@ -36,7 +54,8 @@
   cocorr_first={Jiahai},
   cocorr_last={Yang},
   html={https://www.usenix.org/conference/atc22/presentation/song},
-  code={https://github.com/AddrMiner/AddrMiner},
+  pdf={https://www.usenix.org/system/files/atc22-song.pdf},
+  slides={slides-addrminer-atc2022.pdf},
 }
 
 @inproceedings{cao2022firebolt,
@@ -44,15 +63,22 @@
   author={Cao, Jiamin and Zhou, Yu and Sun, Chen and He, Lin and Xi, Zhaowei and Liu, Ying},
   booktitle={Proceedings of the 2022 USENIX Annual Technical Conference (USENIX ATC)},
   year={2022},
+  isbn = {978-1-939133-29-32},
   address = {Carlsbad, CA},
+  pages = {819--834},
   url = {https://www.usenix.org/conference/atc22/presentation/cao},
   publisher = {USENIX Association},
   month = jul,
+  abstract={Programmable data planes (DP) enable flexible customization of packet processing logic with domain-specific languages such as P4. To relieve developers from lengthy codes and tedious hardware details, many researches propose DP program generators that take high-level intents as input and automatically convert intents into DP programs. Generators must be correct, otherwise they may produce buggy programs or DP logic that is inconsistent with intents. Nevertheless, existing verification tools are designed to verify individual DP programs, not generators. They either cannot achieve high bug coverage or cannot debug generators with high scalability.
+
+This paper presents Firebolt, a blackbox testing tool designed to dig out faults in DP program generators, including security vulnerabilities, intent violations, and generator crash. Firebolt achieves high bug coverage by using syntax-guided intent generation to construct a comprehensive, syntactically correct, and semantically valid intent set. To avoid intent explosion, Firebolt designs an intent space pruning approach that eliminates redundant intents while preserving representative ones. For high scalability, Firebolt automatically formalizes DP programs and intents for verification. We apply Firebolt to three popular open-source DP generators. Evaluation results demonstrate that Firebolt can detect 2x bugs with 0.1% to 0.01% human efforts compared to existing tools.},
 
   bibtex_show={true},
   abbr={USENIX ATC},
   selected={true},
-  html={https://www.usenix.org/conference/atc22/presentation/cao}
+  html={https://www.usenix.org/conference/atc22/presentation/cao},
+  pdf={https://www.usenix.org/system/files/atc22-cao.pdf},
+  slides={https://www.usenix.org/sites/default/files/conference/protected-files/atc22_slides_cao.pdf}
 }
 
 @article{song2022det,
@@ -75,7 +101,7 @@
 }
 
 @article{cao2022turbonet,
-  title={TurboNet: Faithfully Emulating Networks With Programmable Switches}, 
+  title={TurboNet: Faithfully Emulating Networks with Programmable Switches}, 
   author={Cao, Jiamin and Liu, Ying and Zhou, Yu and He, Lin and Xu, Mingwei},
   journal={IEEE/ACM Transactions on Networking}, 
   year={2022},

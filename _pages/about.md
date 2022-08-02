@@ -26,6 +26,9 @@ My current research topics include network architecture and protocol design, net
 
 
 <h4><b>News</b></h4>
+- [08/2022] Our paper entitled "What Causes Delay Asymmetry: A Large-scale One-way Delay Measurement and Empirical Study" has been accepted by [GLOBECOM'22](https://globecom2022.ieee-globecom.org/). Congrats to Yaozhong!
+- [08/2022] Our paper entitled "Both Efficient and Accurate: A Large-scale One-way Delay Measurement Scheme" has been accepted by [GLOBECOM'22](https://globecom2022.ieee-globecom.org/). Congrats to Yaozhong!
+- [07/2022] Our paper entitled "Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels" has been accepted by [NDSS'23](https://www.ndss-symposium.org/ndss2023/). Congrats to Long!
 - [06/2022] Our paper entitled "AutoIoT: Automatically Updated IoT Device Identification with Semi-supervised Learning" will appear in [IEEE Transactions on Mobile Computing (TMC)](https://ieeexplore.ieee.org/document/9795895). Congrats to Linna!
 - [04/2022] Our paper entitled "AddrMiner: A Comprehensive Global Active IPv6 Address Discovery System" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Guanglei!
 - [04/2022] Our paper entitled "Firebolt: Finding Bugs in Programmable Data Plane Generators" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Jiamin!
@@ -60,4 +63,10 @@ My current research topics include network architecture and protocol design, net
   
 - Network Measurement
   * IPv6 target generation [[DET, IWQoS'20](https://helinhl.github.io/assets/pdf/2020-IWQoS-DET.pdf), [ToN'22](https://ieeexplore.ieee.org/document/9698406)]
-  * Active IPv6 address discovery system [AddrMiner, USENIX ATC'22]
+  * Active IPv6 address discovery system [[AddrMiner, USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf)]
+  * ICMPv6 rate limiting [iVantage, NDSS'23]
+
+- Programmable Data Planes
+  * Data plane generator debugging [[Firebolt, USENIX ATC'22](https://www.usenix.org/system/files/atc22-cao.pdf)]
+  * Network emulation [[TurboNet, ToN'22](https://ieeexplore.ieee.org/document/9686366)]
+  * Stateful packet filter [[CoFilter, TPDS'22](https://ieeexplore.ieee.org/document/9656674)]
