@@ -1,5 +1,29 @@
 @string{aps = {American Physical Society,}}
 
+@inproceedings{nie2022towards,
+  title={Towards a Behavioral and Privacy Analysis of ECS for IPv6 DNS Resolvers},
+  author={Nie, Leyao and He, Lin and Song, Guanglei and Gao, Hao and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
+  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
+  year={2022},
+  abstract={The Domain Name System (DNS) is critical to Internet communications. EDNS Client Subnet (ECS), a DNS extension, allows recursive resolvers to include client subnet information in DNS queries to improve end-user mapping, extending the visibility of client information to a broader range. Major content delivery network (CDN) vendors, content providers (CP), and public DNS service providers (PDNS) are accelerating their IPv6 infrastructure development. With the increasing deployment of IPv6-enabled services and DNS being the most foundational system of the Internet, it becomes important to analyze the behavioral and privacy status of IPv6 resolvers. However, there is a lack of research on ECS for IPv6 DNS resolvers. In this paper, we study the ECS deployment and compliance status of IPv6 resolvers. Our measurement shows that 11.12% IPv6 open resolvers implement ECS. We discuss abnormal non-compliant scenarios that exist in both IPv6 and IPv4 that raise privacy and performance issues. Additionally, we measured if the sacrifice of clients' privacy can enhance IPv6 CDN performance. We find that in some cases ECS helps end-user mapping but with an unnecessary privacy loss. And even worse, the exposure of client address information can sometimes backfire, which deserves attention from both Internet users and PDNSes.},
+  
+  bibtex_show={true},
+  abbr={CNSM},
+}
+
+@inproceedings{liu2022perftrace,
+  title={PerfTrace: A New Multi-metric Network Performance Monitoring Tool},
+  author={Liu, Yaozhong and Pan, Long and Li, Chenglong and He, Lin and Luo, Yirui and Song, Guanglei and Yang, Jiahai and Wang, Zhiliang},
+  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
+  year={2022},
+  abstract={We present PerfTrace, an end-to-end tool for efficient, real-time, multi-metric network performance monitoring. PerfTrace provides a high integration of different existing measurement functions, supporting the measurement of essential metrics such as latency, jitter, packet loss, and available bandwidth. More importantly, innovative schemes and algorithms are proposed to address the weaknesses of existing tools.
+
+We evaluate PerfTrace on the Internet and our testbed, respectively. We find that (i) PerfTrace measures one-way and two-way latency, jitter, and packet loss ∼9.4× faster and ∼3.6× more data-efficiently; (ii) PerfTrace measures available bandwidth in our testbed with minimal mean relative error (5.22%), outperforming all the tools compared (ranging from 8.17% to 37.24%); (iii) PerfTrace measures available bandwidth with better accuracy and adaptability in different real-world network environments. Meanwhile, PerfTrace consumes a more constant percentage of bandwidth resources than other tools when monitoring available bandwidth. PerfTrace's data overhead is always only about 1/600 of the total bandwidth for a measurement frequency once per minute.},
+  
+  bibtex_show={true},
+  abbr={CNSM},
+}
+
 @inproceedings{pan2023addeminer,
   title={Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels},
   author={Pan, Long and Yang, Jiahai and He, Lin and Wang, Zhiliang and Nie, Leyao and Song, Guanglei and Liu, Yaozhong},
@@ -22,6 +46,7 @@
   
   bibtex_show={true},
   abbr={GLOBECOM},
+  corr={true},
 }
 
 @inproceedings{liu2022both,
@@ -33,6 +58,7 @@
   
   bibtex_show={true},
   abbr={GLOBECOM},
+  corr={true},
 }
 
 @inproceedings{song2022addeminer,
