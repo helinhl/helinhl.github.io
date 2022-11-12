@@ -26,6 +26,7 @@ My current research topics include network architecture and protocol design, net
 
 
 <h4><b>News</b></h4>
+
 - [10/2022] Our paper entitled "EvoIoT: An Evolutionary IoT and Non-IoT Classification Model in Open Environments" will appear in [Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05).
 - [08/2022] Our paper entitled "SAV6: A Novel Inter-AS Source Address Validation Protocol for IPv6 Internet" will appear in [IEEE Network](https://ieeexplore.ieee.org/document/9895378).
 - [08/2022] Our paper entitled "What Causes Delay Asymmetry: A Large-scale One-way Delay Measurement and Empirical Study" has been accepted by [GLOBECOM'22](https://globecom2022.ieee-globecom.org/). Congrats to Yaozhong!
@@ -57,15 +58,16 @@ My current research topics include network architecture and protocol design, net
 </details>
 
 <h4><b>Research</b></h4>
+
 - Network Architecture & Protocol Design
-  * Accountability & Privacy [[PAVI, INFOCOM'19](https://helinhl.github.io/assets/pdf/2019-INFOCOM-PAVI.pdf), [ToN'21](https://helinhl.github.io/assets/pdf/2021-ToN-PAVI.pdf)]
-  * Secure duplicate address detection [[P4DAD, CN'21](https://helinhl.github.io/assets/pdf/2021-CN-P4DAD.pdf)]
-  * Source address validation [[pSAV, IWQoS'21](https://helinhl.github.io/assets/pdf/2021-IWQoS-pSAV.pdf)], [[SAV6, IEEE Network](https://ieeexplore.ieee.org/document/9895378)]
-  * Address generation and management [[GAGMS, SCIS'18](https://helinhl.github.io/assets/pdf/2018-SCIS-GAGMS.pdf)]
+  * Accountability & Privacy [[PAVI, INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [ToN'21](https://ieeexplore.ieee.org/document/9325068)]
+  * Secure duplicate address detection [[P4DAD, CN'21](https://www.sciencedirect.com/science/article/pii/S138912862100325X)]
+  * Source address validation [[pSAV, IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], [[SAV6, IEEE Network](https://ieeexplore.ieee.org/document/9895378)]
+  * Address generation and management [[GAGMS, SCIS'18](https://link.springer.com/article/10.1007/s11432-017-9298-3)]
   * Application-aware networking [[ATE6, IEEE Network](https://ieeexplore.ieee.org/abstract/document/9785738)]
   
 - Network Measurement and Management
-  * IPv6 target generation [[DET, IWQoS'20](https://helinhl.github.io/assets/pdf/2020-IWQoS-DET.pdf), [ToN'22](https://ieeexplore.ieee.org/document/9698406)]
+  * IPv6 target generation [[DET, IWQoS'20](https://ieeexplore.ieee.org/document/9212980), [ToN'22](https://ieeexplore.ieee.org/document/9698406)]
   * Active IPv6 address discovery system [[AddrMiner, USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf)]
   * ICMPv6 rate limiting [[iVantage, NDSS'23](https://arxiv.org/pdf/2210.13088.pdf)]
   * IoT device identification [[AutoIoT, TMC'22](https://ieeexplore.ieee.org/document/9795895)], [[EvoIoT, CN'22](https://www.sciencedirect.com/science/article/pii/S1389128622004844)]
