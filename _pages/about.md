@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am currently an assistant research professor at the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University. Before this, I was a postdoctoral research scientist at [Network Management and Measurement Laboratory](http://nmgroup.tsinghua.edu.cn/yjs/index.htm), Tsinghua University, working with [Prof. Jiahai Yang](http://nmgroup.tsinghua.edu.cn/dryang/index.htm).
 
-I received my Ph.D. from the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University in 2019 under the supervision of [Prof. Ying Liu](https://www.insc.tsinghua.edu.cn/info/1181/1415.htm). Before that, I received my bachelor’s degree at the Department of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT) in 2014.
+I received my Ph.D. from the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University in 2019 under the supervision of [Prof. Ying Liu](https://www.insc.tsinghua.edu.cn/info/1181/1415.htm). Before that, I received my bachelorÃ¢â‚¬â„¢s degree at the Department of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT) in 2014.
 
 My current research topics include network architecture and protocol design, network measurement, and programmable data planes.
 
@@ -34,7 +34,7 @@ My current research topics include network architecture and protocol design, net
 - [06/2022] Our paper entitled "AutoIoT: Automatically Updated IoT Device Identification with Semi-supervised Learning" will appear in [IEEE Transactions on Mobile Computing (TMC)](https://ieeexplore.ieee.org/document/9795895). Congrats to Linna!
 - [04/2022] Our paper entitled "AddrMiner: A Comprehensive Global Active IPv6 Address Discovery System" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Guanglei!
 - [04/2022] Our paper entitled "Firebolt: Finding Bugs in Programmable Data Plane Generators" has been accepted by [USENIX ATC'22](https://www.usenix.org/conference/atc22). Congrats to Jiamin!
-- [01/2022] Our paper entitled "DET: Enabling Efficient Probing of IPv6 Active Addresses" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Guanglei!
+- [01/2022] Our paper entitled "DET: Enabling Efficient Probing of IPv6 Active Addresses" will appear in [IEEE/ACM Transactions on Networking (ToN)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9859542&punumber=90). Congrats to Guanglei!
 - [12/2021] Our paper entitled "TurboNet: Faithfully Emulating Networks with Programmable Switches" will appear in [IEEE/ACM Transactions on Networking (ToN)](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9797041&pageNumber=2). Congrats to Jiamin!
 - [12/2021] Our paper entitled "Enabling Application-aware Traffic Engineering in IPv6 Networks" will appear in [IEEE Network](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9785736).
 - [12/2021] Our paper entitled "CoFilter: High-Performance Switch-Accelerated Stateful Packet Filter for Bare-Metal Servers" will appear in [IEEE Transactions on Parallel and Distributed Systems (TPDS)](https://www.computer.org/csdl/journal/td/2022/09). Congrats to Jiamin!
