@@ -469,6 +469,10 @@ footer.sticky-bottom {
           font-style: normal;
         }
       }
+      .highlight {
+        color: var(--global-highlight-color);
+        font-weight: bolder;
+      }
       .links {
         a.btn {
           color: var(--global-text-color);
