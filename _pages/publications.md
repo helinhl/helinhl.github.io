@@ -10,7 +10,7 @@ nav: true
 ---
 Copy Right Notice: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.
 
-[[Conference papers](#conference-papers)] | [[Journal papers](#journal-papers)] | [[Patents](#patents)]
+[[Conference papers](#conference-papers)] | [[Journal & Magazine papers](#journal--magazine-papers)] | [[Patents](#patents)]
 
 
 #### Conference papers
@@ -26,7 +26,7 @@ Copy Right Notice: The materials presented below are for academic use only. Copy
 
 <br/>
 
-#### Journal papers
+#### Journal & Magazine papers
 <sup>#</sup> indicates the corresponding author.
 <div class="publications">
 
