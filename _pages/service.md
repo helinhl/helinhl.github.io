@@ -10,8 +10,9 @@ nav: true
 - **Journal Reviewer**
   + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Network Science and Engineering
+  + IEEE Internet of Things Journal
   + IEEE Access
-- **External Reviewer**
+- **External/Sub Reviewer**
   + IEEE Transactions on Parallel and Distributed Systems
   + Science China Information Sciences
   + Computer Standards & Interfaces 
