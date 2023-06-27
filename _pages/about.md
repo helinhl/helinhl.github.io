@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn
 
@@ -29,7 +29,7 @@ My current research topics include network architecture and protocol design, net
 
 - [03/2023] iVantage has won the [NDSS 2023 Distinguished Paper Award](https://twitter.com/NDSSSymposium/status/1631432557911834625?cxt=HHwWgoC8lZHRgaQtAAAA).
 - [12/2022] Our paper entitled "WiseCam: Wisely Tuning Wireless Pan-Tilt Cameras for Cost-Effective Moving Object Tracking" has been accepted by [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
-- [10/2022] Our paper entitled "EvoIoT: An Evolutionary IoT and Non-IoT Classification Model in Open Environments" will appear in [Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05).
+- [10/2022] Our paper entitled "EvoIoT: An Evolutionary IoT and Non-IoT Classification Model in Open Environments" will appear in [Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05). Congrats to Linna!
 - [08/2022] Our paper entitled "SAV6: A Novel Inter-AS Source Address Validation Protocol for IPv6 Internet" will appear in [IEEE Network](https://ieeexplore.ieee.org/document/9895378).
 - [08/2022] Our paper entitled "What Causes Delay Asymmetry: A Large-scale One-way Delay Measurement and Empirical Study" has been accepted by [GLOBECOM'22](https://globecom2022.ieee-globecom.org/). Congrats to Yaozhong!
 - [08/2022] Our paper entitled "Both Efficient and Accurate: A Large-scale One-way Delay Measurement Scheme" has been accepted by [GLOBECOM'22](https://globecom2022.ieee-globecom.org/). Congrats to Yaozhong!

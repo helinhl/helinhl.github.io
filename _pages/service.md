@@ -1,20 +1,18 @@
 ---
 layout: page
-permalink: /service/
-title: service
+permalink: /services/
+title: Services
 nav: true
 ---
 
 - **Organizing Committee**
-  + Local Arrangement Chair, [PRDC 2022](https://prdc.dependability.org/PRDC2022/)
+  + 2022: [PRDC](https://prdc.dependability.org/PRDC2022/) (Local Arrangement Chair)
+- **Technical Program Committee**
+  + 2023: [ICA3PP](http://tjutanklab.com/ica3pp2023/home.html)
 - **Journal Reviewer**
-  + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Network Science and Engineering
   + IEEE Internet of Things Journal
   + IEEE Access
 - **External/Sub Reviewer**
-  + IEEE Transactions on Parallel and Distributed Systems
-  + Science China Information Sciences
-  + Computer Standards & Interfaces 
+  + ICNP 2023
   + NetSoft 2020
-  + Chinese Journal of Computers
