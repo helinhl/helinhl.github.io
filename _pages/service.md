@@ -10,6 +10,7 @@ nav: true
 - **Technical Program Committee**
   + 2023: [ICA3PP](http://tjutanklab.com/ica3pp2023/home.html)
 - **Journal Reviewer**
+  + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Network Science and Engineering
   + IEEE Internet of Things Journal
   + IEEE Access

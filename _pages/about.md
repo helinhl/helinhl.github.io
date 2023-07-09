@@ -62,9 +62,9 @@ My current research topics include network architecture and protocol design, net
 <h4><b>Research</b></h4>
 
 - Network Architecture & Protocol Design
-  * Accountability & privacy: PAVI [[INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [ToN'21](https://ieeexplore.ieee.org/document/9325068)], pSAV [[IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], SAV6 [[IEEE Network](https://ieeexplore.ieee.org/document/9895378)]
+  * Accountability & privacy: PAVI [[INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [ToN'21](https://ieeexplore.ieee.org/document/9325068)], pSAV [[IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], SAV6 [[IEEE Network'23](https://ieeexplore.ieee.org/document/9895378)]
   * Address generation and management: P4DAD [[CN'21](https://www.sciencedirect.com/science/article/pii/S138912862100325X)], GAGMS [[SCIS'18](https://link.springer.com/article/10.1007/s11432-017-9298-3)]
-  * Application-aware networking: ATE6 [[IEEE Network](https://ieeexplore.ieee.org/abstract/document/9785738)]
+  * Application-aware networking: ATE6 [[IEEE Network'22](https://ieeexplore.ieee.org/abstract/document/9785738)]
   
 - Network Measurement and Management
   * IPv6 target generation: DET [[IWQoS'20](https://ieeexplore.ieee.org/document/9212980), [ToN'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf)]
