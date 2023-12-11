@@ -27,7 +27,8 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
-- [10/2023] Our book was supported by the [National Fund for Academic Publication in Science and Technology (NFAPST)](https://www.safea.gov.cn/tztg/202310/t20231016_188469.html).
+- [12/2023] Our paper entitled "AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery" has been accepted by [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
+- [10/2023] Our book was supported by the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
 - [03/2023] iVantage won the [NDSS 2023 Distinguished Paper Award](https://twitter.com/NDSSSymposium/status/1631432557911834625?cxt=HHwWgoC8lZHRgaQtAAAA).
 - [12/2022] Our paper entitled "WiseCam: Wisely Tuning Wireless Pan-Tilt Cameras for Cost-Effective Moving Object Tracking" has been accepted by [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
