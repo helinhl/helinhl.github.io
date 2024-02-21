@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-conf-years: [2023, 2022, 2021, 2020, 2019, 2017]
+conf-years: [2024, 2023, 2022, 2021, 2020, 2019, 2017]
 jrnl-years: [2023, 2022, 2021, 2018, 2015]
 book-years: [2023]
 pat-years: [2021, 2020, 2016, 2015]

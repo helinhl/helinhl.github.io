@@ -27,7 +27,6 @@
   pages = {309--326},
   url = {https://www.usenix.org/conference/atc22/presentation/song},
   publisher = {USENIX Association},
-  month = jul,
   abstract={Fast Internet-wide scanning is essential for network situational awareness and asset evaluation. However, the vast IPv6 address space makes brute-force scanning infeasible. Although state-of-the-art techniques have made effective attempts, these methods do not work in seedless regions, while the detection efficiency is low in regions with seeds. Moreover, the constructed hitlists with low coverage cannot truly represent the active IPv6 address landscape of the Internet.
 
 This paper introduces AddrMiner, a global active IPv6 address probing system, making IPv6 active address probing systematic, comprehensive, and economical. We divide the IPv6 address space regions into three kinds according to the number of seed addresses and propose a probing algorithm for each of them. For the regions with no seeds, we propose AddrMiner-N, leveraging an organization association strategy to mine active addresses. It finds active addresses covering 86.4K BGP prefixes, accounting for 81.6\% of the probed BGP prefixes. For the regions with few seeds, we propose AddrMiner-F, utilizing a similarity matching strategy to probe active addresses further. The hit rate of active address probing is improved by 70\%-150\% compared to existing algorithms. For the regions with sufficient seeds, we propose AddrMiner-S to generate target addresses based on reinforcement learning dynamically. It nearly doubles the hit rate compared to the state-of-the-art algorithms. Finally, we deploy AddrMiner and discover 2.1 billion active IPv6 addresses, including 1.7 billion de-aliased active addresses and 0.4 billion aliased addresses, through continuous probing for 13 months. We would like to further open the door of IPv6 measurement studies by publicly releasing AddrMiner and sharing our data.},
@@ -54,7 +53,6 @@ This paper introduces AddrMiner, a global active IPv6 address probing system, ma
   pages = {819--834},
   url = {https://www.usenix.org/conference/atc22/presentation/cao},
   publisher = {USENIX Association},
-  month = jul,
   abstract={Programmable data planes (DP) enable flexible customization of packet processing logic with domain-specific languages such as P4. To relieve developers from lengthy codes and tedious hardware details, many researches propose DP program generators that take high-level intents as input and automatically convert intents into DP programs. Generators must be correct, otherwise they may produce buggy programs or DP logic that is inconsistent with intents. Nevertheless, existing verification tools are designed to verify individual DP programs, not generators. They either cannot achieve high bug coverage or cannot debug generators with high scalability.
 
 This paper presents Firebolt, a blackbox testing tool designed to dig out faults in DP program generators, including security vulnerabilities, intent violations, and generator crash. Firebolt achieves high bug coverage by using syntax-guided intent generation to construct a comprehensive, syntactically correct, and semantically valid intent set. To avoid intent explosion, Firebolt designs an intent space pruning approach that eliminates redundant intents while preserving representative ones. For high scalability, Firebolt automatically formalizes DP programs and intents for verification. We apply Firebolt to three popular open-source DP generators. Evaluation results demonstrate that Firebolt can detect 2x bugs with 0.1% to 0.01% human efforts compared to existing tools.},
@@ -68,20 +66,34 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   video={https://www.youtube.com/watch?v=lVu5-bVWLkQ&list=PLbRoZ5Rrl5lfOysG3a54BHWrqlW2vjh67&index=53&ab_channel=USENIX},
 }
 
+@inproceedings{e2024aggdeliv,
+  title={AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery},
+  author={E, Jinlong and He, Lin and Zhao, Zongyi and Wang, Yachen and Chen, Gonglong and Chen, Wei},
+  booktitle={Proceedings of the 43nd IEEE Conference on Computer Communications (INFOCOM)}, 
+  year={2024},
+  pages={1-10},
+  doi={},
+  abstract={Mobile live-streaming applications with stringent latency and bandwidth requirements have gained tremendous attention in recent years. Encountered with bandwidth insufficiency and congestion instability of the wireless uplinks, multi-access networking provides opportunities to achieve fast and robust connectivity. However, the state-of-the-art multi-path transmission solutions are lack of adaptivity to the heterogeneous and dynamic nature of wireless networks. Meanwhile, the indispensable video coding and transformation bring about extra latency and make the video delivery vulnerable to network throughput fluctuation. This paper presents AggDeliv, a framework that provides efficient and robust multi-path transmission for mobile live video delivery. The key idea is to relate multi-path packet scheduling to congestion control optimization over diverse wireless links and adapt it to the mobile video characteristics. This is achieved by probabilistic packet allocation based on links’ congestion windows, wireless-oriented delay and loss aware congestion control, as well as lightweight video frame coding and networkadaptive frame-packet transformation. Real-world evaluations demonstrate that our framework significantly outperforms the state-of-the-art solutions on aggregate goodput and streaming video bitrate.},
+
+  abbr={INFOCOM},
+  bibtex_show={true},
+  selected={true},
+}
+
 @inproceedings{e2023wisecam,
   title={WiseCam: Wisely Tuning Wireless Pan-Tilt Cameras for Cost-Effective Moving Object Tracking},
   author={E, Jinlong and He, Lin and Li, Zhenhua and Liu, Yunhao},
   booktitle={Proceedings of the 42nd IEEE Conference on Computer Communications (INFOCOM)}, 
   year={2023},
-  volume={},
-  number={},
-  pages={},
-  doi={},
+  pages={1-10},
+  doi={10.1109/INFOCOM53939.2023.10228926},
   abstract={With desired functionality of moving object tracking, wireless pan-tilt cameras are able to play critical roles in a growing diversity of surveillance environments. However, today’s pan-tilt cameras oftentimes underperform when tracking frequently moving objects like humans – they are prone to lose sight of objects and bring about excessive mechanical rotations that are especially detrimental to those energy-constrained outdoor scenarios. The ineffectiveness and high cost of state-of-the-art tracking approaches are rooted in their adherence to the industry’s simplicity principle, which leads to their stateless nature, performing gimbal rotations based only on the latest object detection. To address the issues, we design and implement WiseCam that wisely tunes the pan-tilt cameras to minimize mechanical rotation costs while maintaining long-term object tracking. We examine the performance of WiseCam by experiments on two types of pan-tilt cameras with different motors. Results show that WiseCam significantly outperforms the state-of-the-art tracking approaches on both tracking duration and power consumption.},
 
   abbr={INFOCOM},
   bibtex_show={true},
   selected={true},
+  html={https://ieeexplore.ieee.org/document/10228926},
+  slides={slides-wisecam-infocom2023.pdf},
 }
 
 @inproceedings{he2019bootstrapping,
@@ -89,8 +101,6 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   author={He, Lin and Ren, Gang and Liu, Ying},
   booktitle={Proceedings of the 38th IEEE Conference on Computer Communications (INFOCOM)}, 
   year={2019},
-  volume={},
-  number={},
   pages={1486-1494},
   doi={10.1109/INFOCOM.2019.8737453},
   abstract={Accountability and privacy are considered valuable but conflicting properties in the Internet, which at present does not provide native support for either. Past efforts to balance accountability and privacy in the Internet have unsatisfactory deployability due to the introduction of new communication identifiers, and because of large-scale modifications to fully deployed infrastructures and protocols. The IPv6 is being deployed around the world and this trend will accelerate. In this paper, we propose a private and accountable proposal based on IPv6 called PAVI that seeks to bootstrap accountability and privacy to the IPv6 Internet without introducing new communication identifiers and large-scale modifications to the deployed base. A dedicated quantitative analysis shows that the proposed PAVI achieves satisfactory levels of accountability and privacy. The results of evaluation of a PAVI prototype show that it incurs little performance overhead, and is widely deployable.},
@@ -106,10 +116,10 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   title={AutoIoT: Automatically Updated IoT Device Identification with Semi-supervised Learning},
   author={Fan, Linna and He, Lin and Wu, Yichao and Zhang, Shize and Wang, Zhiliang and Li, Jia and Yang, Jiahai and Xiang, Chaocan and Ma, Xiaoqian},
   journal={IEEE Transactions on Mobile Computing},
-  year={2022},
-  volume={},
-  number={},
-  pages={},
+  year={2023},
+  volume={22},
+  number={10},
+  pages={5769-5786},
   publisher={IEEE},
   doi={10.1109/TMC.2022.3183118},
   abstract={IoT devices bring great convenience to a person’s life and industrial production. However, their rapid proliferation also troubles device management and network security. Network administrators usually need to know how many IoT devices are in the network and whether they behave normally. IoT device identification is the first step to achieving these goals. Previous IoT device identification methods reach high accuracy in a closed environment. But they are not applicable in the continuously changing environment. When new types of devices are plugged in, they cannot update themselves automatically. Besides, they usually rely on supervised learning and need lots of labeled data, which is costly. To solve these problems, we propose a novel IoT device identification model named AutoIoT, updating itself automatically when new types of devices are plugged in. Besides, it only needs a few labeled data and identifies IoT devices with high accuracy. The evaluation on two public datasets shows that AutoIoT can identify new device types only using 1.5∼2.5 hours’ traffic and still have high accuracy after updating. Moreover, it has a better performance than other works when there are only a few labeled data, especially in an environment with scanning traffic.},
