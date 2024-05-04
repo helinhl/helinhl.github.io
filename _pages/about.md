@@ -27,8 +27,8 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
-- [5/2023] Our paper entitled "AddrMiner: A Fast, Efficient, and Comprehensive Global Active IPv6 Address Detection System" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Guanglei!
-- [5/2023] Our paper entitled "P4runpro: Enabling Runtime Programmability for RMT Programmable Switches" has been accepted by [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/). Congrats to Yifan!
+- [5/2024] Our paper entitled "AddrMiner: A Fast, Efficient, and Comprehensive Global Active IPv6 Address Detection System" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Guanglei!
+- [5/2024] Our paper entitled "P4runpro: Enabling Runtime Programmability for RMT Programmable Switches" has been accepted by [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/). Congrats to Yifan!
 - [12/2023] Our paper entitled "AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery" has been accepted by [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book was supported by the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
