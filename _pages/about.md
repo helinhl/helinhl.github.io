@@ -27,6 +27,8 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
+- [5/2023] Our paper entitled "AddrMiner: A Fast, Efficient, and Comprehensive Global Active IPv6 Address Detection System" will appear in IEEE/ACM Transactions on Networking (ToN). Congrats to Guanglei!
+- [5/2023] Our paper entitled "P4runpro: Enabling Runtime Programmability for RMT Programmable Switches" has been accepted by [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/). Congrats to Yifan!
 - [12/2023] Our paper entitled "AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery" has been accepted by [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book was supported by the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
@@ -65,12 +67,12 @@ My current research topics include network architecture and protocol design, net
 <h4><b>Research</b></h4>
 
 - Network Architecture & Protocol Design
-  * Accountability & privacy: PAVI [[INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [ToN'21](https://ieeexplore.ieee.org/document/9325068)], pSAV [[IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], SAV6 [[IEEE Network'23](https://ieeexplore.ieee.org/document/9895378)]
+  * Accountability & privacy: PAVI [[INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [TON'21](https://ieeexplore.ieee.org/document/9325068)], pSAV [[IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], SAV6 [[IEEE Network'23](https://ieeexplore.ieee.org/document/9895378)]
   * Address generation and management: P4DAD [[CN'21](https://www.sciencedirect.com/science/article/pii/S138912862100325X)], GAGMS [[SCIS'18](https://link.springer.com/article/10.1007/s11432-017-9298-3)]
   * Application-aware networking: ATE6 [[IEEE Network'22](https://ieeexplore.ieee.org/abstract/document/9785738)]
   
 - Network Measurement and Management
-  * IPv6 target generation: DET [[IWQoS'20](https://ieeexplore.ieee.org/document/9212980), [ToN'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf)]
+  * IPv6 target generation: DET [[IWQoS'20](https://ieeexplore.ieee.org/document/9212980), [TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), TON'24]
   * ICMPv6 rate limiting: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
   * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], EvoIoT [[CN'22](https://www.sciencedirect.com/science/article/pii/S1389128622004844)], WiseCam [[INFOCOM'23]()]
 
@@ -78,3 +80,4 @@ My current research topics include network architecture and protocol design, net
   * Data plane generator debugging: Firebolt [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-cao.pdf)]
   * Network emulation: TurboNet [[ToN'22](https://ieeexplore.ieee.org/document/9686366)]
   * Stateful packet filter: CoFilter [[TPDS'22](https://ieeexplore.ieee.org/document/9656674)]
+  * Runtime programmability: P4runpro [SIGCOMM'24]

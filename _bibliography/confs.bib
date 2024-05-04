@@ -1,5 +1,36 @@
 @string{aps = {American Physical Society,}}
 
+@inproceedings{yang2024p4runpro,
+  title={P4runpro: Enabling Runtime Programmability for RMT Programmable Switches},
+  author={Yang, Yifan and He, Lin and Zhou, Jiasheng and Shi, Xiaoyi and Cao, Jiamin and Liu, Ying},
+  booktitle={Proceedings of the 2024 Annual Conference of the ACM Special Interest Group on Data Communication (SIGCOMM)}, 
+  year={2024},
+  pages={},
+  doi={},
+  abstract={Programmable switches have revolutionized network operations by enabling the flexible customization of packet processing logic using language like P4. However, changing the programs running on the switch requires disturbing traffic and suspending other unrelated programs. In this paper, we present P4runpro, enabling runtime data plane updates with dynamic resource allocation. The P4runpro data plane abstracts hardware resources and defines dynamically reconfigurable atomic operations that form packet processing logic. P4runpro provides runtime programming interfaces called P4runpro primitives for the operator to write high-level programs. We have designed the P4runpro compiler to automatically and consistently link the P4runpro programs to the running data plane. We implement our prototype on a Tofino switch. We implement 15 example runtime programs using P4runpro to demonstrate its generality and expressiveness. Our evaluation results show that compared to the state-of-the-art, P4runpro can respond within hundreds of milliseconds, achieve an average of 60% to 80% dynamic resource utilization, concurrently run ≈0.6K to ≈2.8K programs, and introduce lower overhead. Our case studies illustrate the benefit of runtime programming and prove the same functionality between P4runpro and conventional P4 programs.},
+
+  abbr={SIGCOMM},
+  corr={true},
+  bibtex_show={true},
+  selected={true},
+}
+
+@inproceedings{li2024topominer,
+  title={TopoMiner: Efficient Topology Discovery for IPv6 Networks},
+  author={Li, Hongwei and He, Lin and Gong, Wenwen and Song, Guanglei and Cheng, Daguo and Yang, Jiahai and Liu, Ying and Tan, Li},
+  booktitle={Proceedings of the 33nd International Conference on Computer Communications and Networks (ICCCN)}, 
+  year={2024},
+  pages={1-9},
+  doi={},
+  abstract={Topology discovery can be used to obtain the connectivity and operational status of network devices by discovered interfaces. By performing topology discovery on networks, administrators can better understand and manage networks and improve network reliability and security. However, the large IPv6 address space, sparse address distribution, and unknown address assignment policies make it infeasible to simply and roughly probe the IPv6 network topology.
+
+To this end, we design an efficient IPv6 interface-level topology discovery method called TopoMiner. It performs multiple rounds of probing the IPv6 topology with the given set of IPv6 prefixes and locates the high-density interface regions based on the results of each round of topology discovery. TopoMiner then performs prefix expansion and address generation for the high-density interface address regions. At the same time, TopoMiner also uses some of the prefixes that have been probed to regenerate the target addresses. In this way, TopoMiner can dynamically adjust the breadth and depth of topology discovery and thus complete multiple rounds of topology discovery within the packetsending budget. In real-word probing, TopoMiner achieves a 3∼7× enhancement in probing efficiency compared to state-of-the-art topology discovery methods.},
+
+  abbr={ICCCN},
+  corr={true},
+  bibtex_show={true},
+}
+
 @inproceedings{e2024aggdeliv,
   title={AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery},
   author={E, Jinlong and He, Lin and Zhao, Zongyi and Wang, Yachen and Chen, Gonglong and Chen, Wei},

@@ -14,6 +14,7 @@ nav: true
   + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Network Science and Engineering
   + IEEE Internet of Things Journal
+  + IEEE Open Journal of the Computer Society
   + IEEE Access
 - **External/Sub Reviewer**
   + ICNP 2023
