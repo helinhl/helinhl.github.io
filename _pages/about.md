@@ -27,9 +27,9 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
-- [5/2024] WiseCam (journal version) accepted to IEEE Transactions on Mobile Computing (TMC).
-- [5/2024] AddrMiner (journal version) accepted to IEEE/ACM Transactions on Networking (TON). Congrats to Guanglei!
-- [5/2024] P4runpro accepted to [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/). Congrats to Yifan!
+- [05/2024] WiseCam (journal version) accepted to IEEE Transactions on Mobile Computing (TMC).
+- [05/2024] AddrMiner (journal version) accepted to IEEE/ACM Transactions on Networking (TON). Congrats to Guanglei!
+- [05/2024] P4runpro accepted to [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/). Congrats to Yifan!
 - [12/2023] AggDeliv accepted to [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book received support from the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
