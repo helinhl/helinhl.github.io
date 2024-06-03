@@ -1,6 +1,18 @@
+"Li":
+  - firstname: ["Chenglong", "C."]
+    url: https://www.insc.tsinghua.edu.cn/info/1157/2450.htm
+
+"Li":
+  - firstname: ["Zhenhua", "Z."]
+    url: https://www.thucloud.com/zhenhua/index.html
+
 "Liu":
   - firstname: ["Ying", "Y."]
-    url: https://www.insc.tsinghua.edu.cn/info/1181/1415.htm
+    url: https://www.insc.tsinghua.edu.cn/info/1157/2456.htm
+
+"Liu":
+  - firstname: ["Yunhao", "Y."]
+    url: https://people.gix.tsinghua.edu.cn/yunhao/en.html
 
 "Sun":
   - firstname: ["Chen", "C."]
@@ -8,7 +20,7 @@
 
 "Wang": 
   - firstname: ["Zhiliang", "Z."]
-    url: https://www.insc.tsinghua.edu.cn/info/1181/1235.htm
+    url: https://www.insc.tsinghua.edu.cn/info/1157/2853.htm
 
 "Xu":
   - firstname: ["Mingwei", "M."]
@@ -24,5 +36,7 @@
 "Zhang":
   - firstname: ["Shenglin", "S."]
     url: http://nkcs.iops.ai/shenglinzhang/
+
+
 
 

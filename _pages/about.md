@@ -33,7 +33,7 @@ My current research topics include network architecture and protocol design, net
 - [12/2023] AggDeliv accepted to [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book received support from the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
-- [03/2023] iVantage won the [NDSS 2023 Distinguished Paper Award](https://twitter.com/NDSSSymposium/status/1631432557911834625?cxt=HHwWgoC8lZHRgaQtAAAA).
+- [03/2023] iVantage won the [NDSS 2023 Distinguished Paper Award](https://www.ndss-symposium.org/ndss2023/).
 - [12/2022] WiseCam accepted to [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
 - [10/2022] EvoIoT accepted to [Elsevier Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05). Congrats to Linna!
 - [08/2022] SAV6 accepted to [IEEE Network](https://ieeexplore.ieee.org/document/9895378).
