@@ -74,9 +74,9 @@ My current research topics include network architecture and protocol design, net
   * Application-aware networking: ATE6 [[IEEE Network'22](https://ieeexplore.ieee.org/abstract/document/9785738)]
   
 - Network Measurement and Management
-  * IPv6 target generation: DET [[IWQoS'20](https://ieeexplore.ieee.org/document/9212980), [TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)]
+  * IPv6 target generation: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)]
   * ICMPv6 rate limiting: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
-  * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], EvoIoT [[CN'22](https://www.sciencedirect.com/science/article/pii/S1389128622004844)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
+  * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
 
 - Programmable Networks
   * Runtime programmability: P4runpro [SIGCOMM'24]

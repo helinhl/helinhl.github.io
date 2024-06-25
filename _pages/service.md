@@ -10,6 +10,8 @@ nav: true
 - **Technical Program Committee**
   + 2024: [ICA3PP](https://ica3pp2024.scimeeting.cn/en/web/index/21666_)
   + 2023: [ICA3PP](http://tjutanklab.com/ica3pp2023/home.html)
+- **Artifact Evaluation Committee**
+  + 2024: [SIGCOMM](https://conferences.sigcomm.org/sigcomm/2024/cf-artifacts/)
 - **Journal Reviewer**
   + IEEE/ACM Transactions on Networking
   + Elsevier Computer Networks
