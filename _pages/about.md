@@ -84,7 +84,7 @@ My current research topics include network architecture and protocol design, net
   * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
 
 - Programmable Networks
-  * Runtime programmability: P4runpro [SIGCOMM'24]
+  * Runtime programmability: P4runpro [[SIGCOMM'24](https://dl.acm.org/doi/10.1145/3651890.3672230)]
   * Data plane generator debugging: Firebolt [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-cao.pdf)]
   * Network emulation: TurboNet [[TON'22](https://ieeexplore.ieee.org/document/9686366)]
   * Stateful packet filter: CoFilter [[TPDS'22](https://ieeexplore.ieee.org/document/9656674)]
