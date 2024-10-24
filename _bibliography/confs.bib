@@ -1,35 +1,6 @@
 @string{aps = {American Physical Society,}}
 
-@inproceedings{zhang20246vision,
-  title={6Vision: Image-encoding-based IPv6 Target Generation in Few-seed Scenarios},
-  author={Zhang, Wenjian and Song, Guanglei and He, Lin and Lin, Jinlei and Wu, Songyun and Wang, Zhiliang and Li, Chenglong and Yang, Jiahai},
-  booktitle={Proceedings of the 32nd IEEE International Conference on Network Protocols (ICNP)}, 
-  year={2024},
-  pages={},
-  doi={},
-  abstract={},
-  address={Charleroi, Belgium},
-  date={October 28-31},
 
-  abbr={ICNP},
-  bibtex_show={true},
-}
-
-@inproceedings{cheng2024luori,
-  title={Luori: Active Probing and Evaluation of Internet-wide IPv6 Fully Responsive Prefixes},
-  author={Cheng, Daguo and He, Lin and Wei, Chentian and Yin, Qilei and Jin, Boran and Wang, Zhaoan and Pan, Xiaoteng and Zhou, Sixu and Liu, Ying and Zhang, Shenglin and Tan, Fuchao and Liu, Wenmao},
-  booktitle={Proceedings of the 32nd IEEE International Conference on Network Protocols (ICNP)}, 
-  year={2024},
-  pages={},
-  doi={},
-  abstract={},
-  address={Charleroi, Belgium},
-  date={October 28-31},
-
-  abbr={ICNP},
-  corr={true},
-  bibtex_show={true},
-}
 
 @inproceedings{yang2024p4runpro,
   title={P4runpro: Enabling Runtime Programmability for RMT Programmable Switches},
@@ -52,25 +23,6 @@
   video={https://www.youtube.com/watch?v=tAAFM-Cvjpo},
 }
 
-@inproceedings{li2024topominer,
-  title={TopoMiner: Efficient Topology Discovery for IPv6 Networks},
-  author={Li, Hongwei and He, Lin and Gong, Wenwen and Song, Guanglei and Cheng, Daguo and Yang, Jiahai and Liu, Ying and Tan, Li},
-  booktitle={Proceedings of the 33rd International Conference on Computer Communications and Networks (ICCCN)}, 
-  year={2024},
-  pages={1-9},
-  doi={},
-  address={Big Island, Hawaii, USA},
-  date={July 29-31},
-  abstract={Topology discovery can be used to obtain the connectivity and operational status of network devices by discovered interfaces. By performing topology discovery on networks, administrators can better understand and manage networks and improve network reliability and security. However, the large IPv6 address space, sparse address distribution, and unknown address assignment policies make it infeasible to simply and roughly probe the IPv6 network topology.
-
-To this end, we design an efficient IPv6 interface-level topology discovery method called TopoMiner. It performs multiple rounds of probing the IPv6 topology with the given set of IPv6 prefixes and locates the high-density interface regions based on the results of each round of topology discovery. TopoMiner then performs prefix expansion and address generation for the high-density interface address regions. At the same time, TopoMiner also uses some of the prefixes that have been probed to regenerate the target addresses. In this way, TopoMiner can dynamically adjust the breadth and depth of topology discovery and thus complete multiple rounds of topology discovery within the packet sending budget. In real-word probing, TopoMiner achieves a 3∼7× enhancement in probing efficiency compared to state-of-the-art topology discovery methods.},
-
-  abbr={ICCCN},
-  corr={true},
-  bibtex_show={true},
-  pdf={2024-ICCCN-TopoMiner.pdf},
-}
-
 @inproceedings{e2024aggdeliv,
   title={AggDeliv: Aggregating Multiple Wireless Links for Efficient Mobile Live Video Delivery},
   author={E, Jinlong and He, Lin and Zhao, Zongyi and Wang, Yachen and Chen, Gonglong and Chen, Wei},
@@ -88,95 +40,52 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
   html={https://ieeexplore.ieee.org/abstract/document/10621184},
 }
 
-@inproceedings{fan2023graphiot,
-  title={GraphIoT: Accurate IoT Identification based on Heterogeneous Graph},
-  author={Fan, Linna and He, Lin and Sun, Xiaoqing and Dong, Enhuan and Yang, Jiahai and Wang, Zhiliang and Lin, Jinlei and Song, Guanglei},
-  booktitle={Proceedings of the 31st IEEE/ACM International Symposium on Quality of Service (IWQoS)}, 
-  year={2023},
-  pages={01-04},
-  doi={10.1109/IWQoS57198.2023.10188710},
-  address={Orlando, FL, USA},
-  date={June 19–21},
-  abstract={IoT devices deployed on campus and enterprise networks facilitate people's lives and work. However, these devices also bring serious network asset management and security management problems. IoT device identification is the premise to solve these problems. Although current IoT identification methods can identify devices with relatively high accuracy in ideal environments, it is difficult to accurately identify devices in real-world complex environments (e.g., campus networks, enterprise networks). Therefore, we propose to use exact features. To solve the problem of different dimensions of exact features, we creatively model the IoT identification problem as a heterogeneous graph representation learning problem and design a new representation learning algorithm. We are the first to propose an approach to accurately identify IoT devices in real-world complex environments and solve this problem through heterogeneous graphs. The evaluation shows that \X's macro F1 is on average 13.58\% and 12.77\% higher than the other methods on two public datasets.},
-  
+@inproceedings{cheng2024luori,
+  title={Luori: Active Probing and Evaluation of Internet-wide IPv6 Fully Responsive Prefixes},
+  author={Cheng, Daguo and He, Lin and Wei, Chentian and Yin, Qilei and Jin, Boran and Wang, Zhaoan and Pan, Xiaoteng and Zhou, Sixu and Liu, Ying and Zhang, Shenglin and Tan, Fuchao and Liu, Wenmao},
+  booktitle={Proceedings of the 32nd IEEE International Conference on Network Protocols (ICNP)}, 
+  year={2024},
+  pages={},
+  doi={},
+  abstract={With the large-scale deployment and application of IPv6, IPv6 network measurements will become increasingly important. However, a special type of IPv6 prefix called Fully Responsive Prefix (FRP) is having a significant impact on IPv6 measurement campaigns, which is defined as all addresses under a prefix responding to scans. Obviously, there cannot be a real responder behind each of these addresses. To reveal the current status and impact of Internet-wide IPv6 FRPs, we propose for the first time an active probing method for Internet-wide IPv6 FRPs, Luori, which transforms the active probing process under IPv6 huge prefix space (potential range of prefix presence) into a dynamic search process in a tree based on reinforcement learning, achieving efficient probing of arbitrary routing prefixes. The evaluation results show that Luori found 31.7K largest FRPs in a single Internet-wide probing with 11M budget, covering 1.5×1030 address space, which is 106× that of existing methods. More importantly, after six months of Internet-wide probing, we have found 516K largest FRPs, which covers 1.3 × 1033 address space and 795 ASes, making it the largest publicly known FRP list. Based on this list, we screen out 20% of the addresses covered by FRPs from a well-known IPv6 active address dataset. Furthermore, we further analyze and find that the distribution of these FRPs is extensive and their implementation methods are diverse, which can provide beneficial references for the practical application of FRPs. We also make this list publicly available and maintain it long-term for use and study by relevant researchers.},
+  address={Charleroi, Belgium},
+  date={October 28-31},
+
+  abbr={ICNP},
   corr={true},
-  cocorr_first={Jiahai},
-  cocorr_last={Yang},
-  abbr={IWQoS},
   bibtex_show={true},
-  html={https://ieeexplore.ieee.org/document/10188710},
 }
 
-@inproceedings{song2023pmap,
-  title={Which Doors Are Open: Reinforcement Learning-based Internet-wide Port Scanning},
-  author={Song, Guanglei and He, Lin and Zhao, Tianyun and Luo, Yirui and Wu, Yichao and Fan, Linna and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
-  booktitle={Proceedings of the 31st IEEE/ACM International Symposium on Quality of Service (IWQoS)},
-  year={2023},
-  pages={1-10},
-  doi={10.1109/IWQoS57198.2023.10188692},
-  address={Orlando, FL, USA},
-  date={June 19–21},
-  abstract={Internet-wide scanning is a commonly used research technique in various network surveys, such as measuring service deployment and security vulnerabilities. However, these network surveys are limited to the given port set, not comprehensively obtaining the real network landscape, and even misleading survey conclusions. In this work, we introduce PMap, a port scanning tool that efficiently discovers the majority of open ports from all 65K ports in the whole network. PMap uses the correlation of ports to build an open port correlation graph of each network, using a reinforcement learning framework to update the correlation graph based on feedback results and dynamically adjust the order of port scanning. Compared to current port scanning methods, PMap achieves better performance on hit rate, coverage, and intrusiveness. Our experiments over real-world networks show that PMap can find 90% open ports by only scanning 125 ports (90%@125) to each active address with 136× less than the state-of-the-art port probing methods. PMap reduces the number of scanned ports to decrease the intrusive nature of port scanning. PMap is the first effective practice for scanning open ports using reinforcement learning. It bridges the gap of existing scanning tools and effectively supports subsequent service discovery and security research.},
-  
+
+@inproceedings{zhang20246vision,
+  title={6Vision: Image-encoding-based IPv6 Target Generation in Few-seed Scenarios},
+  author={Zhang, Wenjian and Song, Guanglei and He, Lin and Lin, Jinlei and Wu, Songyun and Wang, Zhiliang and Li, Chenglong and Yang, Jiahai},
+  booktitle={Proceedings of the 32nd IEEE International Conference on Network Protocols (ICNP)}, 
+  year={2024},
+  pages={},
+  doi={},
+  abstract={Efficient global Internet scanning is crucial for network measurement and security analysis. While existing target generation algorithms verify remarkable performance in largescale detection, their efficiency notably diminishes in few-seed scenarios. This decline is primarily attributed to the intricate configuration rules and sampling bias of seed addresses. Moreover, instances where BGP prefixes have few seed addresses are widespread, constituting 63.65% of occurrences. We introduce 6Vision to tackle this challenge by introducing a novel approach of encoding IPv6 addresses into images, facilitating comprehensive analysis of intricate configuration rules. Through feature stitching, 6Vision not only improves the learnable features but also amalgamates addresses associated with configuration patterns for enhanced learning. Moreover, it integrates an environmental feedback mechanism to refine model parameters based on identified active addresses, thereby alleviating the sampling bias inherent in seed addresses. As a result, 6Vision achieves high-accuracy detection even in few-seed scenarios. The HitRate of 6Vision is improved by 181%∼2,490% compared to existing algorithms, while the CoverNum is 1.18∼11.20 times that of them. Additionally, 6Vision can function as a preliminary detection module for existing algorithms, yielding a conversion gain (CG) ranging from 242%∼2,081%. Ultimately, we achieve a conversion rate (CR) of 28.97% for few-seed scenarios. We enrich the IPv6 hitlist, not only enhancing current target generation algorithms for large-scale address detection in few-seed scenarios but also effectively supporting IPv6 network measurement and security analysis.},
+  address={Charleroi, Belgium},
+  date={October 28-31},
+
+  abbr={ICNP},
+  bibtex_show={true},
+}
+
+@inproceedings{guo2024overlooked,
+  title={Overlooked Backdoors: Investigating 6to4 Tunnel Nodes and Their Exploitation in the Wild},
+  author={Guo, Jiaxing and He, Lin and Liu, Ying},
+  booktitle={Proceedings of the 43rd IEEE International Performance Computing and Communications Conference (IPCCC)}, 
+  year={2024},
+  pages={},
+  doi={},
+  abstract={As native IPv6 adoption increases, the use of 6to4 tunnels has declined, yet they remain a significant security concern in today's Internet. This study investigates the real-world deployment of 6to4 tunnels, revealing their current scale, characteristics, and security implications. We identify open 6to4 relays in 216 countries and 13,114 autonomous systems, noting stable short-term counts but a long-term decline. We analyze the security of these nodes and find over 578k nodes vulnerable to address spoofing and packet injection. Additionally, we present several under-emphasized scenarios where open 6to4 nodes are abused, including leveraging services on 6to4 nodes as traffic amplifiers, circumventing restrictions using multiple 6to4 addresses, and connecting 6to4 nodes to render attacks untraceable.},
+  address={Orlando, Florida, USA},
+  date={November 22–24},
+
+  abbr={IPCCC},
   corr={true},
-  cocorr_first={Jiahai},
-  cocorr_last={Yang},
   bibtex_show={true},
-  abbr={IWQoS},
-  html={https://ieeexplore.ieee.org/document/10188692},
-}
-
-
-@inproceedings{e2023wisecam,
-  title={WiseCam: Wisely Tuning Wireless Pan-Tilt Cameras for Cost-Effective Moving Object Tracking},
-  author={E, Jinlong and He, Lin and Li, Zhenhua and Liu, Yunhao},
-  booktitle={Proceedings of the 42nd IEEE Conference on Computer Communications (INFOCOM)}, 
-  year={2023},
-  pages={1-10},
-  doi={10.1109/INFOCOM53939.2023.10228926},
-  address={New York area, USA},
-  date={May 17–20},
-  abstract={With desired functionality of moving object tracking, wireless pan-tilt cameras are able to play critical roles in a growing diversity of surveillance environments. However, today’s pan-tilt cameras oftentimes underperform when tracking frequently moving objects like humans – they are prone to lose sight of objects and bring about excessive mechanical rotations that are especially detrimental to those energy-constrained outdoor scenarios. The ineffectiveness and high cost of state-of-the-art tracking approaches are rooted in their adherence to the industry’s simplicity principle, which leads to their stateless nature, performing gimbal rotations based only on the latest object detection. To address the issues, we design and implement WiseCam that wisely tunes the pan-tilt cameras to minimize mechanical rotation costs while maintaining long-term object tracking. We examine the performance of WiseCam by experiments on two types of pan-tilt cameras with different motors. Results show that WiseCam significantly outperforms the state-of-the-art tracking approaches on both tracking duration and power consumption.},
-
-  abbr={INFOCOM},
-  bibtex_show={true},
-  selected={true},
-  html={https://ieeexplore.ieee.org/document/10228926},
-  slides={slides-wisecam-infocom2023.pdf},
-}
-
-@inproceedings{nie2022towards,
-  title={Towards a Behavioral and Privacy Analysis of ECS for IPv6 DNS Resolvers},
-  author={Nie, Leyao and He, Lin and Song, Guanglei and Gao, Hao and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
-  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
-  year={2022},
-  pages={303-309},
-  doi={10.23919/CNSM55787.2022.9965032},
-  address={Thessaloniki, Greece},
-  date={October 31 - November 4},
-  abstract={The Domain Name System (DNS) is critical to Internet communications. EDNS Client Subnet (ECS), a DNS extension, allows recursive resolvers to include client subnet information in DNS queries to improve end-user mapping, extending the visibility of client information to a broader range. Major content delivery network (CDN) vendors, content providers (CP), and public DNS service providers (PDNS) are accelerating their IPv6 infrastructure development. With the increasing deployment of IPv6-enabled services and DNS being the most foundational system of the Internet, it becomes important to analyze the behavioral and privacy status of IPv6 resolvers. However, there is a lack of research on ECS for IPv6 DNS resolvers. In this paper, we study the ECS deployment and compliance status of IPv6 resolvers. Our measurement shows that 11.12% IPv6 open resolvers implement ECS. We discuss abnormal non-compliant scenarios that exist in both IPv6 and IPv4 that raise privacy and performance issues. Additionally, we measured if the sacrifice of clients' privacy can enhance IPv6 CDN performance. We find that in some cases ECS helps end-user mapping but with an unnecessary privacy loss. And even worse, the exposure of client address information can sometimes backfire, which deserves attention from both Internet users and PDNSes.},
-  
-  bibtex_show={true},
-  abbr={CNSM},
-  html={https://ieeexplore.ieee.org/document/9965032},
-}
-
-@inproceedings{liu2022perftrace,
-  title={PerfTrace: A New Multi-metric Network Performance Monitoring Tool},
-  author={Liu, Yaozhong and Pan, Long and Li, Chenglong and He, Lin and Luo, Yirui and Song, Guanglei and Yang, Jiahai and Wang, Zhiliang},
-  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
-  year={2022},
-  pages={240-246},
-  doi={10.23919/CNSM55787.2022.9964543},
-  address={Thessaloniki, Greece},
-  date={October 31 - November 4},
-  abstract={We present PerfTrace, an end-to-end tool for efficient, real-time, multi-metric network performance monitoring. PerfTrace provides a high integration of different existing measurement functions, supporting the measurement of essential metrics such as latency, jitter, packet loss, and available bandwidth. More importantly, innovative schemes and algorithms are proposed to address the weaknesses of existing tools.
-
-We evaluate PerfTrace on the Internet and our testbed, respectively. We find that (i) PerfTrace measures one-way and two-way latency, jitter, and packet loss ∼9.4× faster and ∼3.6× more data-efficiently; (ii) PerfTrace measures available bandwidth in our testbed with minimal mean relative error (5.22%), outperforming all the tools compared (ranging from 8.17% to 37.24%); (iii) PerfTrace measures available bandwidth with better accuracy and adaptability in different real-world network environments. Meanwhile, PerfTrace consumes a more constant percentage of bandwidth resources than other tools when monitoring available bandwidth. PerfTrace's data overhead is always only about 1/600 of the total bandwidth for a measurement frequency once per minute.},
-  
-  bibtex_show={true},
-  abbr={CNSM},
-  html={https://ieeexplore.ieee.org/document/9964543},
 }
 
 @inproceedings{pan2023your,
@@ -199,38 +108,60 @@ We evaluate PerfTrace on the Internet and our testbed, respectively. We find tha
   bestpaper={🏆 Distinguished Paper Award},
 }
 
-@inproceedings{liu2022what,
-  title={What Causes Delay Asymmetry: A Large-scale One-way Delay Measurement and Empirical Study},
-  author={Liu, Yaozhong and Yang, Jiahai and Wang, Zhiliang and Pan, Long and He, Lin and Lin, Jinlei and Song, Guanglei and Li, Chenglong},
-  booktitle={Proceedings of the 2022 IEEE Global Communications Conference (GLOBECOM)},
-  year={2022},
-  pages={6127-6132},
-  doi={10.1109/GLOBECOM48099.2022.10000938},
-  address={Rio de Janeiro, Brazil},
-  date={December 4–8},
-  abstract={In global communications, severe one-way delay (OWD) asymmetry often occurs. Due to the difficulties of OWD measurement (need to control both ends and synchronize their clocks), now RTT/2 is commonly used to estimate OWD. However, OWD asymmetry can lead to large errors in the halving RTT method, which in turn affects the end-to-end quality of service (QoS) guarantees. In this paper, we investigate OWD asymmetry through large-scale OWD measurements on a global scale. The measurements show that more than 11% of network paths have OWDs with a relative difference of more than 10% compared to RTT/2. By analyzing the measurement results in depth, we try to explain why the delay asymmetry occurs. We find that 67% is caused by hop inflation or a significant increase in propagation distance, and 33% is caused by variable queuing delays. We also find AS-level paths between node pairs with significant delay asymmetry are much more likely (∼ 10×) to violate the well-known valley-free rule.},
-  
+@inproceedings{e2023wisecam,
+  title={WiseCam: Wisely Tuning Wireless Pan-Tilt Cameras for Cost-Effective Moving Object Tracking},
+  author={E, Jinlong and He, Lin and Li, Zhenhua and Liu, Yunhao},
+  booktitle={Proceedings of the 42nd IEEE Conference on Computer Communications (INFOCOM)}, 
+  year={2023},
+  pages={1-10},
+  doi={10.1109/INFOCOM53939.2023.10228926},
+  address={New York area, USA},
+  date={May 17–20},
+  abstract={With desired functionality of moving object tracking, wireless pan-tilt cameras are able to play critical roles in a growing diversity of surveillance environments. However, today’s pan-tilt cameras oftentimes underperform when tracking frequently moving objects like humans – they are prone to lose sight of objects and bring about excessive mechanical rotations that are especially detrimental to those energy-constrained outdoor scenarios. The ineffectiveness and high cost of state-of-the-art tracking approaches are rooted in their adherence to the industry’s simplicity principle, which leads to their stateless nature, performing gimbal rotations based only on the latest object detection. To address the issues, we design and implement WiseCam that wisely tunes the pan-tilt cameras to minimize mechanical rotation costs while maintaining long-term object tracking. We examine the performance of WiseCam by experiments on two types of pan-tilt cameras with different motors. Results show that WiseCam significantly outperforms the state-of-the-art tracking approaches on both tracking duration and power consumption.},
+
+  abbr={INFOCOM},
   bibtex_show={true},
-  abbr={GLOBECOM},
-  corr={true},
-  html={https://ieeexplore.ieee.org/abstract/document/10000938},
+  selected={true},
+  html={https://ieeexplore.ieee.org/document/10228926},
+  slides={slides-wisecam-infocom2023.pdf},
 }
 
-@inproceedings{liu2022both,
-  title={Both Efficient and Accurate: A Large-scale One-way Delay Measurement Scheme},
-  author={Liu, Yaozhong and Wang, Zhiliang and Yang, Jiahai and Pan, Long and He, Lin and Lin, Jinlei and Song, Guanglei and Li, Chenglong},
-  booktitle={Proceedings of the 2022 IEEE Global Communications Conference (GLOBECOM)},
-  year={2022},
-  pages={395-400},
-  doi={10.1109/GLOBECOM48099.2022.10001552},
-  address={Rio de Janeiro, Brazil},
-  date={December 4–8},
-  abstract={One-way delay (OWD) is one of the essential network performance metrics. In large-scale resilient overlay networks (RONs), OWD measurements can be used for shortest path selection and troubleshooting. However, OWD measurements remain difficult because of the need for precise time synchronization. Especially in large-scale networks, clock synchronization of all nodes has always been a considerable challenge. Therefore, in many cases, people use half of the round-trip time (RTT/2) as a rough substitute for the OWD. This paper presents an efficient and easy-to-deploy scheme for large-scale OWD measurements with the algorithm ClockConverger at its core. The scheme consists of three steps: Firstly, we perform low-precision time synchronization for all the measured nodes relying on network time protocol daemons (ntpd); Then, we use the open-source tool OWPing to perform OWD measurements; Finally, we correct the errors of the measured OWDs with our proposed ClockConverger. The theory and experiments show that our scheme's accuracy is significantly better than RTT/2. Meanwhile, the complexity of ClockConverger is O(n^2), which is much lower than the exponential complexity of the existing Maximum-Entropy algorithm.},
+@inproceedings{song2023pmap,
+  title={Which Doors Are Open: Reinforcement Learning-based Internet-wide Port Scanning},
+  author={Song, Guanglei and He, Lin and Zhao, Tianyun and Luo, Yirui and Wu, Yichao and Fan, Linna and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
+  booktitle={Proceedings of the 31st IEEE/ACM International Symposium on Quality of Service (IWQoS)},
+  year={2023},
+  pages={1-10},
+  doi={10.1109/IWQoS57198.2023.10188692},
+  address={Orlando, FL, USA},
+  date={June 19–21},
+  abstract={Internet-wide scanning is a commonly used research technique in various network surveys, such as measuring service deployment and security vulnerabilities. However, these network surveys are limited to the given port set, not comprehensively obtaining the real network landscape, and even misleading survey conclusions. In this work, we introduce PMap, a port scanning tool that efficiently discovers the majority of open ports from all 65K ports in the whole network. PMap uses the correlation of ports to build an open port correlation graph of each network, using a reinforcement learning framework to update the correlation graph based on feedback results and dynamically adjust the order of port scanning. Compared to current port scanning methods, PMap achieves better performance on hit rate, coverage, and intrusiveness. Our experiments over real-world networks show that PMap can find 90% open ports by only scanning 125 ports (90%@125) to each active address with 136× less than the state-of-the-art port probing methods. PMap reduces the number of scanned ports to decrease the intrusive nature of port scanning. PMap is the first effective practice for scanning open ports using reinforcement learning. It bridges the gap of existing scanning tools and effectively supports subsequent service discovery and security research.},
   
-  bibtex_show={true},
-  abbr={GLOBECOM},
   corr={true},
-  html={https://ieeexplore.ieee.org/abstract/document/10001552},
+  cocorr_first={Jiahai},
+  cocorr_last={Yang},
+  bibtex_show={true},
+  abbr={IWQoS},
+  html={https://ieeexplore.ieee.org/document/10188692},
+}
+
+@inproceedings{fan2023graphiot,
+  title={GraphIoT: Accurate IoT Identification based on Heterogeneous Graph},
+  author={Fan, Linna and He, Lin and Sun, Xiaoqing and Dong, Enhuan and Yang, Jiahai and Wang, Zhiliang and Lin, Jinlei and Song, Guanglei},
+  booktitle={Proceedings of the 31st IEEE/ACM International Symposium on Quality of Service (IWQoS)}, 
+  year={2023},
+  pages={01-04},
+  doi={10.1109/IWQoS57198.2023.10188710},
+  address={Orlando, FL, USA},
+  date={June 19–21},
+  abstract={IoT devices deployed on campus and enterprise networks facilitate people's lives and work. However, these devices also bring serious network asset management and security management problems. IoT device identification is the premise to solve these problems. Although current IoT identification methods can identify devices with relatively high accuracy in ideal environments, it is difficult to accurately identify devices in real-world complex environments (e.g., campus networks, enterprise networks). Therefore, we propose to use exact features. To solve the problem of different dimensions of exact features, we creatively model the IoT identification problem as a heterogeneous graph representation learning problem and design a new representation learning algorithm. We are the first to propose an approach to accurately identify IoT devices in real-world complex environments and solve this problem through heterogeneous graphs. The evaluation shows that GraphIoT's macro F1 is on average 13.58\% and 12.77\% higher than the other methods on two public datasets.},
+  
+  corr={true},
+  cocorr_first={Jiahai},
+  cocorr_last={Yang},
+  abbr={IWQoS},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/document/10188710},
 }
 
 @inproceedings{song2022addeminer,
@@ -285,37 +216,73 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   video={https://www.youtube.com/watch?v=lVu5-bVWLkQ&list=PLbRoZ5Rrl5lfOysG3a54BHWrqlW2vjh67&index=53&ab_channel=USENIX},
 }
 
-@inproceedings{liu2021tap,
-  title={TAP: A Traffic-Aware Probabilistic Packet Marking for Collaborative DDoS Mitigation},
-  author={Liu, Mingxing and Liu, Ying and Xu, Ke and He, Lin and Wang, Xiaoliang and Guo, Yangfei and Jiang, Weiyu},
-  booktitle={Proceedings of the 17th International Conference on Mobility, Sensing and Networking (MSN)},
-  year={2021},
-  pages={470-478},
-  doi={10.1109/MSN53354.2021.00076},
-  address={Exeter, UK},
-  date={December 13-15},
-  abstract={In recent years, Distributed Denial-of-Service (DDoS) attacks have become more rampant and continue to be one of the most serious security threats facing network infrastructure. In a classic DDoS attack, the attacker controls numerous bots from many sources to send a significant volume of traffic to flood the victim end or the bottleneck link. In practical networks, it is inefficient and costly to request all partner routers to collaboratively mitigate DDoS attacks. The common feature of DDoS attacks is the abnormal distribution of traffic to the victim. In this paper, we propose TAP, a collaborative DDoS mitigation framework, based on traffic-aware probabilistic packet marking (PPM). TAP enables the victim to select a few hit routers as collaborators to mitigate attack traffic efficiently depending on the traffic distribution. Our evaluation results show that TAP greatly reduces attack traffic within seconds and mitigate the damage caused by DDoS with less overhead, which demonstrates that TAP is an effective, efficient, and rapid-response scheme for collaborative DDoS mitigation.},
+
+@inproceedings{liu2022what,
+  title={What Causes Delay Asymmetry: A Large-scale One-way Delay Measurement and Empirical Study},
+  author={Liu, Yaozhong and Yang, Jiahai and Wang, Zhiliang and Pan, Long and He, Lin and Lin, Jinlei and Song, Guanglei and Li, Chenglong},
+  booktitle={Proceedings of the 2022 IEEE Global Communications Conference (GLOBECOM)},
+  year={2022},
+  pages={6127-6132},
+  doi={10.1109/GLOBECOM48099.2022.10000938},
+  address={Rio de Janeiro, Brazil},
+  date={December 4–8},
+  abstract={In global communications, severe one-way delay (OWD) asymmetry often occurs. Due to the difficulties of OWD measurement (need to control both ends and synchronize their clocks), now RTT/2 is commonly used to estimate OWD. However, OWD asymmetry can lead to large errors in the halving RTT method, which in turn affects the end-to-end quality of service (QoS) guarantees. In this paper, we investigate OWD asymmetry through large-scale OWD measurements on a global scale. The measurements show that more than 11% of network paths have OWDs with a relative difference of more than 10% compared to RTT/2. By analyzing the measurement results in depth, we try to explain why the delay asymmetry occurs. We find that 67% is caused by hop inflation or a significant increase in propagation distance, and 33% is caused by variable queuing delays. We also find AS-level paths between node pairs with significant delay asymmetry are much more likely (∼ 10×) to violate the well-known valley-free rule.},
   
   bibtex_show={true},
-  abbr={MSN},
-  html={https://ieeexplore.ieee.org/abstract/document/9751494},
+  abbr={GLOBECOM},
+  corr={true},
+  html={https://ieeexplore.ieee.org/abstract/document/10000938},
 }
 
-@inproceedings{zhang2021cloudpin,
-  title={CloudPin: A Root Cause Localization Framework of Shared Bandwidth Package Traffic Anomalies in Public Cloud Networks}, 
-  author={Zhang, Shize and Zhao, Yunfeng and Lu, Jianyuan and Lyu, Biao and Zhu, Shunmin and Wang, Zhiliang and Yang, Jiahai and He, Lin and Wu, Jianping},
-  booktitle={Proceedings of the 32nd IEEE International Symposium on Software Reliability Engineering (ISSRE)}, 
-  year={2021},
-  pages={367-377},
-  doi={10.1109/ISSRE52982.2021.00046},
-  address={Wuhan, China},
-  date={October 25-28},
-  abstract={Due to the sharing nature of public cloud, most of the cloud services use a sharing bandwidth package (sBwp) model to conduct inbound/outbound communication. The sBwp model allows users to purchase a sharing bandwidth for plenty of virtual machines instead of purchasing bandwidth for each virtual machine separately. The advantage of sBwp is that it can provide users with convenient configuration and lower economic cost. However, the sBwp model brings new challenges for operators to localize the root cause of traffic anomalies of a sharing bandwidth, especially for a globally distributed large-scale public cloud with millions of users. In this paper, we first formalize the sBwp problem on the cloud and propose CloudPin, a root cause localization framework for this problem. Our framework solves all the challenges by employing a multi-dimensional algorithm with three sub-models of prediction deviation, anomaly amplitude, and shape similarity, and an overall ranking algorithm. Evaluations on real-world data, from one of the world-renowned public cloud vendors, show that our algorithm precision reaches 97.8\% for the top 1 of the ranking list, outperforming multiple baseline algorithms.},
-
+@inproceedings{liu2022both,
+  title={Both Efficient and Accurate: A Large-scale One-way Delay Measurement Scheme},
+  author={Liu, Yaozhong and Wang, Zhiliang and Yang, Jiahai and Pan, Long and He, Lin and Lin, Jinlei and Song, Guanglei and Li, Chenglong},
+  booktitle={Proceedings of the 2022 IEEE Global Communications Conference (GLOBECOM)},
+  year={2022},
+  pages={395-400},
+  doi={10.1109/GLOBECOM48099.2022.10001552},
+  address={Rio de Janeiro, Brazil},
+  date={December 4–8},
+  abstract={One-way delay (OWD) is one of the essential network performance metrics. In large-scale resilient overlay networks (RONs), OWD measurements can be used for shortest path selection and troubleshooting. However, OWD measurements remain difficult because of the need for precise time synchronization. Especially in large-scale networks, clock synchronization of all nodes has always been a considerable challenge. Therefore, in many cases, people use half of the round-trip time (RTT/2) as a rough substitute for the OWD. This paper presents an efficient and easy-to-deploy scheme for large-scale OWD measurements with the algorithm ClockConverger at its core. The scheme consists of three steps: Firstly, we perform low-precision time synchronization for all the measured nodes relying on network time protocol daemons (ntpd); Then, we use the open-source tool OWPing to perform OWD measurements; Finally, we correct the errors of the measured OWDs with our proposed ClockConverger. The theory and experiments show that our scheme's accuracy is significantly better than RTT/2. Meanwhile, the complexity of ClockConverger is O(n^2), which is much lower than the exponential complexity of the existing Maximum-Entropy algorithm.},
+  
   bibtex_show={true},
-  abbr={ISSRE},
-  html={https://ieeexplore.ieee.org/document/9700196},
-  slides={slides-cloudpin-issre2021.pdf},
+  abbr={GLOBECOM},
+  corr={true},
+  html={https://ieeexplore.ieee.org/abstract/document/10001552},
+}
+
+@inproceedings{nie2022towards,
+  title={Towards a Behavioral and Privacy Analysis of ECS for IPv6 DNS Resolvers},
+  author={Nie, Leyao and He, Lin and Song, Guanglei and Gao, Hao and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
+  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
+  year={2022},
+  pages={303-309},
+  doi={10.23919/CNSM55787.2022.9965032},
+  address={Thessaloniki, Greece},
+  date={October 31 - November 4},
+  abstract={The Domain Name System (DNS) is critical to Internet communications. EDNS Client Subnet (ECS), a DNS extension, allows recursive resolvers to include client subnet information in DNS queries to improve end-user mapping, extending the visibility of client information to a broader range. Major content delivery network (CDN) vendors, content providers (CP), and public DNS service providers (PDNS) are accelerating their IPv6 infrastructure development. With the increasing deployment of IPv6-enabled services and DNS being the most foundational system of the Internet, it becomes important to analyze the behavioral and privacy status of IPv6 resolvers. However, there is a lack of research on ECS for IPv6 DNS resolvers. In this paper, we study the ECS deployment and compliance status of IPv6 resolvers. Our measurement shows that 11.12% IPv6 open resolvers implement ECS. We discuss abnormal non-compliant scenarios that exist in both IPv6 and IPv4 that raise privacy and performance issues. Additionally, we measured if the sacrifice of clients' privacy can enhance IPv6 CDN performance. We find that in some cases ECS helps end-user mapping but with an unnecessary privacy loss. And even worse, the exposure of client address information can sometimes backfire, which deserves attention from both Internet users and PDNSes.},
+  
+  bibtex_show={true},
+  abbr={CNSM},
+  html={https://ieeexplore.ieee.org/document/9965032},
+}
+
+@inproceedings{liu2022perftrace,
+  title={PerfTrace: A New Multi-metric Network Performance Monitoring Tool},
+  author={Liu, Yaozhong and Pan, Long and Li, Chenglong and He, Lin and Luo, Yirui and Song, Guanglei and Yang, Jiahai and Wang, Zhiliang},
+  booktitle={Proceedings of 18th IEEE Conference on Network and Service Management (CNSM)},
+  year={2022},
+  pages={240-246},
+  doi={10.23919/CNSM55787.2022.9964543},
+  address={Thessaloniki, Greece},
+  date={October 31 - November 4},
+  abstract={We present PerfTrace, an end-to-end tool for efficient, real-time, multi-metric network performance monitoring. PerfTrace provides a high integration of different existing measurement functions, supporting the measurement of essential metrics such as latency, jitter, packet loss, and available bandwidth. More importantly, innovative schemes and algorithms are proposed to address the weaknesses of existing tools.
+
+We evaluate PerfTrace on the Internet and our testbed, respectively. We find that (i) PerfTrace measures one-way and two-way latency, jitter, and packet loss ∼9.4× faster and ∼3.6× more data-efficiently; (ii) PerfTrace measures available bandwidth in our testbed with minimal mean relative error (5.22%), outperforming all the tools compared (ranging from 8.17% to 37.24%); (iii) PerfTrace measures available bandwidth with better accuracy and adaptability in different real-world network environments. Meanwhile, PerfTrace consumes a more constant percentage of bandwidth resources than other tools when monitoring available bandwidth. PerfTrace's data overhead is always only about 1/600 of the total bandwidth for a measurement frequency once per minute.},
+  
+  bibtex_show={true},
+  abbr={CNSM},
+  html={https://ieeexplore.ieee.org/document/9964543},
 }
 
 @inproceedings{he2021towards,
@@ -355,6 +322,24 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   slides={slides-pSAV-iwqos2021.pdf},
 }
 
+@inproceedings{zhang2021cloudpin,
+  title={CloudPin: A Root Cause Localization Framework of Shared Bandwidth Package Traffic Anomalies in Public Cloud Networks}, 
+  author={Zhang, Shize and Zhao, Yunfeng and Lu, Jianyuan and Lyu, Biao and Zhu, Shunmin and Wang, Zhiliang and Yang, Jiahai and He, Lin and Wu, Jianping},
+  booktitle={Proceedings of the 32nd IEEE International Symposium on Software Reliability Engineering (ISSRE)}, 
+  year={2021},
+  pages={367-377},
+  doi={10.1109/ISSRE52982.2021.00046},
+  address={Wuhan, China},
+  date={October 25-28},
+  abstract={Due to the sharing nature of public cloud, most of the cloud services use a sharing bandwidth package (sBwp) model to conduct inbound/outbound communication. The sBwp model allows users to purchase a sharing bandwidth for plenty of virtual machines instead of purchasing bandwidth for each virtual machine separately. The advantage of sBwp is that it can provide users with convenient configuration and lower economic cost. However, the sBwp model brings new challenges for operators to localize the root cause of traffic anomalies of a sharing bandwidth, especially for a globally distributed large-scale public cloud with millions of users. In this paper, we first formalize the sBwp problem on the cloud and propose CloudPin, a root cause localization framework for this problem. Our framework solves all the challenges by employing a multi-dimensional algorithm with three sub-models of prediction deviation, anomaly amplitude, and shape similarity, and an overall ranking algorithm. Evaluations on real-world data, from one of the world-renowned public cloud vendors, show that our algorithm precision reaches 97.8\% for the top 1 of the ranking list, outperforming multiple baseline algorithms.},
+
+  bibtex_show={true},
+  abbr={ISSRE},
+  html={https://ieeexplore.ieee.org/document/9700196},
+  slides={slides-cloudpin-issre2021.pdf},
+}
+
+
 @inproceedings{liu2021deception,
   title={Deception Maze: A Stackelberg Game-Theoretic Defense Mechanism for Intranet Threats},
   author={Liu, Jieling and Wang, Zhiliang and Yang, Jiahai and Wang, Bo and He, Lin and Song, Guanglei and Liu, Xinran},
@@ -369,6 +354,22 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   bibtex_show={true},
   abbr={ICC},
   html={https://ieeexplore.ieee.org/document/9500765}
+}
+
+@inproceedings{liu2021tap,
+  title={TAP: A Traffic-Aware Probabilistic Packet Marking for Collaborative DDoS Mitigation},
+  author={Liu, Mingxing and Liu, Ying and Xu, Ke and He, Lin and Wang, Xiaoliang and Guo, Yangfei and Jiang, Weiyu},
+  booktitle={Proceedings of the 17th International Conference on Mobility, Sensing and Networking (MSN)},
+  year={2021},
+  pages={470-478},
+  doi={10.1109/MSN53354.2021.00076},
+  address={Exeter, UK},
+  date={December 13-15},
+  abstract={In recent years, Distributed Denial-of-Service (DDoS) attacks have become more rampant and continue to be one of the most serious security threats facing network infrastructure. In a classic DDoS attack, the attacker controls numerous bots from many sources to send a significant volume of traffic to flood the victim end or the bottleneck link. In practical networks, it is inefficient and costly to request all partner routers to collaboratively mitigate DDoS attacks. The common feature of DDoS attacks is the abnormal distribution of traffic to the victim. In this paper, we propose TAP, a collaborative DDoS mitigation framework, based on traffic-aware probabilistic packet marking (PPM). TAP enables the victim to select a few hit routers as collaborators to mitigate attack traffic efficiently depending on the traffic distribution. Our evaluation results show that TAP greatly reduces attack traffic within seconds and mitigate the damage caused by DDoS with less overhead, which demonstrates that TAP is an effective, efficient, and rapid-response scheme for collaborative DDoS mitigation.},
+  
+  bibtex_show={true},
+  abbr={MSN},
+  html={https://ieeexplore.ieee.org/abstract/document/9751494},
 }
 
 @inproceedings{song2020towards,
@@ -424,25 +425,6 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   slides={slides-pavi-infocom19.pdf},
 }
 
-@inproceedings{li2019multi,
-  title={Multi-modal Representation Learning for Successive POI Recommendation},
-  author={Li, Lishan and Liu, Ying and Wu, Jianping and He, Lin and Ren, Gang},
-  booktitle={Proceedings of the 11th Asian Conference on Machine Learning (ACML)},
-  pages={441--456},
-  year={2019},
-  volume={101},
-  publisher={PMLR},
-  pdf={http://proceedings.mlr.press/v101/li19a/li19a.pdf},
-  address={Nagoya, Japan},
-  date={November 17-19},
-  abstract={Successive POI recommendation is a fundamental problem for location-based social networks (LBSNs). POI recommendation takes a variety of POI context information (e.g. spatial location and textual comment) and user preference into consideration. Existing POI recommendation systems mainly focus on part of the POI context and user preference with a specific modeling, which loses valuable information from other aspects. In this paper, we propose to construct a multi-modal check-in graph, a heterogeneous graph that combines five check-in aspects in a unified way. We further propose a multi-modal representation learning model based on the graph to jointly learn POI and user representations. Finally, we employ an attentional recurrent neural network based on the representations for successive POI recommendation. Experiments on a public dataset studies the effects of modeling different aspects of check-in records and demonstrates the effectiveness of the method in improving POI recommendation performance.},
-
-  bibtex_show={true},
-  abbr={ACML},
-  pdf={http://proceedings.mlr.press/v101/li19a/li19a.pdf}
-}
-
-
 @inproceedings{yan2019relation,
   title={Relation Extraction with Temporal Reasoning Based on Memory Augmented Distant Supervision},
   author={Yan, Jianhao  and He, Lin  and Huang, Ruqin  and Li, Jian  and Liu, Ying},
@@ -462,6 +444,24 @@ This paper presents Firebolt, a blackbox testing tool designed to dig out faults
   pdf={https://aclanthology.org/N19-1107.pdf},
   video={https://vimeo.com/360608466},
   slides={slides-tempmem-naacl19.pdf},
+}
+
+@inproceedings{li2019multi,
+  title={Multi-modal Representation Learning for Successive POI Recommendation},
+  author={Li, Lishan and Liu, Ying and Wu, Jianping and He, Lin and Ren, Gang},
+  booktitle={Proceedings of the 11th Asian Conference on Machine Learning (ACML)},
+  pages={441--456},
+  year={2019},
+  volume={101},
+  publisher={PMLR},
+  pdf={http://proceedings.mlr.press/v101/li19a/li19a.pdf},
+  address={Nagoya, Japan},
+  date={November 17-19},
+  abstract={Successive POI recommendation is a fundamental problem for location-based social networks (LBSNs). POI recommendation takes a variety of POI context information (e.g. spatial location and textual comment) and user preference into consideration. Existing POI recommendation systems mainly focus on part of the POI context and user preference with a specific modeling, which loses valuable information from other aspects. In this paper, we propose to construct a multi-modal check-in graph, a heterogeneous graph that combines five check-in aspects in a unified way. We further propose a multi-modal representation learning model based on the graph to jointly learn POI and user representations. Finally, we employ an attentional recurrent neural network based on the representations for successive POI recommendation. Experiments on a public dataset studies the effects of modeling different aspects of check-in records and demonstrates the effectiveness of the method in improving POI recommendation performance.},
+
+  bibtex_show={true},
+  abbr={ACML},
+  pdf={http://proceedings.mlr.press/v101/li19a/li19a.pdf}
 }
 
 @inproceedings{jia2017revisiting,

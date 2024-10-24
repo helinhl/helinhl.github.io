@@ -1,3 +1,4 @@
+
 @article{e2024wisecam,
   title={WiseCam: A Systematic Approach to Intelligent Pan-Tilt Cameras for Moving Object Tracking},
   author={E, Jinlong and Han, Fangshuo and He, Lin and Xu, Wei and Li, Zhenhua and Chai, Yunpeng and Liu, Yunhao},
@@ -21,8 +22,8 @@
   author={Song, Guanglei and He, Lin and Zhu, Feiyu and Lin, Jinlei and Fan, Lina and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},
   journal={IEEE/ACM Transactions on Networking},
   year={2024},
-  volume={},
-  pages={},
+  volume={32},
+  pages={3870-3887},
   publisher={IEEE},
   doi={10.1109/TNET.2024.3406508},
   abstract={Fast Internet-wide scanning is essential for network situational awareness and asset evaluation. However, the vast IPv6 address space makes brute-force scanning infeasible. Despite advancements in state-of-the-art methods, they do not work in seedless regions and suffer low detection efficiency and speed in regions with seed addresses. Moreover, the collected active address list (i.e., IPv6 hitlist) with low coverage cannot truly represent the active IPv6 address landscape of the Internet. This paper introduces AddrMiner, a fast, efficient, and comprehensive global active IPv6 address detection system. We design a systematic active IPv6 address detection strategy that divides the IPv6 space into two detection scenarios based on the presence or absence of seed addresses to discover active IPv6 addresses from scratch and from few to many. In the seedless regions, we present AddrMiner-N, leveraging a multi-level association policy to probe active addresses. It fills the gap of address detection in seedless regions and successfully discovers active addresses in 39,899 BGP prefixes without seed addresses, with a 1.03X higher hit rate, 30∼911X higher speed, and 2.7X broader coverage, compared to existing solutions. In the regions with seed addresses, our method AddrMiner-S dynamically generates target addresses using reinforcement learning. Compared to state-of-the-art methods, AddrMiner-S achieves an impressive 56.3% hit rate and a discovery speed of 839.0/s, which is 1.9∼2153X and 1.5∼755X of existing works, respectively. Finally, we deploy AddrMiner and discover 2.1B active IPv6 addresses, including 1.7B de-aliased active addresses and 0.4B aliased addresses, through continuous probing for three years.},
@@ -35,44 +36,6 @@
   cocorr_first={Jiahai},
   cocorr_last={Yang},
   bibtex_show={true},
-}
-
-@article{fan2022evoiot,
-  title={EvoIoT: An Evolutionary IoT and Non-IoT Classification Model in Open Environments},
-  author={Fan, Linna and He, Lin and Dong, Enhuan and Yang, Jiahai and Li, Chenglong and Lin, Jinlei and Wang, Zhiliang},
-  journal={Computer Networks},
-  year={2022},
-  volume={219},
-  pages={109450},
-  publisher={Elsevier},
-  doi={10.1016/j.comnet.2022.109450},
-  abstract={IoT device identification is essential for both device asset management and security management. IoT device identification in open environments is the key to its application in real environments, where IoT and non-IoT device identification is the first and critical step. However, existing methods are either not applicable to open environments or have poor scalability and sustainability for IoT and non-IoT device identification. This paper presents EvoIoT, an IoT and non-IoT identification model designed to apply in open environments with high scalability and the ability to run sustainably and effectively. EvoIoT achieves high scalability by applying a unified model for all devices. To mine discriminative features from encrypted traffic, EvoIoT extracts original features from packet headers and judges feature importance in the entire model update process. For sustainability, EvoIoT proposes a representative device choosing method and model update method to address the concept drift caused by new types of devices. EvoIoT is the first high-performance model that systematically addresses the IoT and non-IoT device classification problem. We evaluate EvoIoT on two public datasets and a private dataset collected from a laboratory setting. The evaluation results show that EvoIoT is on average 6.27%~48.89% more accurate than state-of-the-art methods.},
-
-  abbr={CN},
-  corr={true},
-  html={https://www.sciencedirect.com/science/article/pii/S1389128622004844},
-  cocorr_first={Jiahai},
-  cocorr_last={Yang},
-  bibtex_show={true},
-}
-
-@article{he2023sav6,
-  title={SAV6: A Novel Inter-AS Source Address Validation Protocol for IPv6 Internet},
-  author={He, Lin and Ren, Gang and Liu, Ying and Song, Guanglei and E, Jinlong and Yang, Jiahai and Xu, Mingwei},
-  journal={IEEE Network},
-  year={2023},
-  volume={37},
-  number={5},
-  pages={64-70},
-  publisher={IEEE},
-  doi={10.1109/MNET.123.2200111},
-  abstract={IP spoofing is prevalently used for anonymity and reflection attacks, e.g., distributed denial of service (DDoS) attacks, which have shown increasingly destructive power in recent years because today's Internet lacks validation on source addresses. Moreover, the fast deployment of IPv6 on the Internet may further aggravate the damages of DDoS attacks.
-
-    This paper proposes a novel source address validation mechanism called SAV6, which leverages the huge IPv6 address space to validate source addresses at an inter-autonomous system (AS) granularity. In SAV6, each IPv6 address contains an AS number (ASN), whose corresponding AS announces the prefix of the address to other ASes. An AS can determine the authenticity of the source address by whether the ASN in the address matches the corresponding prefix after receiving an incoming packet. The performance evaluation of a SAV6 prototype shows that it adds little performance overhead to the deployed infrastructures and is a lightweight and deployable protocol.},
-
-  abbr={IEEE Netw.},
-  bibtex_show={true},
-  html={https://ieeexplore.ieee.org/document/9895378},
 }
 
 @article{fan2022autoiot,
@@ -96,21 +59,39 @@
   html={https://ieeexplore.ieee.org/document/9795895},
 }
 
-@article{he2022enabling,
-  title={Enabling Application-aware Traffic Engineering in IPv6 Networks},
-  author={He, Lin and Wang, Shicheng and Xu, Yichi and Kuang, Peng and Cao, Jiamin and Liu, Ying and Li, Xing and Peng, Shuping},
+@article{he2023sav6,
+  title={SAV6: A Novel Inter-AS Source Address Validation Protocol for IPv6 Internet},
+  author={He, Lin and Ren, Gang and Liu, Ying and Song, Guanglei and E, Jinlong and Yang, Jiahai and Xu, Mingwei},
   journal={IEEE Network},
-  year={2022},
-  volume={36},
-  number={2},
-  pages={42-49},
+  year={2023},
+  volume={37},
+  number={5},
+  pages={64-70},
   publisher={IEEE},
-  doi={10.1109/MNET.005.2100440},
-  abstract={The Internet hosts numerous applications with different requirements for network delay, bandwidth, jitter, packet loss, and so on. However, in the TCP/IP network architecture, the network and application layers are decoupled, which means that the network does not have a fine-grained understanding of the application requirements. Therefore, it is not easy to provide truly fine-grained traffic operations for applications and guarantee their corresponding service level agreement requirements. In this article, we propose ATE6, which is an application-aware traffic engineering (TE) framework. For the control plane, we define a request language that can be used by applications to express their requirements, which allows networks to associate IPv6 addresses with the communication requirements of applications. We also devise an efficient path selection algorithm that allows the network operator to deploy an optimal TE path for an application. For the data plane, ATE6 uses segment routing over the IPv6 data plane to enforce and control network paths based on network policies. We implemented a prototype, and evaluation results show that ATE6 is a flexible, privacy-preserving, lightweight, and cost-efficient application-aware TE framework.},
+  doi={10.1109/MNET.123.2200111},
+  abstract={IP spoofing is prevalently used for anonymity and reflection attacks, e.g., distributed denial of service (DDoS) attacks, which have shown increasingly destructive power in recent years because today's Internet lacks validation on source addresses. Moreover, the fast deployment of IPv6 on the Internet may further aggravate the damages of DDoS attacks.
+
+    This paper proposes a novel source address validation mechanism called SAV6, which leverages the huge IPv6 address space to validate source addresses at an inter-autonomous system (AS) granularity. In SAV6, each IPv6 address contains an AS number (ASN), whose corresponding AS announces the prefix of the address to other ASes. An AS can determine the authenticity of the source address by whether the ASN in the address matches the corresponding prefix after receiving an incoming packet. The performance evaluation of a SAV6 prototype shows that it adds little performance overhead to the deployed infrastructures and is a lightweight and deployable protocol.},
 
   abbr={IEEE Netw.},
   bibtex_show={true},
-  html={https://ieeexplore.ieee.org/abstract/document/9785738},
+  html={https://ieeexplore.ieee.org/document/9895378},
+}
+
+@article{e2023efficient,
+  title={Efficient Video Distribution Based on Collaboration of Heterogenous Computing Nodes (基于异构算力节点协同的高效视频分发)},
+  author={E, Jinlong and He, Lin},
+  journal={Journal of Computer Research and Development},
+  year={2023},
+  volume={60},
+  number={4},
+  pages={772-785},
+  doi={10.7544/issn1000-1239.202330004},
+  abstract={Computing power network connects computing nodes through the network to break the limitation of single point of computing power, and it is rapidly developed and applied in more and more business fields in recent years. The popular live video broadcasting relies on the transmission and transcoding of a large number of video frames, and it is of great practical importance to explore computing power networks for efficient video distribution. Compared with the traditional large-scale data processing, video applications have higher requirements for transmission delay and bandwidth guarantee. However, the computing power of nodes provided by each cloud service varies, and the state of network links between nodes often varies. Therefore, it is a great challenge to realize low latency and high bandwidth video distribution by selecting nodes with the best combined transmission and transcoding performance. Therefore, we design an efficient video distribution scheme based on heterogeneous computing nodes, including planning video transmission paths and reasonably selecting transcoding nodes through reinforcement learning, using priority queuing scheduling for different video distribution tasks and adaptively adjusting node resources to reduce resource bursty competition, adopting a layered-log-synchronization fault tolerance mechanism to quickly restore data consistency after node failures, and finally deploying multi-cloud service distributed nodes to realize a complete video distribution system. A large number of live ultra-high definition video experiments show that the performance of this scheme is significantly improved compared with existing video distribution methods.},
+
+  html={https://crad.ict.ac.cn/article/doi/10.7544/issn1000-1239.202330004?viewType=citedby-info},
+  bibtex_show={true},
+  corr={true},
 }
 
 @article{song2022det,
@@ -168,6 +149,41 @@
   selected={true}
 }
 
+@article{fan2022evoiot,
+  title={EvoIoT: An Evolutionary IoT and Non-IoT Classification Model in Open Environments},
+  author={Fan, Linna and He, Lin and Dong, Enhuan and Yang, Jiahai and Li, Chenglong and Lin, Jinlei and Wang, Zhiliang},
+  journal={Computer Networks},
+  year={2022},
+  volume={219},
+  pages={109450},
+  publisher={Elsevier},
+  doi={10.1016/j.comnet.2022.109450},
+  abstract={IoT device identification is essential for both device asset management and security management. IoT device identification in open environments is the key to its application in real environments, where IoT and non-IoT device identification is the first and critical step. However, existing methods are either not applicable to open environments or have poor scalability and sustainability for IoT and non-IoT device identification. This paper presents EvoIoT, an IoT and non-IoT identification model designed to apply in open environments with high scalability and the ability to run sustainably and effectively. EvoIoT achieves high scalability by applying a unified model for all devices. To mine discriminative features from encrypted traffic, EvoIoT extracts original features from packet headers and judges feature importance in the entire model update process. For sustainability, EvoIoT proposes a representative device choosing method and model update method to address the concept drift caused by new types of devices. EvoIoT is the first high-performance model that systematically addresses the IoT and non-IoT device classification problem. We evaluate EvoIoT on two public datasets and a private dataset collected from a laboratory setting. The evaluation results show that EvoIoT is on average 6.27%~48.89% more accurate than state-of-the-art methods.},
+
+  abbr={CN},
+  corr={true},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128622004844},
+  cocorr_first={Jiahai},
+  cocorr_last={Yang},
+  bibtex_show={true},
+}
+
+@article{he2022enabling,
+  title={Enabling Application-aware Traffic Engineering in IPv6 Networks},
+  author={He, Lin and Wang, Shicheng and Xu, Yichi and Kuang, Peng and Cao, Jiamin and Liu, Ying and Li, Xing and Peng, Shuping},
+  journal={IEEE Network},
+  year={2022},
+  volume={36},
+  number={2},
+  pages={42-49},
+  publisher={IEEE},
+  doi={10.1109/MNET.005.2100440},
+  abstract={The Internet hosts numerous applications with different requirements for network delay, bandwidth, jitter, packet loss, and so on. However, in the TCP/IP network architecture, the network and application layers are decoupled, which means that the network does not have a fine-grained understanding of the application requirements. Therefore, it is not easy to provide truly fine-grained traffic operations for applications and guarantee their corresponding service level agreement requirements. In this article, we propose ATE6, which is an application-aware traffic engineering (TE) framework. For the control plane, we define a request language that can be used by applications to express their requirements, which allows networks to associate IPv6 addresses with the communication requirements of applications. We also devise an efficient path selection algorithm that allows the network operator to deploy an optimal TE path for an application. For the data plane, ATE6 uses segment routing over the IPv6 data plane to enforce and control network paths based on network policies. We implemented a prototype, and evaluation results show that ATE6 is a flexible, privacy-preserving, lightweight, and cost-efficient application-aware TE framework.},
+
+  abbr={IEEE Netw.},
+  bibtex_show={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9785738},
+}
 
 @article{he2021pavi,
   title={PAVI: Bootstrapping Accountability and Privacy to IPv6 Internet}, 
@@ -204,6 +220,21 @@ To solve the above problems, we propose P4DAD, which is a secure DAD mechanism b
   abbr={CN},
 }
 
+@article{liu2018gagms,
+  author={Liu, Ying and He, Lin and Ren, Gang},
+  title={GAGMS: A Requirement-driven General Address Generation and Management System},
+  journal={Science China Information Sciences},
+  volume={61},
+  number={9},
+  pages={092109:1--092109:15},
+  year={2018},
+  url={https://doi.org/10.1007/s11432-017-9298-3},
+  abstract={IPv6 address generation is closely related to the manageability, security, privacy protection, and traceability of the Internet. There are many kinds of IPv6 address generation and configuration methods in the area of Internet standards and research that may cause certain problems, including the mixed operation problem of multiple IPv6 address generation schemes, the synchronization problem of the change in IPv6 address, the efficiency problem of processing large-scale concurrent IPv6 address requests, and the general model problem for mapping IPv6 addresses to other requirement spaces as identifiers. In this paper, we consider generating and managing IPv6 addresses according to network requirements. After conducting a requirement analysis of most proposed address generation schemes, we propose a general address generation model and a general address management system, which are the cores of the general address generation and management system (GAGMS). This system solves the above problems under the premise of maintaining the diversity and flexibility of the existing IPv6 address generation and configuration methods and allows networks to utilize different address generation schemes according to different requirements in different scenarios. Finally, we design a prototype system and evaluate our GAGMS to demonstrate its effectiveness, manageability, and scalability, and we have conducted trial deployment in campus networks and are trying to standardize this work in IETF.},
+
+  html={https://link.springer.com/article/10.1007/s11432-017-9298-3},
+  bibtex_show={true},
+  abbr={SCIS}
+}
 
 @article{he2018network,
   title={Network-Layer Accountability Protocols: A Survey},
@@ -235,22 +266,6 @@ To solve the above problems, we propose P4DAD, which is a secure DAD mechanism b
 
   bibtex_show={true},
   html={https://ieeexplore.ieee.org/document/8293068},
-}
-
-@article{liu2018gagms,
-  author={Liu, Ying and He, Lin and Ren, Gang},
-  title={GAGMS: A Requirement-driven General Address Generation and Management System},
-  journal={Science China Information Sciences},
-  volume={61},
-  number={9},
-  pages={092109:1--092109:15},
-  year={2018},
-  url={https://doi.org/10.1007/s11432-017-9298-3},
-  abstract={IPv6 address generation is closely related to the manageability, security, privacy protection, and traceability of the Internet. There are many kinds of IPv6 address generation and configuration methods in the area of Internet standards and research that may cause certain problems, including the mixed operation problem of multiple IPv6 address generation schemes, the synchronization problem of the change in IPv6 address, the efficiency problem of processing large-scale concurrent IPv6 address requests, and the general model problem for mapping IPv6 addresses to other requirement spaces as identifiers. In this paper, we consider generating and managing IPv6 addresses according to network requirements. After conducting a requirement analysis of most proposed address generation schemes, we propose a general address generation model and a general address management system, which are the cores of the general address generation and management system (GAGMS). This system solves the above problems under the premise of maintaining the diversity and flexibility of the existing IPv6 address generation and configuration methods and allows networks to utilize different address generation schemes according to different requirements in different scenarios. Finally, we design a prototype system and evaluate our GAGMS to demonstrate its effectiveness, manageability, and scalability, and we have conducted trial deployment in campus networks and are trying to standardize this work in IETF.},
-
-  html={https://link.springer.com/article/10.1007/s11432-017-9298-3},
-  bibtex_show={true},
-  abbr={SCIS}
 }
 
 @article{liu2015building,
