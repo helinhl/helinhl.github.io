@@ -36,7 +36,7 @@ My current research topics include network architecture and protocol design, net
 - [01/2024] Invited to serve as the PC for [ICA3PP'24](https://ica3pp2024.scimeeting.cn/en/web/index/21666_).
 - [12/2023] AggDeliv accepted to [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book received support from the National Fund for Academic Publication in Science and Technology (NFAPST).
-- [09/2023] Our book entitled "[Cyberspace Mappingâ€”Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
+- [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
 - [06/2023] Invited to serve as the PC for [ICA3PP'23](https://tjutanklab.com/ica3pp2023/home.html).
 - [03/2023] iVantage won the [NDSS 2023 Distinguished Paper Award](https://www.ndss-symposium.org/ndss2023/).
 - [12/2022] WiseCam accepted to [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
