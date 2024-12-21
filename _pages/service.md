@@ -19,6 +19,7 @@ nav: true
   + IEEE Internet of Things Journal
   + IEEE Open Journal of the Computer Society
   + IEEE Access
+  + Frontiers of Computer Science
 - **External/Sub Reviewer**
   + ICNP 2023
   + NetSoft 2020

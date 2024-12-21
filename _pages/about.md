@@ -27,7 +27,8 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
-- [10/2024] PMap (journal version) accepted to IEEE/ACM Transactions on Networking.
+- [12/2024] 6Map accepted to [INFOCOM'25](https://infocom2025.ieee-infocom.org/).
+- [10/2024] PMap (journal version) accepted to [IEEE/ACM Transactions on Networking](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10807683&punumber=90).
 - [09/2024] Awarded [ACM SIGCSE China Rising Star](https://mp.weixin.qq.com/s/wn_w2CF9PjVRGgkpXoqcrA)!
 - [07/2024] Luori and 6Vision accepted to [ICNP'24](https://icnp24.cs.ucr.edu/).
 - [06/2024] Invited to serve as the AEC for [SIGCOMM'24](https://conferences.sigcomm.org/sigcomm/2024/cf-artifacts/).
@@ -82,9 +83,9 @@ My current research topics include network architecture and protocol design, net
   * Multimedia streaming: AggDeliv [[INFOCOM'24](https://ieeexplore.ieee.org/abstract/document/10621184)]
   
 - Network Measurement and Management
-  * IPv6 network measurement: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], 6Vision [[ICNP'24]()], Luori [[ICNP'24]()]
+  * IPv6 network measurement: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], Luori [[ICNP'24]()], 6Map [[INFOCOM'25]()]
   * ICMPv6 rate limiting: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
-  * Port scanning: PMap [[TON'25](https://ieeexplore.ieee.org/document/10758701)]
+  * Port scanning: PMap [[TON'24](https://ieeexplore.ieee.org/document/10758701)]
   * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
 
 - Programmable Networks
