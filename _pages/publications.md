@@ -11,8 +11,19 @@ nav: true
 ---
 Copy Right Notice: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.
 
-[[Conference papers](#conference-papers)] | [[Journal & Magazine papers](#journal--magazine-papers)] | [[Books](#books)] | [[Patents](#patents)]
+[[Books](#books)] | [[Conference papers](#conference-papers)] | [[Journal & Magazine papers](#journal--magazine-papers)] | [[Patents](#patents)]
 
+#### Books
+<div class="publications">
+
+{% for y in page.book-years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f book -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
+<br/>
 
 #### Conference papers
 <sup>#</sup> indicates the corresponding author.
@@ -34,18 +45,6 @@ Copy Right Notice: The materials presented below are for academic use only. Copy
 {% for y in page.jrnl-years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f journal -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
-
-<br/>
-
-#### Books
-<div class="publications">
-
-{% for y in page.book-years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f book -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
