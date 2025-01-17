@@ -27,7 +27,9 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
+- [12/2024] Our group won the First Prize of the [2nd IPv6 Technology Application Innovation Competition Final](https://mp.weixin.qq.com/s/IfxtMwJrV0e9k44Pfa-tVg). Congratulations to Daguo, Chentian, Jiasheng, and Zhaoan!
 - [12/2024] 6Map accepted to [INFOCOM'25](https://infocom2025.ieee-infocom.org/).
+- [11/2024] Our group won the Grand Prize of the [7th Next Generation Internet Technology Innovation Competition](https://mp.weixin.qq.com/s/zgcLJTVv1B2ngMcutZWiuw). Congratulations to Daguo, Chentian, Jiasheng, and Zhaoan!
 - [10/2024] PMap (journal version) accepted to [IEEE/ACM Transactions on Networking](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=10807683&punumber=90).
 - [09/2024] Awarded [ACM SIGCSE China Rising Star](https://mp.weixin.qq.com/s/wn_w2CF9PjVRGgkpXoqcrA)!
 - [07/2024] Luori and 6Vision accepted to [ICNP'24](https://icnp24.cs.ucr.edu/).
@@ -40,6 +42,7 @@ My current research topics include network architecture and protocol design, net
 - [10/2023] Our book received support from the National Fund for Academic Publication in Science and Technology (NFAPST).
 - [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
 - [06/2023] Invited to serve as the PC for [ICA3PP'23](https://tjutanklab.com/ica3pp2023/home.html).
+- [04/2023] Our group won the First Prize of the [1st IPv6 Technology Application Innovation Competition Final](https://mp.weixin.qq.com/s/feITZwDwMgiS8GJ8sMSxhg). Congratulations to Yichi, Yilin, and Jiaxing!
 - [03/2023] iVantage won the [NDSS 2023 Distinguished Paper Award](https://www.ndss-symposium.org/ndss2023/).
 - [12/2022] WiseCam accepted to [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
 - [10/2022] EvoIoT accepted to [Elsevier Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05).
