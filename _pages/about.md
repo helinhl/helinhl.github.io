@@ -27,6 +27,7 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
+- [01/2025] Miresga and IPdb accepted to [WWW'25](https://www2025.thewebconf.org/).
 - [12/2024] Our group won the First Prize of the [2nd IPv6 Technology Application Innovation Competition Final](https://mp.weixin.qq.com/s/IfxtMwJrV0e9k44Pfa-tVg). Congratulations to Daguo, Chentian, Jiasheng, and Zhaoan!
 - [12/2024] 6Map accepted to [INFOCOM'25](https://infocom2025.ieee-infocom.org/).
 - [11/2024] Our group won the Grand Prize of the [7th Next Generation Internet Technology Innovation Competition](https://mp.weixin.qq.com/s/zgcLJTVv1B2ngMcutZWiuw). Congratulations to Daguo, Chentian, Jiasheng, and Zhaoan!
@@ -47,12 +48,10 @@ My current research topics include network architecture and protocol design, net
 - [12/2022] WiseCam accepted to [INFOCOM'23](https://infocom2023.ieee-infocom.org/).
 - [10/2022] EvoIoT accepted to [Elsevier Computer Networks](https://www.sciencedirect.com/journal/computer-networks/special-issue/10L873D2V05).
 - [08/2022] SAV6 accepted to [IEEE Network](https://ieeexplore.ieee.org/document/9895378).
-- [08/2022] One-way delay measurement accepted to [GLOBECOM'22](https://globecom2022.ieee-globecom.org/).
-- [08/2022] ClockConverger accepted to [GLOBECOM'22](https://globecom2022.ieee-globecom.org/).
+- [08/2022] ClockConverger and one-way delay measurement accepted to [GLOBECOM'22](https://globecom2022.ieee-globecom.org/).
 - [07/2022] iVantage accepted to [NDSS'23](https://www.ndss-symposium.org/ndss2023/).
 - [06/2022] AutoIoT accepted to [IEEE Transactions on Mobile Computing](https://ieeexplore.ieee.org/document/9795895).
-- [04/2022] AddrMiner accepted to [USENIX ATC'22](https://www.usenix.org/conference/atc22).
-- [04/2022] Firebolt accepted to [USENIX ATC'22](https://www.usenix.org/conference/atc22).
+- [04/2022] AddrMiner and Firebolt accepted to [USENIX ATC'22](https://www.usenix.org/conference/atc22).
 - [01/2022] DET (journal version) accepted to [IEEE/ACM Transactions on Networking](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9859542&punumber=90).
 
 
