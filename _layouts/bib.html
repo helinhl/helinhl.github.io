@@ -19,6 +19,9 @@
         {%- else %}
           <!-- Title -->
           <div class="title">{{entry.title}}</div>
+          {%- if entry.chinesetitle -%}
+            <b>{{entry.chinesetitle}}</b>
+          {%- endif -%}
           <!-- Author -->
           <div class="author">
           {%- for author in entry.author_array -%}
@@ -78,22 +81,22 @@
               {%- else -%}
                 {% if author_is_self -%}
                   {%- if entry.corr -%}
-                      and <em><b>{{author.first}} {{author.last}}</b></em><sup>#</sup>
+                       <em><b>{{author.first}} {{author.last}}</b></em><sup>#</sup>
                     {%- else -%}
-                      and <em><b>{{author.first}} {{author.last}}</b></em>
+                       <em><b>{{author.first}} {{author.last}}</b></em>
                     {%- endif -%}
                 {% else -%}
                   {%- if entry.cocorr_first == author.first and entry.cocorr_last == author.last -%}
                     {% if coauthor_url -%}
-                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><sup>#</sup>
+                       <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><sup>#</sup>
                     {%- else -%}
-                      and {{author.first}} {{author.last}}<sup>#</sup>
+                       {{author.first}} {{author.last}}<sup>#</sup>
                     {%- endif -%}
                   {%- else -%}
                     {% if coauthor_url -%}
-                      and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                       <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                     {%- else -%}
-                      and {{author.first}} {{author.last}}
+                       {{author.first}} {{author.last}}
                     {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
