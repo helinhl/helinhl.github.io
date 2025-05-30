@@ -1,6 +1,25 @@
 @string{aps = {American Physical Society,}}
 
 
+@inproceedings{yang2025tgw,
+  title={TGW: Operating an Efficient and Resilient Cloud Gateway at Scale},
+  author={Yang, Yifan and He, Lin and Zhou, Jiasheng and Shi, Xiaoyi and Xu, Yichi and Wang, Shicheng and E, Jinlong and Liu, Ying and Zhang, Junwei and Yuan, Zhuang and Xu, Hengyang},
+  booktitle={Proceedings of the 2025 USENIX Annual Technical Conference (USENIX ATC 2025)},
+  year={2025},
+  isbn = {},
+  address = {Boston, MA, USA},
+  date={July 7–9},
+  pages = {},
+  url = {},
+  publisher = {USENIX Association},
+  abstract={Large-scale cloud data centers have become a critical Internet infrastructure. As the cloud entrance, today’s cloud gateways have integrated multiple functions such as elastic public access and load balancing to cope with the rapid growth of services and requirements. To meet the demands of largescale clouds for efficient packet forwarding, scalable state management, and high resilience, we design, deploy, and operate Tencent Gateway (TGW), an efficient and resilient cloud gateway at scale. Compared to other large cloud providers that primarily offer services like search, e-commerce, or shortform video, the “killer services” of Tencent Cloud are online gaming and live streaming, which come with much stricter requirements for latency, jitter, and packet loss. From a technological perspective, TGW is highly decoupled and modular, with core components focused on efficient forwarding planes, a scalable state migration mechanism, a resilient failure recovery mechanism, and a failure detection and localization system. In terms of engineering, TGW has been operating in large-scale, real-world industrial environments for eight years, during which we have gained extensive insights and experience. We evaluate TGW both in testbed and real-world scenarios. In our testbed, TGW’s single node achieves 2.9× the forwarding capacity of prior systems. Between clusters, states and traffic can be migrated in 4 s without packet loss. In our real-world environment, TGW handles tens of Tbps of traffic, with a worst-case packet drop rate ranging from 10^{−7} to 10^{−4}, while balancing traffic across clusters. Additionally, TGW can quickly migrate states and traffic and recover from failures without tenant awareness, guided by our failure localization system, achieving 100% availability for years.},
+
+  bibtex_show={true},
+  corr={true},
+  abbr={USENIX ATC},
+  selected={true},
+}
+
 
 @inproceedings{zhou20256map,
   title={6Map: Enabling Fast Active IPv6 Address Discovery with Programmable Switches},
@@ -27,8 +46,8 @@ To this end, we propose 6Map, a fast active IPv6 address discovery system based 
   author={Shi, Xiaoyi and He, Lin and Zhou, Jiasheng and Yang, Yifan and Liu, Ying},
   booktitle={Proceedings of the 34th ACM Web Conference (WWW 2025)}, 
   year={2025},
-  pages={},
-  doi={},
+  pages={2424-2434},
+  doi={10.1145/3696410.3714809},
   address={Sydney, Australia},
   date={April 28 – May 2},
   abstract={As online cloud services expand rapidly, layer-7 load balancing has become indispensable for maintaining service availability and performance. The emergence of programmable switches with both high performance and a certain degree of flexibility has made it possible to apply programmable switches to load balancing. Nevertheless, the meager memory capacity and the relatively sluggish speed of table entry insertion and deletion of programmable switches have severely constrained their performance.
@@ -39,7 +58,8 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   corr={true},
   bibtex_show={true},
   selected={true},
-  html={},
+  html={https://dl.acm.org/doi/abs/10.1145/3696410.3714809},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3696410.3714809},
 }
 
 @inproceedings{chen2025ipdb,
@@ -47,8 +67,8 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   author={Chen, Hongxu and Song, Guanglei and Wang, Zhiliang and Yang, Jiahai and Wu, Songyun and Lin, Jinlei and He, Lin and Li, Chenglong},
   booktitle={Proceedings of the 34th ACM Web Conference (WWW 2025)}, 
   year={2025},
-  pages={},
-  doi={},
+  pages={4374-4385},
+  doi={10.1145/3696410.3714669},
   address={Sydney, Australia},
   date={April 28 – May 2},
   abstract={IP addresses with web services are crucial in the Internet ecosystem. Classifying these addresses by industry and organization offers valuable insights into the entities utilizing them, enabling more efficient network management and enhanced security. Previous work in website classification and Internet management struggles to offer an IP-level perspective of the industries of web services due to their limited industry categories or potential industry inconsistencies between IP address owners and AS owners. To this end, we present IPdb, an IP-level industry categorization dataset. To construct the dataset, we developed LLMIC, a Large Language Model-based Industry Categorization framework with a precision of nearly 96%. IPdb serves as a labeled database for future endeavors in developing IP-level industry classifiers, encompassing over 200 million IP addresses. Furthermore, our study indicates that 30% 
@@ -56,7 +76,42 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
 
   abbr={WWW},
   bibtex_show={true},
-  html={},
+  html={https://dl.acm.org/doi/abs/10.1145/3696410.3714669},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3696410.3714669},
+}
+
+@inproceedings{guo2025bringing,
+  title={Bringing New Life to Old Tools: Measuring Source Address Validation Deployment with 6in4 Tunnels},
+  author={Guo, Jiaxing and He, Lin and Cheng, Daguo and Shi, Xingang and Liu, Ying},
+  booktitle={Proceedings of the 33rd IEEE/ACM International Symposium on Quality of Service (IWQoS 2025)},
+  year={2025},
+  pages={},
+  doi={},
+  address={Gold Coast, Australia},
+  date={July 2–4},
+  abstract={},
+  
+  corr={true},
+  bibtex_show={true},
+  abbr={IWQoS},
+}
+
+@inproceedings{wang2025apcc,
+  title={APCC: Enabling Reliable IPv6 Covert Communication with Aliased Prefixes},
+  author={Wang, Zhaoan and He, Lin and Cheng, Daguo and Liu, Ying},
+  booktitle={Proceedings of the 33rd IEEE/ACM International Symposium on Quality of Service (IWQoS 2025)},
+  year={2025},
+  pages={},
+  doi={},
+  address={Gold Coast, Australia},
+  date={July 2–4},
+  abstract={},
+  
+  corr={true},
+  bibtex_show={true},
+  abbr={IWQoS},
+  cocorr_first={Ying},
+  cocorr_last={Liu},
 }
 
 @inproceedings{tan20256topohunter,
@@ -75,7 +130,6 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
   abbr={ICC},
   corr={true},
   bibtex_show={true},
-  html={},
 }
 
 @inproceedings{li20256rv,
@@ -91,7 +145,6 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
 
   abbr={NOMS},
   bibtex_show={true},
-  html={},
 }
 
 @inproceedings{yang2024p4runpro,
