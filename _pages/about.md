@@ -27,6 +27,7 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
+- [06/2024] Invited to serve as the PC for [CoNEXT'25-CNC](https://coder0702.github.io/CNC.github.io/).
 - [04/2025] TGW accepted to [ATC'25](https://www.usenix.org/conference/atc25).
 - [04/2025] APCC and SAV measurement paper accepted to [IWQoS'25](https://iwqos2025.ieee-iwqos.org/).
 - [01/2025] Miresga and IPdb accepted to [WWW'25](https://www2025.thewebconf.org/).
@@ -85,6 +86,7 @@ My current research topics include network architecture and protocol design, net
   * Address generation and management: P4DAD [[CN'21](https://www.sciencedirect.com/science/article/pii/S138912862100325X)], GAGMS [[SCIS'18](https://link.springer.com/article/10.1007/s11432-017-9298-3)]
   * Application-aware networking: ATE6 [[IEEE Network'22](https://ieeexplore.ieee.org/abstract/document/9785738)]
   * Multimedia streaming: AggDeliv [[INFOCOM'24](https://ieeexplore.ieee.org/abstract/document/10621184)]
+  * Cloud Gateway: TGW [[ATC'25](https://www.usenix.org/system/files/atc25-yang-yifan.pdf)]
   
 - Network Measurement and Management
   * IPv6 network measurement: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], Luori [[ICNP'24]()], 6Map [[INFOCOM'25]()]
@@ -93,7 +95,8 @@ My current research topics include network architecture and protocol design, net
   * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
 
 - Programmable Networks
-  * Runtime programmability: P4runpro [[SIGCOMM'24](https://dl.acm.org/doi/10.1145/3651890.3672230)]
+  * Runtime programmability: P4runpro [[SIGCOMM'24](https://dl.acm.org/doi/pdf/10.1145/3651890.3672230)]
   * Data plane generator debugging: Firebolt [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-cao.pdf)]
   * Network emulation: TurboNet [[TON'22](https://ieeexplore.ieee.org/document/9686366)]
   * Stateful packet filter: CoFilter [[TPDS'22](https://ieeexplore.ieee.org/document/9656674)]
+  * L7 load balancing: Miresga [[WWW'25](https://dl.acm.org/doi/pdf/10.1145/3696410.3714809)]
