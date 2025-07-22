@@ -15,6 +15,7 @@ nav: true
   + 2024: [SIGCOMM](https://conferences.sigcomm.org/sigcomm/2024/cf-artifacts/)
 - **Journal Reviewer**
   + IEEE/ACM Transactions on Networking
+  + IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
   + Elsevier Computer Networks
   + IEEE Transactions on Network Science and Engineering
   + IEEE Internet of Things Journal

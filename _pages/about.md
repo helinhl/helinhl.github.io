@@ -27,7 +27,9 @@ My current research topics include network architecture and protocol design, net
 
 <h4><b>News</b></h4>
 
-- [06/2024] Invited to serve as the PC for [CoNEXT'25-CNC](https://coder0702.github.io/CNC.github.io/).
+- [07/2025] Helixir, SubRecon, Gungnir, and PMAPD accepted to [ICNP'25](https://ieeeicnp2025.pages.dev/).
+- [07/2025] LightStream accepted to [SIGCOMM'25 shorts](https://conferences.sigcomm.org/sigcomm/2025/cfp/).
+- [06/2025] Invited to serve as the PC for [CoNEXT'25-CNC](https://coder0702.github.io/CNC.github.io/).
 - [04/2025] TGW accepted to [ATC'25](https://www.usenix.org/conference/atc25).
 - [04/2025] APCC and SAV measurement paper accepted to [IWQoS'25](https://iwqos2025.ieee-iwqos.org/).
 - [01/2025] Miresga and IPdb accepted to [WWW'25](https://www2025.thewebconf.org/).
@@ -44,7 +46,7 @@ My current research topics include network architecture and protocol design, net
 - [01/2024] Invited to serve as the PC for [ICA3PP'24](https://ica3pp2024.scimeeting.cn/en/web/index/21666_).
 - [12/2023] AggDeliv accepted to [INFOCOM'24](https://infocom2024.ieee-infocom.org/).
 - [10/2023] Our book received support from the National Fund for Academic Publication in Science and Technology (NFAPST).
-- [09/2023] Our book entitled "[Cyberspace Mapping—Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
+- [09/2023] Our book entitled "[Cyberspace Mappingâ€”Principles, Techniques and Applications](https://item.jd.com/14154920.html)" has been published. Thanks to the [Posts & Telecom Press](https://www.ptpress.com.cn/en)!
 - [06/2023] Invited to serve as the PC for [ICA3PP'23](https://tjutanklab.com/ica3pp2023/home.html).
 - [04/2023] Our group won the First Prize of the [1st IPv6 Technology Application Innovation Competition Final](https://mp.weixin.qq.com/s/feITZwDwMgiS8GJ8sMSxhg). Congratulations to Yichi, Yilin, and Jiaxing!
 - [03/2023] PMap and GraphIoT accepted to [IWQoS'23](https://iwqos2023.ieee-iwqos.org/).
@@ -89,8 +91,9 @@ My current research topics include network architecture and protocol design, net
   * Cloud Gateway: TGW [[ATC'25](https://www.usenix.org/system/files/atc25-yang-yifan.pdf)]
   
 - Network Measurement and Management
-  * IPv6 network measurement: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], Luori [[ICNP'24]()], 6Map [[INFOCOM'25]()]
-  * ICMPv6 rate limiting: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
+  * Measurement methodology: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
+  * IPv6 address probing: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], Luori [[ICNP'24](https://ieeexplore.ieee.org/abstract/document/10858548)], 6Map [[INFOCOM'25](https://ieeexplore.ieee.org/abstract/document/11044705)], Gungnir [[ICNP'25]()], PMAPD [[ICNP'25]()]
+  * Topology discovery: Helixir [[ICNP'25]()], SubRecon [[ICNP'25]()]
   * Port scanning: PMap [[TON'24](https://ieeexplore.ieee.org/document/10758701)]
   * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
 

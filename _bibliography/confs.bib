@@ -1,6 +1,5 @@
 @string{aps = {American Physical Society,}}
 
-
 @inproceedings{yang2025tgw,
   title={TGW: Operating an Efficient and Resilient Cloud Gateway at Scale},
   author={Yang, Yifan and He, Lin and Zhou, Jiasheng and Shi, Xiaoyi and Xu, Yichi and Wang, Shicheng and E, Jinlong and Liu, Ying and Zhang, Junwei and Yuan, Zhuang and Xu, Hengyang},
@@ -22,6 +21,21 @@
   pdf={https://www.usenix.org/system/files/atc25-yang-yifan.pdf},
 }
 
+@inproceedings{e2025wisely,
+    title={Wisely Optimizing Short Video Streaming for a User-Vendor Win-Win Outcome},
+    author={E, Jinlong and Xu, Wei and Bi, Jianfei and He, Lin and Li, Haoyang and Gu, Anqi and Yang, Dan and Chai, Yunpeng},
+    booktitle={Proceedings of the 39th Annual Conference of the ACM Special Interest Group on Data Communication (SIGCOMM 2025): Short Paper}, 
+    year={2025},
+    pages={},
+    doi={},
+    address={Coimbra, Portugal},
+    date={September 8-11},
+    abstract={Short video streaming platforms widely employ video prefetching to ensure users’ quality of experience (QoE), but frequent user swipes lead to massive data wastage, creating a significant financial burden for vendors. Existing academic and industrial solutions fail to strike a balance, often sacrificing either data savings or the authentic user-perceived QoE. We introduce a framework that intelligently reduces streaming data consumption without compromising user experience. The core idea is to make prefetching decisions adaptive to both user swiping behavior and dynamic network conditions. This is mainly achieved through a novel user-perceived QoE metric, a fast-convergent hierarchical reinforcement learning (HRL) model for prefetching decisions, and a decoupled bitrate control policy. Real-world evaluations show our framework significantly outperforms the state-of-the-art solutions on data wastage as well as user-perceived QoE.},
+
+    html={},
+    abbr={SIGCOMM},
+    bibtex_show={true},
+}
 
 @inproceedings{zhou20256map,
   title={6Map: Enabling Fast Active IPv6 Address Discovery with Programmable Switches},
@@ -60,6 +74,7 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   corr={true},
   bibtex_show={true},
   selected={true},
+  poster={poster-miresga-www2025.pdf},
   html={https://dl.acm.org/doi/abs/10.1145/3696410.3714809},
   pdf={https://dl.acm.org/doi/pdf/10.1145/3696410.3714809},
   code={https://github.com/THUNAME/Miresga},
@@ -79,9 +94,80 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
 
   abbr={WWW},
   bibtex_show={true},
+  poster={poster-ipdb-www2025.pdf},
   html={https://dl.acm.org/doi/abs/10.1145/3696410.3714669},
   pdf={https://dl.acm.org/doi/pdf/10.1145/3696410.3714669},
   code={https://github.com/IPLevelIndustryDB/IPdb},
+}
+
+@inproceedings{zhou2025lightning,
+  title={Lightning in the Dark: Uncovering Global IPv6 Router Interfaces and Their Security Implications},
+  author={Zhou, Jiasheng and Liu, Ying and He, Lin and Shi, Xiaoyi and Yang, Yifan and Wei, Chentian and Cheng, Daguo and Gong, Wenwen and Yang, Jiahai},
+  booktitle={Proceedings of the 33rd IEEE International Conference on Network Protocols (ICNP 2025)}, 
+  year={2025},
+  pages={},
+  doi={},
+  abstract={},
+  address={Seoul, South Korea},
+  date={September 22-25},
+
+  abbr={ICNP},
+  corr={true},
+  bibtex_show={true},
+  html={},
+  code={},
+}
+
+@inproceedings{zhou2025subrecon,
+  title={SubRecon: Efficient Internet‑wide IPv6 Subnet Discovery and Its Applications},
+  author={Zhou, Jiasheng and Liu, Ying and He, Lin and Yang, Yifan and Shi, Xiaoyi and Cheng, Daguo and Wei, Chentian and Fan, Yun and Song, Guanglei},
+  booktitle={Proceedings of the 33rd IEEE International Conference on Network Protocols (ICNP 2025)}, 
+  year={2025},
+  pages={},
+  doi={},
+  abstract={},
+  address={Seoul, South Korea},
+  date={September 22-25},
+
+  abbr={ICNP},
+  corr={true},
+  bibtex_show={true},
+  html={},
+  code={},
+}
+
+@inproceedings{Wei2025gungnir,
+  title={Gungnir: Autoregressive Model for Unified Generation of IPv6 Fully Responsive Prefixes},
+  author={Wei, Chentian and Liu, Ying and He, Lin and Cheng, Daguo and Zhou, Jiasheng},
+  booktitle={Proceedings of the 33rd IEEE International Conference on Network Protocols (ICNP 2025)}, 
+  year={2025},
+  pages={},
+  doi={},
+  abstract={},
+  address={Seoul, South Korea},
+  date={September 22-25},
+
+  abbr={ICNP},
+  corr={true},
+  bibtex_show={true},
+  html={},
+}
+
+@inproceedings{zhang2025pmapd,
+  title={PMAPD: A Passive-enhanced Multi-level Aliased Prefix Detection Approach for IPv6 Scanning},
+  author={Zhang, Wei and Ren, Gang and Yin, Xia and He, Lin},
+  booktitle={Proceedings of the 33rd IEEE International Conference on Network Protocols (ICNP 2025)}, 
+  year={2025},
+  pages={},
+  doi={},
+  abstract={},
+  address={Seoul, South Korea},
+  date={September 22-25},
+
+  abbr={ICNP},
+  bibtex_show={true},
+  html={},
+  code={},
 }
 
 @inproceedings{guo2025bringing,
@@ -93,7 +179,7 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   doi={},
   address={Gold Coast, Australia},
   date={July 2–4},
-  abstract={},
+  abstract={Source Address Validation (SAV) is a security mechanism deployed at network boundaries to prevent packets with illegal source addresses from crossing these boundaries. While SAV plays an important role in mitigating source address spoofing, its deployment across the global Internet remains limited. Measuring SAV deployment is essential for enhancing the understanding of the security landscape of networks. In this study, we propose a novel method for measuring SAV deployment based on 6in4 tunnels, complementing existing measurement work. Using this method, we measure inbound SAV for IPv4 and outbound SAV for IPv6, obtaining results from 12,417 and 2,104 Autonomous Systems (ASes), respectively. Based on our measurements, we analyze factors that may influence SAV deployment, including network address space size, AS type, and geographical location. Additionally, we provide a global heatmap of spoofable rates for networks in different countries and regions. Note that the measuring method using 6in4 tunnels we introduce is not only applicable to SAV measurements but also holds potential for other measurement tasks, such as connectivity testing and transmission path discovery. This method offers a new way for large-scale measurement tasks across different networks, which may benefit future research.},
   
   corr={true},
   bibtex_show={true},
@@ -109,7 +195,7 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   doi={},
   address={Gold Coast, Australia},
   date={July 2–4},
-  abstract={},
+  abstract={Covert communication ensures undetectable information exchange between parties while posing risks when exploited for malicious purposes. Existing network covert channels face challenges in reliability, throughput, and stealthiness due to packet loss, limited capacity, and detectable anomalies. This paper proposes APCC, a reliable covert communication system that leverages IPv6 aliased prefixes for the first time, where secret data is embedded in the Interface Identifier field of IPv6 addresses. APCC enhances stealthiness through encryption and camouflage strategies (e.g., traffic blending and rate control). Additionally, it employs a reliable transmission mechanism incorporating sequence numbering, acknowledgment, and retransmission to mitigate packet loss and reordering. It ensures deployment flexibility across ICMPv6, UDP, or TCP protocols. Evaluations in real-world and simulated environments demonstrate that APCC achieves 100% accuracy under high latency (800 ms RTT) and packet loss (10%), with throughput up to 34.7 Kbps. Detection tests show APCC evades major intrusion detection systems (Snort, Zeek) except for Suricata’s TCP alerts. We also propose mitigation measures to reduce APCC’s potential negative impact. This work highlights critical vulnerabilities in IPv6 infrastructure while advancing robust covert communication methodologies for high-stakes scenarios.},
   
   corr={true},
   bibtex_show={true},
@@ -141,13 +227,14 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
   author={Li, Shenao and Wang, Zhiliang and Yang, Jiahai and Dong, Enhuan and Li, Chenglong and He, Lin and Zhang, Hui and Song, Guanglei},
   booktitle={Proceedings of the 38th IEEE/IFIP Network Operations and Management Symposium (NOMS 2025)}, 
   year={2025},
-  pages={},
-  doi={},
+  pages={1-9},
+  doi={10.1109/NOMS57970.2025.11073725},
   address={Honolulu, HI, USA},
   date={May 12–16},
   abstract={The growth of IPv6 networks has led to an expanding number of network routers, but there is not enough research on vendors of these devices. Existing router vendor identiﬁcation algorithms are based on IPv4, and these static analysis algorithms cannot adapt to dynamically changing IPv6 networks. In this paper, we develop 6RV, a framework for IPv6 router vendors continuous identiﬁcation based on incremental learning. First, we count the addresses of newly discovered router interfaces every month and obtain router device ﬁngerprints through active probing, and then analyze these data ﬁngerprints through an incremental learning approach to identify the router vendors of new nodes. We validate our identiﬁcation framework on the ITDK dataset over a period of 8 months, obtaining more than 500K router vendor labels with 94% correctness. Finally, we also analyze the IPv6 router vendor dataset from different perspectives and draw some interesting conclusions.},
 
   abbr={NOMS},
+  html={https://ieeexplore.ieee.org/abstract/document/11073725},
   bibtex_show={true},
 }
 
@@ -221,6 +308,7 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
 
   abbr={ICNP},
   bibtex_show={true},
+  arxiv={2501.01683},
   html={https://ieeexplore.ieee.org/document/10858550},
   code={https://github.com/zwjsndy/6Vision},
 }
@@ -258,6 +346,7 @@ To this end, we design an efficient IPv6 interface-level topology discovery meth
   pdf={2023-NDSS-iVantage.pdf},
   code={https://github.com/iVantage-NDSS23/iVantage},
   html={https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/},
+  arxiv={2210.13088},
   selected={true},
   bestpaper={🏆 Distinguished Paper Award},
 }
