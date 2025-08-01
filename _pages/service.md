@@ -17,6 +17,7 @@ nav: true
   + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
   + Elsevier Computer Networks
+  + IEEE Transactions on Network and Service Management
   + IEEE Transactions on Network Science and Engineering
   + IEEE Internet of Things Journal
   + IEEE Open Journal of the Computer Society

@@ -12,7 +12,7 @@ nav: true
 ---
 Copy Right Notice: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.
 
-[[Books](#books)] | [[Conference papers](#conference-papers)] | [[Journal & Magazine papers](#journal--magazine-papers)] | [[Shorts & Posters](#shorts--posters)] | [[Patents](#patents)]
+[[Books](#books)] | [[Conference papers](#conference-papers)] | [[Journal & Magazine papers](#journal--magazine-papers)] | [[Posters & Demos](#posters--demos)] | [[Patents](#patents)]
 
 #### Books
 <div class="publications">
