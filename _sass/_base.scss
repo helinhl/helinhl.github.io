@@ -768,12 +768,13 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          /*border-bottom: 1px dashed var(--global-theme-color);
 
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;
-          }
+          }*/
         }
 
         > em {
@@ -1427,4 +1428,27 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+// Wave
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;      
+  animation-iteration-count: 1;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  15% { transform: rotate(15deg); }  /* 向右挥 */
+  30% { transform: rotate(-10deg); } /* 向左挥 */
+  45% { transform: rotate(15deg); }
+  60% { transform: rotate(-5deg); }
+  80% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.post-title:hover {
+    transform: scale(1.15)
 }

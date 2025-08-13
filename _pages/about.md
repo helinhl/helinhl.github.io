@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn
+subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn<br><h3>Hi! <span class="wave">👋</span></h3>
 
 profile:
   align: right

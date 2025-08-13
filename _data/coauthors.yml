@@ -1,49 +1,49 @@
-"Dong":
+"dong":
   - firstname: ["Enhuan", "E."]
     url: https://tsinghuadong.github.io/
 
-"Li":
+"li":
   - firstname: ["Chenglong", "C."]
     url: https://www.insc.tsinghua.edu.cn/info/1157/2450.htm
 
   - firstname: ["Zhenhua", "Z."]
     url: https://www.thucloud.com/zhenhua/index.html
 
-"Liu":
+"liu":
   - firstname: ["Ying", "Y."]
     url: https://www.insc.tsinghua.edu.cn/info/1157/2456.htm
 
   - firstname: ["Yunhao", "Y."]
     url: https://people.gix.tsinghua.edu.cn/yunhao/en.html
 
-"Sun":
+"sun":
   - firstname: ["Chen", "C."]
     url: https://chensun-me.github.io/
 
-"Shi":
+"shi":
   - firstname: ["Xiaoyi", "X."]
     url: https://sirius-sxy.github.io/
 
-"Wang": 
+"wang": 
   - firstname: ["Zhiliang", "Z."]
     url: https://www.insc.tsinghua.edu.cn/info/1157/2853.htm
 
-"Xu":
+"xu":
   - firstname: ["Mingwei", "M."]
     url: http://routing.netlab.edu.cn/tiki-index.php?page=Mingwei+Xu
     
   - firstname: ["Ke", "K."]
     url: http://www.thucsnet.org/xuke.html
 
-"Yang":
+"yang":
   - firstname: ["Jiahai", "J."]
     url: http://nmgroup.tsinghua.edu.cn/dryang
 
-"Zhang":
+"zhang":
   - firstname: ["Shenglin", "S."]
     url: http://nkcs.iops.ai/shenglinzhang/
 
-"Zhou":
+"zhou":
   - firstname: ["Jiasheng", "J."]
     url: https://zhoujiashengzjs.github.io/
 
