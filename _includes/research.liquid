@@ -1,0 +1,25 @@
+{% assign md_text = "
+- **Network Architecture & Protocol Design**
+  * Accountability & privacy: PAVI [[INFOCOM'19](https://ieeexplore.ieee.org/document/8737453), [TON'21](https://ieeexplore.ieee.org/document/9325068)], pSAV [[IWQoS'21](https://ieeexplore.ieee.org/document/9521336)], SAV6 [[IEEE Network'23](https://ieeexplore.ieee.org/document/9895378)]
+  * Address generation and management: P4DAD [[CN'21](https://www.sciencedirect.com/science/article/pii/S138912862100325X)], GAGMS [[SCIS'18](https://link.springer.com/article/10.1007/s11432-017-9298-3)]
+  * Application-aware networking: ATE6 [[IEEE Network'22](https://ieeexplore.ieee.org/abstract/document/9785738)]
+  * Multimedia streaming: AggDeliv [[INFOCOM'24](https://ieeexplore.ieee.org/abstract/document/10621184)]
+  * Cloud Gateway: TGW [[ATC'25](https://www.usenix.org/system/files/atc25-yang-yifan.pdf)]
+  
+- **Network Measurement and Management**
+  * Measurement methodology: iVantage [[NDSS'23](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s49_paper.pdf)]
+  * IPv6 address probing: DET [[TON'22](https://ieeexplore.ieee.org/document/9698406)], AddrMiner [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-song.pdf), [TON'24](https://ieeexplore.ieee.org/document/10556607)], Luori [[ICNP'24](https://ieeexplore.ieee.org/abstract/document/10858548)], 6Map [[INFOCOM'25](https://ieeexplore.ieee.org/abstract/document/11044705)], Gungnir [[ICNP'25]()], PMAPD [[ICNP'25]()]
+  * Topology discovery: Helixir [[ICNP'25]()], SubRecon [[ICNP'25]()]
+  * Port scanning: PMap [[TON'24](https://ieeexplore.ieee.org/document/10758701)]
+  * IoT management: AutoIoT [[TMC'22](https://ieeexplore.ieee.org/document/9795895)], WiseCam [[INFOCOM'23](https://ieeexplore.ieee.org/document/10228926), [TMC'24](https://ieeexplore.ieee.org/abstract/document/10551502)]
+
+- **Programmable Networks**
+  * Runtime programmability: P4runpro [[SIGCOMM'24](https://dl.acm.org/doi/pdf/10.1145/3651890.3672230)]
+  * Data plane generator debugging: Firebolt [[USENIX ATC'22](https://www.usenix.org/system/files/atc22-cao.pdf)]
+  * Network emulation: TurboNet [[TON'22](https://ieeexplore.ieee.org/document/9686366)]
+  * Stateful packet filter: CoFilter [[TPDS'22](https://ieeexplore.ieee.org/document/9656674)]
+  * L7 load balancing: Miresga [[WWW'25](https://dl.acm.org/doi/pdf/10.1145/3696410.3714809)]
+" %}
+
+{{ md_text | markdownify }}
+<br>

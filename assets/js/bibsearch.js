@@ -1,9 +1,23 @@
 import { highlightSearchTerm } from "./highlight-search-term.js";
 
 document.addEventListener("DOMContentLoaded", function () {
+  
+  // 新增：解析 hash 中的搜索关键词（仅处理 #search=xxx 格式）
+  const getSearchTermFromHash = () => {
+    const hash = decodeURIComponent(window.location.hash.substring(1)); // 去除 #
+    // 仅当 hash 以 "search=" 开头时，才视为搜索意图
+    if (hash.startsWith("search=")) {
+      return hash.slice("search=".length); // 提取 "search=" 后的内容
+    }
+    return ""; // 普通锚点 hash 则返回空
+  };
+
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
+
+    // 若搜索词为空，不执行过滤（保留所有内容）
+    if (!searchTerm) return;
 
     // highlight-search-term
     if (CSS.highlights) {
@@ -51,7 +65,8 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   const updateInputField = () => {
-    const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    // const hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
+    const hashValue = getSearchTermFromHash(); // 使用新的解析函数
     document.getElementById("bibsearch").value = hashValue;
     filterItems(hashValue);
   };

@@ -49,6 +49,9 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+    {%- if entry.chinesetitle -%}
+      <b>{{entry.chinesetitle}}</b>
+    {%- endif -%}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -82,13 +85,14 @@
           {% if forloop.first == false -%}
             {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
           {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+          {% comment %} {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%} {% endcomment %}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <em><b>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+            {%- if entry.corr -%}<sup>#</sup>{%- endif -%}
+          </b></em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -155,6 +159,21 @@
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% if entry.address %}
+        {% capture entrytype %}{{ entrytype }}<br>{{ entry.address }}{% endcapture %}  <!-- <br>实现换行 -->
+      {% endif %}
+      {% if entry.date %}
+        {% capture entrytype %}{{ entrytype }}, {{ entry.date }}{% endcapture %}  <!-- 日期紧跟地址后 -->
+      {% endif %}
+    {%- elsif entry.type == 'book' -%}
+      {% if entry.publisher %}
+        {% capture entrytype %}{{ entrytype }} <em>{{ entry.publisher }}</em> {% endcapture %}
+      {% endif %}
+    {%- elsif entry.type == 'patent' -%}
+      {%- capture entrytype -%}<em>{{entry.number}}</em> {%- endcapture -%}
+      {% if entry.date %}
+        {% capture entrytype %}{{ entrytype }}, {{ entry.date }}{% endcapture %}  <!-- 日期紧跟地址后 -->
+      {% endif %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
@@ -184,6 +203,12 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+    {%- if entry.bestpaper -%}
+      <div class="highlight">{{entry.bestpaper}}</div>
+    {%- endif -%}
+    {%- if entry.fund -%}
+      <div class="highlight">{{entry.fund}}</div>
+    {%- endif -%}
 
     <!-- Links/Buttons -->
     <div class="links">
