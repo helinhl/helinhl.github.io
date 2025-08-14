@@ -1,9 +1,32 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+type_colors:  # 新增：类型与颜色的映射
+  article: '#2196F3'       # 期刊
+  inproceedings: '#85207B' # 会议
+  book: '#4CAF50'          # 书籍
+  patent: '#EA580C'        # 专利
+  thesis: '#F44336'        # 学位论文
+  poster: '#991B1B'        # poster
+  default: '#757575'       # 其他
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TPDS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=71
 
-"Vision":
-  color: "#009f36"
+"TMC":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755
+
+"TON":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90
+
+"CN":
+  url: https://www.sciencedirect.com/journal/computer-networks
+
+"IEEE Netw.":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=65
+
+"SCIS":
+  url: https://link.springer.com/journal/11432
+
+"SIGCOMM":
+  url: https://www.sigcomm.org/events/sigcomm-conference
+
+"NDSS":
+  url: https://www.ndss-symposium.org/

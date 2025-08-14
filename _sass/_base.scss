@@ -1433,8 +1433,8 @@ figure.cover {
 // Wave
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;      
-  animation-iteration-count: 1;
+  animation-duration: 2s;      
+  animation-iteration-count: 2;
   transform-origin: 70% 70%;
   display: inline-block;
 }
@@ -1444,11 +1444,7 @@ figure.cover {
   15% { transform: rotate(15deg); }  /* 向右挥 */
   30% { transform: rotate(-10deg); } /* 向左挥 */
   45% { transform: rotate(15deg); }
-  60% { transform: rotate(-5deg); }
-  80% { transform: rotate(5deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(15deg); }
   100% { transform: rotate(0deg); }
-}
-
-.post-title:hover {
-    transform: scale(1.15)
 }

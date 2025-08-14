@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.
+description: The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.<br><sup>#</sup> indicates the corresponding author.
 nav: true
 nav_order: 2
 ---
