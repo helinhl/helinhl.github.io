@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.",
+          description: "The materials presented below are for academic use only. Copyright and all rights therein are retained by the authors or by the respective copyright holders.# indicates the corresponding author.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
