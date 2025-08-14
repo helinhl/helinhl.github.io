@@ -32,6 +32,14 @@
 {% endcomment %}
 
 
+
+
+{% if site.footer_fixed %}
+  <footer class="footer-section fixed-bottom">
+{% else %}
+  <footer class="footer-section sticky-bottom mt-5">
+{% endif %}
+
 <style>
   #clustrmaps-container {
     width: 10vw;
@@ -44,7 +52,7 @@
       float: left;
     }
   }
-  ul {
+  footer ul {
     margin: 0;
     padding: 0;
   }
@@ -103,16 +111,16 @@
     width: 50px;
     background: var(--global-theme-color);
   }
-  .footer-widget ul li {
+  footer .footer-widget ul li {
     display: inline-block;
     float: left;
     width: 50%;
     margin-bottom: 12px;
   }
-  .footer-widget ul li a:hover {
+  footer .footer-widget ul li a:hover {
     color: var(--global-theme-color);
   }
-  .footer-widget ul li a {
+  footer .footer-widget ul li a {
     color: var(--global-text-color);
     text-transform: capitalize;
   }
@@ -215,6 +223,7 @@
     display: block;
   }
 </style>
+
 <style>
   .terminal-news-box {
     background-color: #fdf6e3;
@@ -358,12 +367,6 @@
   }
 </style>
 
-
-{% if site.footer_fixed %}
-  <footer class="footer-section fixed-bottom">
-{% else %}
-  <footer class="footer-section sticky-bottom mt-5">
-{% endif %}
   <div class="container">
     <div class="footer-content">
       <div class="row">
@@ -436,7 +439,7 @@
             </div>
             <div class="footer-globe">
               <div id="clustrmaps-container">
-                <!-- <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=f7f7f7&w=250&t=tt&d=XDvFmaRddfU91BwoWuLT6tdJsfWAV43WimAnxx0RGZ4&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script> -->
+                <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=DrEIV60pNf_wOPA9N6zb90It0FvIfYFzMJ7Ksmi_fRc&cl=ffffff&w=a"></script> -->
                 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=DrEIV60pNf_wOPA9N6zb90It0FvIfYFzMJ7Ksmi_fRc"></script>
               </div>
             </div>
