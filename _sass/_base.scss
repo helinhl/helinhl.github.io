@@ -1063,7 +1063,7 @@ progress::-moz-progress-bar {
 
   .dropdown-item.active,
   .dropdown-item:active {
-    background-color: var(--global-hover-color);
+    background-color: var(--global-theme-color);
     color: var(--global-hover-text-color) !important;
 
     &:hover {
@@ -1447,4 +1447,10 @@ figure.cover {
   60% { transform: rotate(-10deg); }
   80% { transform: rotate(15deg); }
   100% { transform: rotate(0deg); }
+}
+
+.news-badge {
+    color: var(--global-card-bg-color) !important;
+    background-color: var(--global-theme-color) !important;
+    width: 100px;
 }

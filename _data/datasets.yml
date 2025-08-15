@@ -1,0 +1,15 @@
+- title: IPv6 Hitlist Service
+  description: Get active IPv6 addresses
+  img: assets/img/dataset_covers/hitlist.svg
+  url: https://addrminer.github.io/IPv6_hitlist.github.io/#
+  github: https://github.com/sixiangdeweicao/DET
+  github_stars: 13
+
+- title: IPv6 FRP Service
+  description: Get IPv6 fully responsive prefixes
+  img: assets/img/dataset_covers/frp.jpg
+  url: https://frpv6.github.io/
+  github: https://github.com/ct-wei/Luori
+  github_stars: 11
+
+

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+title: Code
+description: Below are the code repositories corresponding to the published papers.
 nav: false
 nav_order: 4
 ---
@@ -37,7 +37,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
+<!-- ## GitHub Repositories -->
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
