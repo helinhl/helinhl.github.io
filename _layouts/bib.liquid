@@ -212,6 +212,26 @@
     {%- if entry.fund -%}
       <div class="highlight">{{entry.fund}}</div>
     {%- endif -%}
+    {% if entry.tags %}
+      {% assign tags = entry.tags | split: ',' | sort %}
+      <div class="publication-tags">
+        {% for tag in tags %}
+          {% assign tag = tag | strip %}
+          {% assign tag_style = null %}
+          {%- if site.data.paper-tags[tag] -%}
+            {% assign tag_style = "background-color: #" | append: site.data.paper-tags[tag].background-color | append: "; color: #" | append: site.data.paper-tags[tag].color | append: ";" %}
+            <span class="tag" 
+                style="{{ tag_style }}" 
+                data-tag="{{ tag }}"
+                onclick="toggleTag('{{ tag }}')">
+              {{ tag }}
+            </span>
+          {% else %}
+            <span class="tag" data-tag="{{ tag | escape }}">{{ tag }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">

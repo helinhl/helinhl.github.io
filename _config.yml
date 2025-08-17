@@ -325,6 +325,7 @@ filtered_bibtex_keywords:
     cocorr_first,
     cocorr_last,
     is_poster,
+    tags,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)

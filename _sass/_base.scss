@@ -1454,3 +1454,21 @@ figure.cover {
     background-color: var(--global-theme-color) !important;
     width: 100px;
 }
+
+.publication-tags {
+  margin: 0.8rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.publication-tags .tag {
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+}
+
+.publication-tags .tag:hover {
+  background-color: #d1e7fe;
+}
