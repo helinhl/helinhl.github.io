@@ -11,6 +11,7 @@ nav_order: 3
   + 2022: [PRDC](https://prdc.dependability.org/PRDC2022/) (Local Arrangement Chair)
 
 <h5><b>Technical Program Committee</b></h5>
+  + 2026: [WWW](https://www2026.thewebconf.org/index.html)
   + 2025: [CoNEXT2025-CNC](https://coder0702.github.io/CNC.github.io/), [ICA3PP](https://ieee-cybermatics.org/2025/ica3pp/index.html)
   + 2024: [ICA3PP](https://ica3pp2024.scimeeting.cn/en/web/index/21666_)
   + 2023: ICA3PP
