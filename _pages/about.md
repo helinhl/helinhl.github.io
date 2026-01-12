@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn<br><h3>Hi! <span class="wave">👋</span></h3>
+subtitle: Associate research professor, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a><br>he-lin [at] tsinghua [dot] edu [dot] cn<br><h3>Hi! <span class="wave">👋</span></h3>
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am currently an assistant research professor at the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University. Before this, I was a postdoctoral research scientist at [Network Management and Measurement Laboratory](http://nmgroup.tsinghua.edu.cn/yjs/index.htm), Tsinghua University, working with [Prof. Jiahai Yang](http://nmgroup.tsinghua.edu.cn/dryang/index.htm).
+I am currently an associate research professor at the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University. Before this, I was a postdoctoral research scientist at [Network Management and Measurement Laboratory](http://nmgroup.tsinghua.edu.cn/yjs/index.htm), Tsinghua University, working with [Prof. Jiahai Yang](http://nmgroup.tsinghua.edu.cn/dryang/index.htm).
 
 I received my Ph.D. from the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University under the supervision of [Prof. Ying Liu](https://www.insc.tsinghua.edu.cn/info/1181/1415.htm). Before that, I received my bachelor degree at the Department of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT).
 

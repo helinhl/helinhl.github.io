@@ -1,3 +1,47 @@
+
+@article{cheng2026addrprobe,
+  title={AddrProbe: An Internet-wide Active IPv6 Address Probing System with Limited Seeds},
+  author={Cheng, Daguo and He, Lin and Yin, Qilei and Han, Guangxing and  and Zhang, Yizhen and Jin, Boran and Liu, Ying and Song, Guanglei and E, Jinlong and Yang, Tiankai and Yang, Jiahai},
+  journal={IEEE/ACM Transactions on Networking},
+  year={2026},
+  volume={},
+  number={},
+  pages={},
+  publisher={IEEE},
+  doi={10.1109/TON.2025.3645923},
+  abstract={With the large-scale deployment of IPv6, it is becoming more and more important to probe active IPv6 addresses on the global Internet. However, the vast address space and the random distribution of active addresses make the probing process full of challenges, especially for the probing of IPv6 prefixes without seed addresses. Furthermore, the widespread existence of IPv6 aliased prefixes also causes significant trouble for probing. In this paper, we present AddrProbe, an active IPv6 address probing system, which dynamically probes all global routing prefixes based on learned fine-grained address patterns from limited seed addresses and quickly detects aliased prefixes during probing. The evaluation results show that AddrProbe achieves a hit rate of 23%-45% with all routing prefixes announced by the BGP system, which is 6.6-13× that of current state-of-the-art approaches (no more than 4%). Moreover, we find 1.2×10^33 aliased addresses characterized by the detected aliased prefixes, covering 6,412 routing prefixes, which is a 10^7× and 5.9× improvement over existing methods, respectively. Finally, an IPv6 Hitlist is constructed based on the long-term probing results, which contains 562M addresses covering 190K routing prefixes and 29K ASes. These widely distributed addresses are meaningful for analyzing IPv6 address assignments and some other IPv6 measurement activities.},
+
+  abbr={TON},
+  corr={true},
+  selected={true},
+  code={https://github.com/THUNAME/AddrProbe},
+  html={https://ieeexplore.ieee.org/document/11303992},
+  bibtex_show={true},
+  preview={addrprobe.jpg},
+  tags={IPv6,Internet Measurement},
+}
+
+@article{zhou2025switchtad,
+  title={SwitchTAD: Defending Deep Learning-Based Website Fingerprinting Attacks with Programmable Switches},
+  author={Zhou, Jiasheng and He, Lin and Shi, Xiaoyi and Yang, Yifan and E, Jinlong and Liu, Ying},
+  journal={Computer Networks},
+  year={2026},
+  volume={275},
+  pages={111921},
+  issn = {1389-1286},
+  publisher={Elsevier},
+  doi={10.1016/j.comnet.2025.111921},
+  abstract={Traffic analysis poses a serious threat to the privacy of users, particularly through website fingerprinting attacks. To mitigate these attacks, existing defense methods typically modify traffic patterns by configuring defense at the endpoint. However, these defense methods degrade user experience due to complex configurations and tight client-server cooperation. Furthermore, their static and coarse-grained defense rules are unable to adjust the perturbation decision flexibly at a fine-grained level according to the dynamic changes in individual packet sequences. These limitations greatly affect the effectiveness of defense.
+
+To this end, we propose SwitchTAD, a website fingerprinting defense system based on programmable switches. SwitchTAD offers a general and effective solution that protects all users behind the switch without requiring individual configurations. It also leverages the programmability of switches to process packets at a fine granularity, enabling the application of different defense policies tailored to the characteristics of each traffic flow. Specifically, we design a data plane friendly Recurrent Neural Network (RNN) architecture for generating defense policies without the intervention of the control plane. As packets arrive, the data plane uses the output of the RNN to determine whether to add dummy packets on a per-packet basis, ensuring robust defense while minimizing overhead. Experimental results show that SwitchTAD significantly reduces the accuracy of state-of-the-art website fingerprinting attacks while maintaining overall high performances.},
+
+  abbr={CN},
+  corr={true},
+  bibtex_show={true},
+  preview={switchtad.jpg},
+  tags={Security,Programmable Networks},
+}
+
 @article{song2024addrminer,
   title={AddrMiner: A Fast, Efficient, and Comprehensive Global Active IPv6 Address Detection System},
   author={Song, Guanglei and He, Lin and Zhu, Feiyu and Lin, Jinlei and Zhang, Wenjian and Fan, Lina and Li, Chenglong and Wang, Zhiliang and Yang, Jiahai},

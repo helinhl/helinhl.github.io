@@ -10,7 +10,7 @@
   background-color: f3e8ff
   color: 7c3aed
 
-"Protocol Design":
+"Security":
   background-color: fee2e2
   color: dc2626
 
@@ -21,5 +21,9 @@
 "Network Architecture":
   background-color: e0f2fe
   color: 0284c7
+
+"Protocol Design":
+  background-color: f5f5f5
+  color: 4b5563
 
 
