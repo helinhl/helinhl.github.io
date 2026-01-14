@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-AddrProbe accepted to [IEEE/ACM Transactions on Networking]().
+AddrProbe accepted to [IEEE/ACM Transactions on Networking](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=11317935&punumber=10723154).
