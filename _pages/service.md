@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 <h5><b>Organizing Committee</b></h5>
+  + 2026: [IWQoS2026-NetGenAI-QoS](https://iwqos2026.ieee-iwqos.org/ieeeacm-international-symposium-quality-service-iwqos-2026-206/pages/netgenai-qos-2026-networking) (Program Chair)
   + 2022: [PRDC](https://prdc.dependability.org/PRDC2022/) (Local Arrangement Chair)
 
 <h5><b>Technical Program Committee</b></h5>
@@ -23,9 +24,12 @@ nav_order: 3
   + IEEE/ACM Transactions on Networking
   + IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
   + Elsevier Computer Networks
+  + ACM Transactions on Multimedia Computing, Communications, and Applications
   + IEEE Transactions on Network and Service Management
-  + IEEE Transactions on Network Science and Engineering
+  + Elsevier Engineering Applications of Artificial Intelligence
   + IEEE Internet of Things Journal
+  + Elsevier Journal of Network and Computer Applications
+  + IEEE Transactions on Network Science and Engineering
   + IEEE Open Journal of the Computer Society
   + IEEE Access
   + Frontiers of Computer Science

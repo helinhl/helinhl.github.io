@@ -1,5 +1,25 @@
 @string{aps = {American Physical Society,}}
 
+
+@inproceedings{gai2026ted,
+  title={TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks},
+  author={Gai, Le and Jia, Zedong and He, Lin and Cheng, Daguo and Wei, Chentian and Liu, Ying},
+  booktitle={Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)}, 
+  year={2026},
+  pages={},
+  doi={},
+  address={Baltimore, MD, USA},
+  date={August 12–14},
+  abstract={IP tunneling mechanisms are widely deployed to facilitate the Internet's transition from IPv4 to IPv6, yet their security implications remain insufficiently scrutinized. In this paper, we present TED, a novel pulsing denial-of-service attack that exploits structural vulnerabilities in IP tunneling and IPv6 Extension Headers (EHs) processing. Unlike prior amplification attacks that depend on application-layer services, TED operates entirely at the network layer, requiring no victim interaction, prolonged traffic accumulation, or protocol-specific dependencies. Delay lines are constructed by TED through nested EHs, capitalizing on the tunnel hosts' blind forwarding logic and lack of deep packet inspection. These artificial delay lines allow attackers to solve the send-time schedule problem, converging asynchronous, low-rate traffic into a destructive, high-magnitude pulse at the victim. Our Internet-wide measurement identified over 1.9 million vulnerable tunnel hosts acting as unwitting relays, including hosts within critical satellite infrastructure. Evaluation results demonstrate that TED achieves an effective amplification factor exceeding 180× while successfully evading existing low-rate and pulsing attack detection mechanisms based on specific application layer protocols. We discuss the root causes of these transitional vulnerabilities and possible mitigation strategies for network operators and equipment vendors.},
+
+  abbr={USENIX Sec},
+  corr={true},
+  bibtex_show={true},
+  selected={true},
+  preview={ted.jpg},
+  tags={IPv6,Security},
+}
+
 @inproceedings{cheng2026divide,
   title={Divide, Predict, Conquer: Adaptive Internet-wide Service Discovery with Limited Seeds},
   author={Cheng, Daguo and Jia, Zedong and Liu, Ying and He, Lin and He, Chao and Zhang, Jiuzhou and Wei, Chentian and Zhou, Jiasheng and Wang, Zhaoan and E, Jinlong},
@@ -15,7 +35,7 @@
   corr={true},
   bibtex_show={true},
   selected={true},
-  preview={},
+  preview={spade.jpg},
   tags={Internet Measurement},
 }
 
@@ -32,9 +52,65 @@
 
   abbr={INFOCOM},
   bibtex_show={true},
-  preview={},
+  preview={6genos.jpg},
   tags={IPv6,Internet Measurement},
 }
+
+@inproceedings{he2026understanding,
+  title={Understanding the IPv6 Address Usage Strategies of Top Internet Services},
+  author={He, Lin and Jia, Zedong and Cheng, Daguo and E, Jinlong and Du, Yuhan and Song, Guanglei and Liu, Ying and Shi, Xingang and Zhang, Shenglin and Yang, Jiahai and Xu, Mingwei},
+  booktitle={Proceedings of the 2026 IEEE International Conference on Communications (ICC 2026)}, 
+  year={2026},
+  pages={},
+  doi={},
+  address={Glasgow, United Kingdom},
+  date={May 24–28},
+  abstract={As IPv6 is deployed at scale around the world, numerous services are beginning to support public IPv6 access as content providers and content distribution networks upgrade to enable IPv6. Since the IPv6 address space is much larger than that of IPv4, the way addresses are used under IPv6 does not need to mirror IPv4; however, we remain unclear about the usage strategies for addresses used by IPv6-enabled services.
+
+In this paper, we delve into the IPv6 address usage strategies of top Internet services. We investigate the top 10K domains that support AAAA records and obtain over 3.86 million IPv6 addresses of top Internet services by adding well-constructed EDNS-client-subnet options to DNS queries. By analyzing the IPv6 addresses we have obtained (covering over 3K routing prefixes and 900 autonomous systems), our primary findings are as follows: 1) Approximately 17.5% of the services provided or hosted by the studied ASes are more susceptible to the risk of user inaccessibility in the event of a routing prefix outage or prefix blocking. 2) Over 99% of the addresses in use by top Internet services host only one domain, unlike in IPv4, where addresses host multiple domains. In addition, it is common to host domains with multiple AS IPs, collectively enhancing service survivability. 3) About 17.64% of ASes obliterate the ability of randomized IID to provide resistance to scanning due to the use of strongly correlated randomized IIDs, making them more likely to be detected.},
+
+  abbr={ICC},
+  bibtex_show={true},
+  preview={addrstrategy.jpg},
+  tags={IPv6,Internet Measurement},
+}
+
+@inproceedings{zhang2026beyond,
+  title={Beyond Clustering: A Hybrid Framework for Target Generation in Sparse IPv6 Networks},
+  author={Zhang, Wei and Ren, Gang and Yin, Xia and He, Lin and Yang, Haoxiang},
+  booktitle={Proceedings of the 2026 IEEE International Conference on Communications (ICC 2026)}, 
+  year={2026},
+  pages={},
+  doi={},
+  address={Glasgow, United Kingdom},
+  date={May 24–28},
+  abstract={Over-reliance on clustering causes existing IPv6 scanning methods to fail in sparse regions, creating a biased, incomplete view of the Internet. This paper introduces HGen, a hybrid framework that moves beyond this single-paradigm dependency by synergistically combining mechanisms for broad generalization, isolated seed activation, and deep exploitation. Experiments show HGen outperforms state-of-the-art methods across all sparse scenarios, achieving 3.4x the Autonomous System coverage and more than doubling the discovery efficiency of the best baseline in seedless regions. A large-scale scan of sparse ASes validated HGen’s real-world impact, cutting seedless ASes by over 60%, expanding known hosts more than fivefold, and enhancing asset diversity. Our work delivers a crucial methodological supplement for IPv6 mapping and a vital, biascorrected dataset for the research community.},
+
+  abbr={ICC},
+  bibtex_show={true},
+  preview={hgen.jpg},
+  tags={IPv6,Internet Measurement},
+}
+
+@inproceedings{gai2026specnetagent,
+  title={SpecNet-Agent: Network-Aware Speculation Control for QoS in Agentic Generative AI Services},
+  author={Gai, Le and He, Lin and Wei, Chentian and Jia, Zedong and Cheng, Daguo and Liu, Ying},
+  booktitle={Proceedings of the 2026 IWQoS Workshop on Networking for Generative AI: QoS Challenges from GPU Clusters (NetGenAI-QoS 2026)}, 
+  year={2026},
+  pages={1-5},
+  doi={},
+  address={Istanbul, Türkiye},
+  date={June 29 – July 21},
+  abstract={},
+
+  abbr={IWQoS NetGenAI},
+  corr={true},
+  bibtex_show={true},
+  selected={false},
+  preview={specnetagent.jpg},
+  tags={},
+}
+
 
 @inproceedings{yang2025tgw,
   title={TGW: Operating an Efficient and Resilient Cloud Gateway at Scale},
