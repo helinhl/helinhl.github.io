@@ -1,3 +1,26 @@
+@article{he2026do,
+  title={Do Not Fall into the Trap: Efficiently Discovering IPv6 Fully Responsive Prefixes in the Wild},
+  author={He, Lin and Wei, Chentian and Cheng, Daguo and Yin, Qilei and Jin, Boran and Wang, Zhaoan and Pan, Xiaoteng and Zhou, Sixu and Liu, Ying and Zhang, Shenglin and Tan, Fuchao and Liu, Wenmao},
+  journal={IEEE Transactions on Networking},
+  year={2026},
+  volume={},
+  number={},
+  pages={},
+  publisher={IEEE},
+  doi={},
+  abstract={With the large-scale deployment and adoption of IPv6, network measurement in IPv6 environments has become increasingly important. However, a special type of IPv6 prefix—fully responsive prefixes (FRPs), defined as prefixes in which all addresses respond to probes but not every address corresponds to a genuine responder—poses significant challenges to measurement research. The distribution and characteristics of FRPs on the Internet remain unclear.
+
+To this end, we propose Luori, the first active probing method targeting Internet-wide IPv6 FRPs, which can reveal the current status of IPv6 FRPs across the Internet and their impacts. Luori transforms the daunting task of active probing within the vast IPv6 prefix space (the potential range of prefix occurrences) into a dynamic tree-based search process guided by reinforcement learning, enabling efficient probing of arbitrary routing prefixes. Our evaluation shows that Luori discovered 10.5K FRPs in a single Internet-wide scan using an 11M probe budget, covering 2.1×10\^31 addresses—10\^8× more than existing approaches. Currently, we have identified 6.69M FRPs, collectively covering 3.68×10^32 addresses across 922 autonomous systems, making it the largest publicly available FRP list to date. Using this list, we filtered a well-known IPv6 active address dataset, removing 20% of addresses residing under FRPs. Further analysis reveals that FRPs are widely distributed and implemented using diverse techniques, offering valuable insights for practical applications. We have made our FRP list publicly accessible to support future research.},
+
+  abbr={TON},
+  selected={true},
+  code={https://github.com/ct-wei/Luori},
+  website={https://frpv6.github.io/},
+  bibtex_show={true},
+  preview={luori.jpg},
+  tags={IPv6,Internet Measurement},
+}
+
 
 @article{cheng2026addrprobe,
   title={AddrProbe: An Internet-wide Active IPv6 Address Probing System with Limited Seeds},
