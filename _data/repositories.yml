@@ -5,6 +5,8 @@
 # repo_description_lines_max: 2
 
 github_repos:
+  - THUNAME/TED
+  - THUNAME/SPADE
   - THUNAME/SubRecon
   - THUNAME/Helixir
   - THUNAME/Gungnir

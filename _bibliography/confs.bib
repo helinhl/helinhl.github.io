@@ -1,21 +1,42 @@
 @string{aps = {American Physical Society,}}
 
 
+@inproceedings{yang2027async,
+  title={Asynchrony-Resilient Collective Communication for Distributed Deep Learning},
+  author={Yang, Yifan and Cao, Jiamin and Gao, Jiaqi and Shi, Shangfeng and Shi, Xiaoyi and Zhou, Jiasheng and He, Lin and Liu, Ying and Cai, Dennis and Zhai, Ennan},
+  booktitle={Proceedings of the 24th USENIX Symposium on Networked Systems Design and Implementation (NSDI 2027)}, 
+  year={2027},
+  pages={},
+  doi={},
+  address={Providence, RI, USA},
+  date={May 11–13},
+  abstract={Large language model (LLM) workloads rely on synchronous collective communication across tens to thousands of GPUs. In practice, however, small timing skews caused by workload imbalance, transient contention, or persistent hardware variability can break this lockstep assumption, reducing network utilization and increasing iteration time. We present A SYNC CCL, an asynchronous collective communication library that dynamically adapts collective schedules when stragglers occur. A SYNC CCL introduces partial dynamic channels to decouple logical channels from physical resources, along with a lightweight asynchronous scheduler that predicts asynchronous patterns and rapidly generates matching collective schedules. Unlike the static pipelines used by conventional collective algorithms, A SYNC CCL allows faster ranks to proceed without waiting for slower ones. Evaluation results show that A SYNC CCL generalizes to production-scale collective groups, improves collective performance by 5%–50%, and delivers 3.6%–10.1% end-to-end training speedup under asynchrony.},
+
+  abbr={NSDI},
+  corr={true},
+  bibtex_show={true},
+  preview={asyncccl.jpg},
+  selected={true},
+}
+
+
 @inproceedings{gai2026ted,
   title={TED: Abusing Tunnel Hosts and IPv6 Extension Headers for Pulsing DoS Attacks},
   author={Gai, Le and Jia, Zedong and He, Lin and Cheng, Daguo and Wei, Chentian and Liu, Ying},
   booktitle={Proceedings of the 35th USENIX Security Symposium (USENIX Security 2026)}, 
   year={2026},
-  pages={},
-  doi={},
+  pages={3359-3578},
   address={Baltimore, MD, USA},
   date={August 12–14},
   abstract={IP tunneling mechanisms are widely deployed to facilitate the Internet's transition from IPv4 to IPv6, yet their security implications remain insufficiently scrutinized. In this paper, we present TED, a novel pulsing denial-of-service attack that exploits structural vulnerabilities in IP tunneling and IPv6 Extension Headers (EHs) processing. Unlike prior amplification attacks that depend on application-layer services, TED operates entirely at the network layer, requiring no victim interaction, prolonged traffic accumulation, or protocol-specific dependencies. Delay lines are constructed by TED through nested EHs, capitalizing on the tunnel hosts' blind forwarding logic and lack of deep packet inspection. These artificial delay lines allow attackers to solve the send-time schedule problem, converging asynchronous, low-rate traffic into a destructive, high-magnitude pulse at the victim. Our Internet-wide measurement identified over 1.9 million vulnerable tunnel hosts acting as unwitting relays, including hosts within critical satellite infrastructure. Evaluation results demonstrate that TED achieves an effective amplification factor exceeding 180× while successfully evading existing low-rate and pulsing attack detection mechanisms based on specific application layer protocols. We discuss the root causes of these transitional vulnerabilities and possible mitigation strategies for network operators and equipment vendors.},
 
-  abbr={USENIX Sec},
+  abbr={USENIX Security},
   corr={true},
   bibtex_show={true},
   selected={true},
+  pdf={https://www.usenix.org/system/files/usenixsecurity26-gai.pdf},
+  html={https://www.usenix.org/conference/usenixsecurity26/presentation/gai},
+  code={https://github.com/THUNAME/TED},
   preview={ted.jpg},
   tags={IPv6,Security},
 }
@@ -60,6 +81,27 @@
   tags={IPv6,Internet Measurement},
 }
 
+@inproceedings{zhou2026hybridcache,
+  title={HybridCache: A General-Purpose Hybrid Key-Value Caching Architecture in Programmable Switches},
+  author={Zhou, Jiasheng and Shi, Xiaoyi and Yang, Yifan and Liu, Ying and He, Lin and Wu, Rongbang and E, Jinlong},
+  booktitle={Proceedings of the 34th IEEE International Conference on Network Protocols (ICNP 2026)}, 
+  year={2026},
+  pages={},
+  doi={},
+  abstract={Key-value stores are a core component of modern web services and distributed systems. In recent years, in-network caching has leveraged programmable switches to implement caching at the Tbps scale, thereby improving system performance. While such designs show strong potential, their effectiveness largely depends on the characteristics of workloads. However, real-world workloads in cache clusters exhibit substantial heterogeneity, including diversity in KV sizes, sensitivity to cache update policies, and skewed read-write ratios. Existing studies are often optimized for specific workload types, leading to degraded performance under others.
+
+To this end, we propose HybridCache, a general-purpose in-network caching architecture designed to handle diverse workloads. Specifically, to store KV items of various sizes, we propose a new data plane architecture in which small cache items are stored in switch SRAM, while large items are cached using recirculating packets. To reduce sensitivity to cache update policies, we introduce a greedy best-fit cache placement strategy that decides whether each cache item should reside in SRAM or a recirculating packet, increasing the number of cacheable items and improving cache hit rate, thereby enhancing robustness to cache update policies. To handle skewed read-write ratios, we design a deterministic write protocol, enabling read and write requests to be processed efficiently directly on the programmable switch. Experimental results show that under a Zipf-0.99 data distribution, HybridCache achieves 1.46× higher throughput compared to existing methods, and the throughput remains nearly constant as the number of write requests increases.},
+  address={Tempe, Arizona, USA},
+  date={October 5-8},
+
+  abbr={ICNP},
+  corr={true},
+  bibtex_show={true},
+  preview={hybridcache.jpg},
+  tags={Programmable Networks},
+}
+
+
 @inproceedings{he2026understanding,
   title={Understanding the IPv6 Address Usage Strategies of Top Internet Services},
   author={He, Lin and Jia, Zedong and Cheng, Daguo and E, Jinlong and Du, Yuhan and Song, Guanglei and Liu, Ying and Shi, Xingang and Zhang, Shenglin and Yang, Jiahai and Xu, Mingwei},
@@ -98,21 +140,41 @@ In this paper, we delve into the IPv6 address usage strategies of top Internet s
   tags={IPv6,Internet Measurement},
 }
 
+@inproceedings{yu2026ascii,
+  title={ASCII-Reasoning: A Structural Spatial Reasoning Benchmark for Large Language Models},
+  author={Yu, Zhiwei and Wang, Xiangyu and Du, Chengze and He, Lin and Yang, Jiahai},
+  booktitle={Proceedings of the 2026 IEEE/INNS International Joint Congress on Neural Networks (IJCNN 2026)}, 
+  year={2026},
+  pages={},
+  doi={},
+  address={Maastricht, Netherlands},
+  date={June 21–26},
+  abstract={Spatial reasoning is a critical component of general intelligence, yet evaluating this capability in Large Language Models (LLMs) without visual encoders remains a significant challenge. Existing benchmarks either rely on multimodal inputs or lack structural complexity in pure text. To bridge this gap, we introduce the ASCII Reasoning Benchmark (ARB), a comprehensive framework comprising 2,400 samples across eight tasks, such as mechanical transmission and 3D folding. ARB utilizes discrete ASCII grids to represent topology, compelling models to construct internal mental models solely based on symbolic alignments. A systematic zero-shot evaluation of 16 LLMs reveals a significant capability gap, with the top-performing model achieving only 37.4% accuracy. Crucially, our analysis uncovers counter-intuitive insights: a Parameter Efficiency Paradox, where lightweight, code-optimized models frequently outperform larger counterparts, suggesting symbolic reasoning derives more from code synthesis than parameter scale; and distinct Capability Specialization, where models achieve state-of-the-art performance in specific niches like pathfinding despite lower overall rankings. Code and Data are available at https://anonymous. 4open. science/r/ASCII-Based-Spatial-Reasoning-Benchmark-4C2B.},
+
+  abbr={IJCNN},
+  bibtex_show={true},
+  corr={true},
+  html={},
+  preview={ascii.jpg},
+  tags={},
+}
+
 @inproceedings{gai2026specnetagent,
   title={SpecNet-Agent: Network-Aware Speculation Control for QoS in Agentic Generative AI Services},
   author={Gai, Le and He, Lin and Wei, Chentian and Jia, Zedong and Cheng, Daguo and Liu, Ying},
   booktitle={Proceedings of the 2026 IWQoS Workshop on Networking for Generative AI: QoS Challenges from GPU Clusters (NetGenAI-QoS 2026)}, 
   year={2026},
   pages={1-5},
-  doi={},
+  doi={10.1109/IWQoS70441.2026.11661032},
   address={Istanbul, Türkiye},
   date={June 29 – July 21},
-  abstract={},
+  abstract={Agentic generative artificial intelligence (GenAI) services increasingly process user requests as dynamic workflows that combine planning, retrieval, tool use, code execution, judging, and summarization, creating dependency-sensitive network transfers rather than a single model call. Existing quality of service (QoS) mechanisms are insufficient because flow scheduling, tenant fairness, static priorities, and coflow abstractions cannot reliably separate workflow-blocking traffic from cancelable or quality-elastic speculative branches. This paper presents SpecNetAgent, a runtime-network feedback framework that collects workflow hints, classifies traffic by probabilistic criticality, monitors congestion telemetry, and applies a safeguarded contextual-bandit controller to adjust retrieval width, agent parallelism, speculation budget, and background synchronization before traffic enters deployable QoS queues. The evaluation uses replay inputs derived from real-world agent execution logs, covering 1,237 workflows across retrieval-augmented generation question answering (RAG-QA), coding-agent, research-agent, and multi-agent debate templates under light, medium, and heavy loads. Under heavy load, SpecNet-Agent reduces p99 workflow latency to 192.93 time units, improving by 94.3% over first-in, firstout (FIFO), 89.9% over static priority, and 24.7% over criticalpath-only scheduling. It lowers deadline misses to 1.0% and cuts wasted speculative bytes by 76.2% over FIFO. Unlike aggressive rule-based feedback, it preserves a retained-speculation quality proxy of 0.967. These results demonstrate a practical contribution: network-aware source-side speculation control for improving QoS in agentic GenAI services.},
 
   abbr={IWQoS NetGenAI},
   corr={true},
   bibtex_show={true},
   selected={false},
+  html={https://ieeexplore.ieee.org/abstract/document/11661032},
   preview={specnetagent.jpg},
   tags={},
 }
@@ -209,7 +271,7 @@ To this end, we introduce Miresga, a hybrid and high-performance layer-7 load ba
   html={https://dl.acm.org/doi/abs/10.1145/3696410.3714809},
   pdf={https://dl.acm.org/doi/pdf/10.1145/3696410.3714809},
   code={https://github.com/THUNAME/Miresga},
-  preview={miresga.jpg},
+  preview={miresga-c.jpg},
   tags={Programmable Networks},
 }
 
@@ -798,6 +860,7 @@ We evaluate PerfTrace on the Internet and our testbed, respectively. We find tha
   abbr={ICC},
   html={https://ieeexplore.ieee.org/document/9500765},
   preview={ega.jpg},
+  tags={Security},
 }
 
 @inproceedings{liu2021tap,

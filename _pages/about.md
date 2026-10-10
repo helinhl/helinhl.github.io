@@ -30,6 +30,6 @@ latest_posts:
 
 I am currently an associate research professor at the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University. Before this, I was a postdoctoral research scientist at [Network Management and Measurement Laboratory](http://nmgroup.tsinghua.edu.cn/yjs/index.htm), Tsinghua University, working with [Prof. Jiahai Yang](http://nmgroup.tsinghua.edu.cn/dryang/index.htm).
 
-I received my Ph.D. from the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University under the supervision of [Prof. Ying Liu](https://www.insc.tsinghua.edu.cn/info/1181/1415.htm). Before that, I received my bachelor degree at the Department of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT).
+I received my Ph.D. from the [Institute for Network Sciences and Cyberspace](https://www.insc.tsinghua.edu.cn/) at Tsinghua University under the supervision of [Prof. Ying Liu](https://www.insc.tsinghua.edu.cn/info/1157/2456.htm). Before that, I received my bachelor degree at the Department of Computer Science and Technology, Beijing University of Posts and Telecommunications (BUPT).
 
 My current research topics include network architecture and protocol design, network measurement, and programmable networks.
